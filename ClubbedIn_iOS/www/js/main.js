@@ -1,4 +1,4 @@
-            var userID = 0;
+            var userID = 4444444444;
             var curClub = 0;
 
     $("#clubname").submit(function (e) {

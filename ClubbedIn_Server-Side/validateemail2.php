@@ -2,10 +2,7 @@
 
 header("access-control-allow-origin: *");
 
-$dbhost = 'localhost';
-$dbuser = 'clubbed_admin';
-$dbpass = 'ClubbedIn2013';
-$db = 'clubbed_main';
+include 'mysqlconnect.php';
 
 $dbserver = mysql_connect($dbhost, $dbuser, $dbpass)
     or die("Unable to connect to MySQL: " . mysql_error());

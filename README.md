@@ -9,4 +9,10 @@ Features:
 - Read club news
 - Email notifications
 
+Download:
+- iOS: [Download](https://itunes.apple.com/us/app/clubbed-in/id711178962?mt=8).
+- Android: [Download](https://play.google.com/store/apps/details?id=com.RNI.clubbedin&hl=en).
+
 *Connect. Communicate. Lead.*
+
+Contact at <clubbedinapp@gmail.com>

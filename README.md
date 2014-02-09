@@ -15,4 +15,6 @@ Download:
 
 *Connect. Communicate. Lead.*
 
-Contact at <clubbedinapp@gmail.com>
+Contact: <clubbedinapp@gmail.com>
+
+Website: [www.clubbedinapp.com](http://clubbedinapp.com).

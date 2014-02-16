@@ -1,4 +1,4 @@
-*Clubbed In*
+*README Clubbed In*
 
 Created by high schoolers, for high schoolers, Clubbed In is an app that encourages communication between the members of school clubs and is also a useful tool for club leaders to organize information. Mainly, the goal of the app is to to keep students active members of clubs.
 

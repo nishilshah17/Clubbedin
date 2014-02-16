@@ -1,0 +1,2680 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Klaus\n"
+"POT-Creation-Date: 2013-12-30 10:33+0100\n"
+"PO-Revision-Date: 2013-12-30 10:33+0100\n"
+"Last-Translator: \n"
+"Language-Team: Alessio Atzeni <info@alessioatzeni.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:19
+msgid "404"
+msgstr ""
+
+#: ../404.php:25
+msgid "Not Found"
+msgstr ""
+
+#: ../comments.php:25
+msgid "0 Comments"
+msgstr ""
+
+#: ../comments.php:25 ../content-meta-header.php:4
+#: ../framework/meta/custom-functions-meta.php:369
+#: ../framework/meta/custom-functions-meta.php:400
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:25 ../content-meta-header.php:4
+#: ../framework/meta/custom-functions-meta.php:369
+#: ../framework/meta/custom-functions-meta.php:400
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:36
+msgid "Trackbacks for this post"
+msgstr ""
+
+#: ../comments.php:47
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:48
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:57
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:72
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:73
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out &raquo;</a>"
+msgstr ""
+
+#: ../comments.php:76
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:77
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:78
+msgid "/ Cancel Reply"
+msgstr ""
+
+#: ../comments.php:79
+msgid "Submit Comment"
+msgstr ""
+
+#: ../content-audio.php:15 ../content-audio.php:27 ../content-gallery.php:17
+#: ../content-gallery.php:29 ../content-image.php:23 ../content-image.php:43
+#: ../content-link.php:35 ../content-quote.php:28 ../content-video.php:15
+#: ../content-video.php:27 ../content.php:21 ../content.php:36
+msgid "Continue Reading..."
+msgstr ""
+
+#: ../content-link.php:13 ../content-quote.php:11
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: ../content-meta-footer.php:2
+msgid "Posted in: "
+msgstr ""
+
+#: ../content-meta-footer.php:3
+msgid "Tagged:"
+msgstr ""
+
+#: ../content-meta-header.php:4
+#: ../framework/meta/custom-functions-meta.php:369
+#: ../framework/meta/custom-functions-meta.php:400
+msgid "No Comments"
+msgstr ""
+
+#: ../content-meta-header.php:6 ../functions.php:574
+#: ../framework/meta/custom-functions-meta.php:370
+#: ../framework/meta/custom-functions-meta.php:401
+msgid "Edit"
+msgstr ""
+
+#: ../footer.php:32 ../footer.php:57
+msgid "Copyright "
+msgstr ""
+
+#: ../footer.php:32 ../footer.php:57
+msgid "Powered by"
+msgstr ""
+
+#: ../functions.php:38
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:203
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../functions.php:204
+msgid "Widget area for blog pages."
+msgstr ""
+
+#: ../functions.php:215
+msgid "Page Sidebar"
+msgstr ""
+
+#: ../functions.php:216
+msgid "Widget area for pages."
+msgstr ""
+
+#: ../functions.php:226
+msgid "Footer Area 1"
+msgstr ""
+
+#: ../functions.php:227 ../functions.php:238 ../functions.php:249
+#: ../functions.php:260
+msgid "Widget area for footer area."
+msgstr ""
+
+#: ../functions.php:237
+msgid "Footer Area 2"
+msgstr ""
+
+#: ../functions.php:248
+msgid "Footer Area 3"
+msgstr ""
+
+#: ../functions.php:259
+msgid "Footer Area 4"
+msgstr ""
+
+#: ../functions.php:489 ../functions.php:491
+#, php-format
+msgid "All posts in &#8220;%s&#8221"
+msgstr ""
+
+#: ../functions.php:494 ../functions.php:496 ../functions.php:498
+#, php-format
+msgid "Archive for &#8220;%s&#8221"
+msgstr ""
+
+#: ../functions.php:500
+msgid "Blog Archives"
+msgstr ""
+
+#: ../functions.php:512
+#, php-format
+msgid "Search Results for &#8220;%s&#8221;"
+msgstr ""
+
+#: ../functions.php:574
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:577
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../page.php:9
+msgid "Pages:"
+msgstr ""
+
+#: ../search.php:152 ../search.php:158
+msgid "Your search did not match any entries!"
+msgstr ""
+
+#: ../search.php:153 ../search.php:159
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: ../searchform.php:3
+msgid "To search type and hit enter..."
+msgstr ""
+
+#: ../template-archives.php:23 ../template-sitemap.php:30
+msgid "Latest 30 Posts"
+msgstr ""
+
+#: ../template-archives.php:30
+msgid "Archives by Month"
+msgstr ""
+
+#: ../template-archives.php:37
+msgid "Archives by Subject"
+msgstr ""
+
+#: ../template-sitemap.php:23
+msgid "All Pages"
+msgstr ""
+
+#: ../framework/assets/gallery/field_gallery.php:76
+#: ../framework/options/inc/fields/gallery/field_gallery.php:76
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: ../framework/assets/gallery/field_gallery.php:77
+#: ../framework/options/inc/fields/gallery/field_gallery.php:77
+msgid "Clear Gallery"
+msgstr ""
+
+#: ../framework/assets/upload/field_upload.php:30
+#: ../framework/meta/meta-config.php:49
+#: ../framework/options/inc/fields/media/field_media.php:133
+#: ../framework/options/inc/fields/slides/field_slides.php:110
+#: ../framework/options/inc/fields/slides/field_slides.php:151
+msgid "Upload"
+msgstr ""
+
+#: ../framework/assets/upload/field_upload.php:31
+#: ../framework/meta/meta-config.php:50
+msgid "Remove Upload"
+msgstr ""
+
+#: ../framework/meta/footer-meta.php:16 ../framework/meta/footer-meta.php:23
+msgid "Footer Widget Settings"
+msgstr ""
+
+#: ../framework/meta/footer-meta.php:17
+msgid "Here you can configure how your footer widget will appear."
+msgstr ""
+
+#: ../framework/meta/footer-meta.php:24
+msgid "Enable or Disable Footer Widget Area."
+msgstr ""
+
+#: ../framework/meta/meta-config.php:58
+msgid "Add Media"
+msgstr ""
+
+#: ../framework/meta/meta-config.php:59
+msgid "Remove Media"
+msgstr ""
+
+#: ../framework/meta/meta-config.php:75
+msgid "Add/Edit Images Gallery"
+msgstr ""
+
+#: ../framework/meta/meta-config.php:76
+msgid "Clear Images Gallery"
+msgstr ""
+
+#: ../framework/meta/meta-config.php:99
+msgid "None"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:31 ../framework/meta/page-meta.php:38
+msgid "Page Header Settings"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:32 ../framework/meta/portfolio-meta.php:83
+#: ../framework/meta/team-meta.php:35
+msgid "Here you can configure how your page header will appear."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:39 ../framework/meta/portfolio-meta.php:90
+#: ../framework/meta/team-meta.php:42
+msgid "Enable or Disable the Header Page Settings."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:49
+msgid "Page Header Height"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:50 ../framework/meta/portfolio-meta.php:101
+#: ../framework/meta/post-meta.php:48 ../framework/meta/team-meta.php:53
+msgid ""
+"Optional. Enter a number for your height (padding-top and padding-bottom) of "
+"page header. Default 100.<br/>\n"
+"\t\t\t\t\t\t\t\t  <strong>Not works if you use a slider</strong>."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:57
+msgid "Page Header Image"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:58 ../framework/meta/portfolio-meta.php:109
+#: ../framework/meta/post-meta.php:56 ../framework/meta/team-meta.php:61
+msgid ""
+"Upload your image should be between 1600px x 800px (or more) for best "
+"results."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:64
+msgid "Page Header Background Overlay"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:65 ../framework/meta/portfolio-meta.php:116
+#: ../framework/meta/post-meta.php:63 ../framework/meta/team-meta.php:68
+msgid "Enable or Disable Overlay Background."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:71
+msgid "Page Header Backgroun Opacity Overlay"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:72 ../framework/meta/portfolio-meta.php:123
+#: ../framework/meta/post-meta.php:70 ../framework/meta/team-meta.php:75
+msgid ""
+"Optional. Enter a number 0 - 1 for your background color opacity. Default "
+"0.70"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:78
+msgid "Page Header Background Color Overlay"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:79 ../framework/meta/portfolio-meta.php:130
+#: ../framework/meta/post-meta.php:77 ../framework/meta/team-meta.php:82
+msgid "Optional. Choose a background color overlay for your title block."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:85
+msgid "Page Header Image Background Attachment"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:86 ../framework/meta/portfolio-meta.php:137
+#: ../framework/meta/post-meta.php:84 ../framework/meta/team-meta.php:89
+msgid "Background Image Attachment."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:96 ../framework/meta/portfolio-meta.php:147
+#: ../framework/meta/post-meta.php:94 ../framework/meta/post-meta.php:164
+#: ../framework/meta/team-meta.php:99
+msgid "Revolution Slider Alias"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:97 ../framework/meta/portfolio-meta.php:148
+#: ../framework/meta/post-meta.php:95 ../framework/meta/post-meta.php:165
+#: ../framework/meta/team-meta.php:100
+msgid ""
+"Select your Revolution Slider Alias for the slider that you want to show."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:104
+msgid "Page Header Text"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:105
+msgid "Enable or Disable the Header Page Text."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:115
+msgid "Page Title"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:116
+#: ../framework/meta/portfolio-meta.php:167
+msgid "You can insert a custom page title instead of default page title."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:122
+msgid "Page Caption"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:123 ../framework/meta/post-meta.php:121
+msgid "You can insert a custom text caption."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:129
+msgid "Page Title and Caption Align"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:130
+#: ../framework/meta/portfolio-meta.php:181
+#: ../framework/meta/post-meta.php:128 ../framework/meta/team-meta.php:133
+msgid "You can align the text in three different ways."
+msgstr ""
+
+#: ../framework/meta/page-meta.php:141
+msgid "Page Title and Caption Color"
+msgstr ""
+
+#: ../framework/meta/page-meta.php:142
+#: ../framework/meta/portfolio-meta.php:193
+#: ../framework/meta/post-meta.php:140 ../framework/meta/team-meta.php:145
+msgid "Optional. Choose a text color for your title block."
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:18
+msgid "Portfolio Item Settings"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:19
+msgid "Here you can configure how your portfolio item appear."
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:25
+msgid "FancyBox Gallery Name (Optional)"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:26
+msgid ""
+"Please enter gallery name if you want create a gallery images/video between "
+"portfolio posts."
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:32
+msgid "FancyBox PopUp Video (Optional)"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:33
+msgid "Please enter Video URL instead of Featured Image."
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:39
+msgid "FancyBox Image PopUp (Optional)"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:40
+msgid ""
+"Please upload Image if you want a different image instead of Featured Image "
+"PopUp."
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:46
+msgid "FancyBox Gallery Images (Optional)"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:47
+msgid "Please upload Images if you want a gallery images for this post."
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:82
+#: ../framework/meta/portfolio-meta.php:89
+msgid "Portfolio Page Header Settings"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:100
+msgid "Portfolio Page Header Height"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:108
+msgid "Portfolio Page Header Image"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:115
+msgid "Portfolio Page Header Image Overlay"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:122
+msgid "Portfolio Page Header Backgroun Opacity Overlay"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:129
+msgid "Portfolio Page Header Background Color Overlay"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:136
+msgid "Portfolio Page Header Image Background Attachment"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:155
+msgid "Portfolio Header Text"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:156
+msgid "Enable or Disable the Header Portfolio Text."
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:166
+msgid "Portfolio Page Title"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:173
+msgid "Portfolio Page Caption"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:174
+msgid "You can insert a custom text caption instead of project attributes."
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:180
+msgid "Portfolio Page Title and Caption Align"
+msgstr ""
+
+#: ../framework/meta/portfolio-meta.php:192
+msgid "Portfolio Page Title and Caption Color"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:29 ../framework/meta/post-meta.php:36
+msgid "Post Header Settings"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:30
+msgid "Here you can configure how your post header will appear."
+msgstr ""
+
+#: ../framework/meta/post-meta.php:37
+msgid "Enable or Disable the Header Post Settings."
+msgstr ""
+
+#: ../framework/meta/post-meta.php:47
+msgid "Post Page Header Height"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:55
+msgid "Post Header Image"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:62
+msgid "Post Header Image Overlay"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:69
+msgid "Post Header Backgroun Opacity Overlay"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:76
+msgid "Post Header Background Color Overlay"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:83
+msgid "Post Header Image Background Attachment"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:102
+msgid "Post Header Text"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:103
+msgid "Enable or Disable the Header Post Text."
+msgstr ""
+
+#: ../framework/meta/post-meta.php:113
+msgid "Post Title"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:114
+msgid "You can insert a custom page title instead of default post title."
+msgstr ""
+
+#: ../framework/meta/post-meta.php:120
+msgid "Post Caption"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:127
+msgid "Post Title and Caption Align"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:139
+msgid "Post Title and Caption Color"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:157
+msgid "Gallery Settings"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:182
+msgid "Quote Settings"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:189
+msgid "Quote Content"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:190
+msgid "Please type the text for your quote here."
+msgstr ""
+
+#: ../framework/meta/post-meta.php:205
+msgid "Link Settings"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:212
+msgid "Link URL"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:213
+msgid "Please input the URL for your link."
+msgstr ""
+
+#: ../framework/meta/post-meta.php:228
+msgid "Video Settings"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:235
+msgid "WEBM File URL"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:236
+msgid ""
+"Please Upload WEBM video file.<br/><strong>You must include both formats.</"
+"strong>"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:242
+msgid "MP4 File URL"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:243
+msgid ""
+"Please Upload MP4 video file.<br/><strong>You must include both formats.</"
+"strong>"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:249
+msgid "OGV File URL"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:250
+msgid ""
+"Please Upload OGV video file.<br/><strong>You must include both formats.</"
+"strong>"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:256
+msgid "Preview Image"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:257
+msgid ""
+"This will be the image displayed when the video has not been played yet."
+msgstr ""
+
+#: ../framework/meta/post-meta.php:263
+msgid "Embedded Code"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:264
+msgid ""
+"If the video is an embed rather than self hosted, enter in a Youtube or "
+"Vimeo embed code here."
+msgstr ""
+
+#: ../framework/meta/post-meta.php:279
+msgid "Audio Settings"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:286
+msgid "MP3 File URL"
+msgstr ""
+
+#: ../framework/meta/post-meta.php:287
+msgid "Please Upload MP3 file"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:34 ../framework/meta/team-meta.php:41
+msgid "Team Page Header Settings"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:52
+msgid "Team Page Header Height"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:60
+msgid "Team Page Header Image"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:67
+msgid "Team Page Header Image Overlay"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:74
+msgid "Team Page Header Backgroun Opacity Overlay"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:81
+msgid "Team Page Header Background Color Overlay"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:88
+msgid "Team Page Header Image Background Attachment"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:107
+msgid "Team Header Text"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:108
+msgid "Enable or Disable the Header Team Text."
+msgstr ""
+
+#: ../framework/meta/team-meta.php:118
+msgid "Team Page Title"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:119
+msgid "You can insert a custom page title instead of default title page."
+msgstr ""
+
+#: ../framework/meta/team-meta.php:125
+msgid "Team Page Caption"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:126
+msgid "You can insert a custom text caption instead of attributes."
+msgstr ""
+
+#: ../framework/meta/team-meta.php:132
+msgid "Team Page Title and Caption Align"
+msgstr ""
+
+#: ../framework/meta/team-meta.php:144
+msgid "Team Page Title and Caption Color"
+msgstr ""
+
+#: ../framework/options/framework.php:105
+#: ../framework/options/framework.php:107
+msgid "Options"
+msgstr ""
+
+#: ../framework/options/framework.php:119
+msgid "Options panel created using"
+msgstr ""
+
+#: ../framework/options/framework.php:119
+msgid "Redux Framework"
+msgstr ""
+
+#: ../framework/options/framework.php:641
+#: ../framework/options/framework.php:642
+#: ../framework/options/framework.php:1508
+msgid "Import / Export"
+msgstr ""
+
+#: ../framework/options/framework.php:663
+#: ../framework/options/framework.php:664
+#: ../framework/options/framework.php:1538
+#: ../framework/options/framework.php:1645
+msgid "Options Object"
+msgstr ""
+
+#: ../framework/options/framework.php:674
+#: ../framework/options/framework.php:675
+#: ../framework/options/framework.php:1552
+#: ../framework/options/framework.php:1665
+msgid "System Info"
+msgstr ""
+
+#: ../framework/options/framework.php:857
+#: ../framework/options/extensions/customizer/extension_customizer.php:309
+#: ../framework/options/extensions/customizer/extension_customizer.php:340
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: ../framework/options/framework.php:858
+#: ../framework/options/extensions/customizer/extension_customizer.php:310
+#: ../framework/options/extensions/customizer/extension_customizer.php:341
+msgid "Are you sure? Resetting will loose all custom values."
+msgstr ""
+
+#: ../framework/options/framework.php:859
+#: ../framework/options/extensions/customizer/extension_customizer.php:311
+#: ../framework/options/extensions/customizer/extension_customizer.php:342
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: ../framework/options/framework.php:1119
+msgid "Default"
+msgstr ""
+
+#: ../framework/options/framework.php:1382
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: ../framework/options/framework.php:1435
+msgid "Expand"
+msgstr ""
+
+#: ../framework/options/framework.php:1439
+#: ../framework/options/framework.php:1696
+msgid "Reset to Defaults"
+msgstr ""
+
+#: ../framework/options/framework.php:1442
+#: ../framework/options/framework.php:1699
+msgid "Working..."
+msgstr ""
+
+#: ../framework/options/framework.php:1449
+msgid "Settings Imported!"
+msgstr ""
+
+#: ../framework/options/framework.php:1451
+msgid "Settings Saved!"
+msgstr ""
+
+#: ../framework/options/framework.php:1455
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: ../framework/options/framework.php:1456
+msgid "error(s) were found!"
+msgstr ""
+
+#: ../framework/options/framework.php:1457
+msgid "warning(s) were found!"
+msgstr ""
+
+#: ../framework/options/framework.php:1589
+msgid "Import / Export Options"
+msgstr ""
+
+#: ../framework/options/framework.php:1590
+msgid "Import Options"
+msgstr ""
+
+#: ../framework/options/framework.php:1591
+msgid "Import from file"
+msgstr ""
+
+#: ../framework/options/framework.php:1591
+msgid "Import from URL"
+msgstr ""
+
+#: ../framework/options/framework.php:1596
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: ../framework/options/framework.php:1606
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: ../framework/options/framework.php:1613
+msgid "Import"
+msgstr ""
+
+#: ../framework/options/framework.php:1613
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: ../framework/options/framework.php:1616
+msgid "Export Options"
+msgstr ""
+
+#: ../framework/options/framework.php:1618
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: ../framework/options/framework.php:1622
+msgid "Copy"
+msgstr ""
+
+#: ../framework/options/framework.php:1622
+msgid "Download"
+msgstr ""
+
+#: ../framework/options/framework.php:1622
+msgid "Copy Link"
+msgstr ""
+
+#: ../framework/options/framework.php:1654
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:15
+msgid "A Section added by hook"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:16
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:65
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:84
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:85
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:86
+msgid "Tags"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:90
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:91
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:230
+#: ../framework/options/az_framework/config.php:234
+msgid "Klaus"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:276
+msgid "Theme Information 1"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:277
+#: ../framework/options/az_framework/config.php:282
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:281
+msgid "Theme Information 2"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:286
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:296
+msgid ""
+"<p>Did you know that Redux sets a global variable for you? To access any of "
+"your saved options from within your code you can use your global variable: "
+"<strong>$"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:298
+msgid ""
+"<p>This text is displayed above the options panel. It isn't required, but "
+"more info is always better! The intro_text field accepts all HTML.</p>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:333
+msgid "General Options"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:334
+msgid ""
+"Welcome to the Klaus Options Panel! Control and configure the general setup "
+"of your theme."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:341
+msgid "Favicon Upload"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:342
+msgid ""
+"Upload a 16px x 16px Png/Gif image that will represent your website's "
+"favicon."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:348
+msgid "Do you want Preloader?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:349
+msgid "Enable/Disable preloader page for your site."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:356
+msgid "Do you want Animation Effects on mobile devices?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:357
+msgid "Enable/Disable animation effects on mobile devices for items."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:364
+msgid "Back to Top?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:365
+msgid "Enable/Disable Back to Top Feature."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:372
+msgid "Tracking Code"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:373
+msgid ""
+"Paste your Google Analytics (or other) tracking code here.<br/> It will be "
+"inserted before the closing head tag of your theme."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:379
+msgid "Custom CSS"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:380
+msgid ""
+"If you have any custom CSS you would like added to the site, please enter it "
+"here."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:389
+msgid "Color Options"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:390
+msgid ""
+"Welcome to the Klaus Options Panel! Control and configure the colors of your "
+"theme."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:397
+msgid "Accent Color"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:398
+msgid ""
+"Change this color to alter the accent color globally for your site. Try one "
+"of the six pre-picked colors that are guaranteed to look awesome!"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:407
+msgid "Custom Header Colors?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:408
+msgid "Do you want enable custom colors for header?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:416
+msgid "Header Background"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:417
+msgid "Choose a Background Color for Header."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:425
+msgid "Header Logo Font Color"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:426
+msgid "Choose a Logo Font Color for Header."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:434
+msgid "Header Font Color"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:435
+msgid "Choose a Font Color for Header."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:443
+#: ../framework/options/az_framework/config.php:452
+msgid "Header Font Color Hover"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:444
+msgid "Choose a Hover Font Color for Header."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:453
+msgid "Choose a Separator Color for menu list."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:461
+msgid "Header Dropdown Background"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:462
+msgid "Choose a Background Color for Dropdown menu."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:470
+msgid "Header Dropdown Font Color"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:471
+msgid "Choose a Font Color for Dropdown menu."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:479
+msgid "Header Dropdown Separator Color"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:480
+msgid "Choose a Separator Color for Dropdown menu list."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:489
+msgid "Custom Mobile Dropdown Colors?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:490
+msgid "Do you want enable custom colors for mobile header?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:498
+msgid "Mobile Dropdown Background"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:499
+msgid "Choose a Background Color for Mobile Dropdown."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:507
+msgid "Mobile Dropdown Font Color"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:508
+msgid "Choose a Font Color for Mobile Dropdown."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:516
+msgid "Mobile Dropdown Hover Font Color"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:517
+msgid "Choose a Hover Font Color for Mobile Dropdown."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:525
+msgid "Mobile Dropdown Separator Color"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:526
+msgid "Choose a Separator Color for Mobile Dropdown Menu List."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:534
+msgid "Mobile Dropdown Icon Color"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:535
+msgid "Choose a Icon Color for Mobile Dropdown Menu List."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:544
+msgid "Custom Typography Colors?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:545
+msgid "Do you want enable custom colors for typography?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:553
+msgid "Body Color"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:554
+msgid ""
+"Choose a Color for Body.<br/><br/>\n"
+"                                  <em>(i.e. body, shortcodes etc.)</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:563
+msgid "Heading Color"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:564
+msgid ""
+"Choose a Color for Heading.<br/><br/>\n"
+"                                  <em>(i.e. headings, shortcodes etc.)</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:574
+msgid "Custom Back To Top Colors?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:575
+msgid "Do you want enable custom colors for back to top?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:583
+msgid "Back To Top Background"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:584
+msgid "Choose a Background for Back To Top."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:592
+msgid "Back To Top Icon Color"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:593
+msgid "Choose a Color for Icon Back To Top."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:602
+msgid "Custom Footer Colors?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:603
+msgid "Do you want enable custom colors for footer?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:611
+msgid "Footer Widget Background"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:612
+msgid "Choose a Background for Footer Widget."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:620
+msgid "Footer Widget Heading Font Color"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:621
+msgid "Choose a Heading Font Color for Footer Widget Area."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:629
+msgid "Footer Widget Font Color"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:630
+msgid "Choose a Font Color for Footer Widget Area."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:638
+msgid "Footer Credits Background"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:639
+msgid "Choose a Background for Footer Credits Area."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:647
+msgid "Footer Credits Font Color"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:648
+msgid "Choose a Font Color for Footer Credits Area."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:657
+msgid "Typography Options"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:658
+msgid "Control and configure the typography of your theme."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:665
+msgid "Use Custom Fonts?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:666
+msgid "Do you want enable custom fonts features?."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:675
+msgid "Use Header Custom Fonts?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:676
+msgid "Do you want enable custom fonts for header?."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:685
+msgid "Logo Font"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:686
+msgid ""
+"Select the font for logo.<br/>\n"
+"                                  <em>Font Family</em><br/>\n"
+"                                  <em>Font Weight - Font Style</em><br/>\n"
+"                                  <em>Subset</em><br/>\n"
+"                                  <em>Font Size</em><br/>\n"
+"                                  <em>Letter Spacing</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:716
+msgid "Header Menu Font"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:717
+msgid ""
+"Select the font for header menu.<br/>\n"
+"                                  <em>Font Family</em><br/>\n"
+"                                  <em>Font Weight - Font Style</em><br/>\n"
+"                                  <em>Subset</em><br/>\n"
+"                                  <em>Font Size</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:744
+msgid "Dropdown Menu Font"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:745
+#: ../framework/options/az_framework/config.php:773
+msgid ""
+"Select the font for dropdown menu.<br/>\n"
+"                                  <em>Font Family</em><br/>\n"
+"                                  <em>Font Weight - Font Style</em><br/>\n"
+"                                  <em>Subset</em><br/>\n"
+"                                  <em>Font Size</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:772
+msgid "Mobile Menu Font"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:800
+msgid "Use Body Custom Fonts?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:801
+msgid "Do you want enable custom fonts for body?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:810
+msgid "Body Font"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:811
+msgid ""
+"Select the font for body.<br/>\n"
+"                                  <em>Font Family</em><br/>\n"
+"                                  <em>Font Weight - Font Style</em><br/>\n"
+"                                  <em>Subset</em><br/>\n"
+"                                  <em>Font Size</em><br/>\n"
+"                                  <em>Line Height</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:839
+msgid "Use Heading Custom Fonts?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:840
+msgid "Do you want enable custom fonts for heading?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:849
+msgid "Page Header Font"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:850
+msgid ""
+"Select the font for page header.<br/>\n"
+"                                  <em>Font Family</em><br/>\n"
+"                                  <em>Font Weight - Font Style</em><br/>\n"
+"                                  <em>Subset</em><br/>\n"
+"                                  <em>Font Size</em><br/>\n"
+"                                  <em>Line Height</em><br/>\n"
+"                                  <em>Letter Spacing</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:880
+msgid "Page Header Caption Font"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:881
+msgid ""
+"Select the font for page header caption.<br/>\n"
+"                                  <em>Font Family</em><br/>\n"
+"                                  <em>Font Weight - Font Style</em><br/>\n"
+"                                  <em>Subset</em><br/>\n"
+"                                  <em>Font Size</em><br/>\n"
+"                                  <em>Line Height</em><br/>\n"
+"                                  <em>Letter Spacing</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:912
+msgid "Heading Font - H1"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:913
+msgid ""
+"Select the font for H1.<br/>\n"
+"                                  <em>Font Family</em><br/>\n"
+"                                  <em>Font Weight - Font Style</em><br/>\n"
+"                                  <em>Subset</em><br/>\n"
+"                                  <em>Font Size</em><br/>\n"
+"                                  <em>Line Height</em><br/>\n"
+"                                  <em>Letter Spacing</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:943
+msgid "Heading Font - H2"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:944
+msgid ""
+"Select the font for H2.<br/>\n"
+"                                  <em>Font Family</em><br/>\n"
+"                                  <em>Font Weight - Font Style</em><br/>\n"
+"                                  <em>Subset</em><br/>\n"
+"                                  <em>Font Size</em><br/>\n"
+"                                  <em>Line Height</em><br/>\n"
+"                                  <em>Letter Spacing</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:974
+msgid "Heading Font - H3"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:975
+msgid ""
+"Select the font for H3.<br/>\n"
+"                                  <em>Font Family</em><br/>\n"
+"                                  <em>Font Weight - Font Style</em><br/>\n"
+"                                  <em>Subset</em><br/>\n"
+"                                  <em>Font Size</em><br/>\n"
+"                                  <em>Line Height</em><br/>\n"
+"                                  <em>Letter Spacing</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1005
+msgid "Heading Font - H4"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1006
+msgid ""
+"Select the font for H4.<br/>\n"
+"                                  <em>Font Family</em><br/>\n"
+"                                  <em>Font Weight - Font Style</em><br/>\n"
+"                                  <em>Subset</em><br/>\n"
+"                                  <em>Font Size</em><br/>\n"
+"                                  <em>Line Height</em><br/>\n"
+"                                  <em>Letter Spacing</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1036
+msgid "Heading Font - H5"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1037
+msgid ""
+"Select the font for H5.<br/>\n"
+"                                  <em>Font Family</em><br/>\n"
+"                                  <em>Font Weight - Font Style</em><br/>\n"
+"                                  <em>Subset</em><br/>\n"
+"                                  <em>Font Size</em><br/>\n"
+"                                  <em>Line Height</em><br/>\n"
+"                                  <em>Letter Spacing</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1067
+msgid "Heading Font - H6"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1068
+msgid ""
+"Select the font for H6.<br/>\n"
+"                                  <em>Font Family</em><br/>\n"
+"                                  <em>Font Weight - Font Style</em><br/>\n"
+"                                  <em>Subset</em><br/>\n"
+"                                  <em>Font Size</em><br/>\n"
+"                                  <em>Line Height</em><br/>\n"
+"                                  <em>Letter Spacing</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1099
+msgid "Boxed Layout Options"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1100
+msgid "Control and configure the general setup of your boxed layout."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1107
+msgid "Enable Boxed Layout?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1108
+msgid "Do you enable boxed layout?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1116
+msgid "Background Color"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1117
+msgid ""
+"If you would rather simply use a solid color for your background, select one "
+"here."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1125
+msgid "Background Image"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1126
+msgid ""
+"Upload your background here. You can find sample elements here:<br/><br/>\n"
+"                                  <em>/_include/img/sample_bg_images/</"
+"em><br/>\n"
+"                                  <em>/_include/img/sample_patterns/</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1135
+msgid "Background Repeat"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1136
+msgid "Do you want your background to repeat? (Turn on when using patterns)"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1148
+msgid "Background Position"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1149
+msgid "How would you like your background image to be aligned?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1167
+msgid "Background Attachment"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1168
+msgid ""
+"Would you prefer your background to scroll with your site or be fixed and "
+"not move"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1179
+msgid "Auto resize background image to fit window?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1180
+msgid ""
+"This will ensure your background image always fits no matter what size "
+"screen the user has. (Don't use with patterns)"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1189
+msgid "Header Options"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1190
+msgid "Control and configure the general setup of your header."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1197
+msgid "Use Image for Logo?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1198
+msgid ""
+"Upload a logo for your theme.<br/> Otherwise you will see the Plain Text "
+"Logo."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1206
+msgid "Logo Upload"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1207
+msgid "Upload your logo."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1214
+msgid "Retina Logo Upload"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1215
+msgid "Upload your Retina Logo for Retina Devices."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1221
+msgid "Header Layout"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1222
+msgid "Please select your header layout."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1235
+msgid "Footer Options"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1236
+msgid "Control and configure of your footer area."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1243
+msgid "Footer Widget Area Columns"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1244
+msgid "Select the columns for footer widget area."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1256
+msgid "Footer Social Area"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1257
+msgid ""
+"Do you want enable social profiles?<br/>You can set your social profile in "
+"<b>Social Options Tabs</b>."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1264
+msgid "Footer Copyright Section Text"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1265
+msgid ""
+"Please enter the copyright section text.<br/><br/><em>HTML is allowed.</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1274
+msgid "Portfolio Options"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1275
+msgid "Control and configure the general setup of your portfolio."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1282
+msgid "Enable Comments Template on Single Portfolio Post?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1283
+#: ../framework/options/az_framework/config.php:1310
+msgid "Enable/Disable Comments Template."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1290
+#: ../framework/options/az_framework/config.php:1317
+msgid "Custom Slug"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1291
+msgid ""
+"If you want your portfolio post type to have a custom slug in the url, "
+"please enter it here. <br/><br/>\n"
+"\t\t\t\t\t\t\t\t <b>You will still have to refresh your permalinks after "
+"saving this!</b><br/><br/>\n"
+"\t\t\t\t\t\t\t\t This is done by going to <b>Settings -> Permalinks</b> and "
+"clicking save."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1301
+msgid "Team Options"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1302
+msgid "Control and configure the general setup of your team."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1309
+msgid "Enable Comments Template on Single Team Post?"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1318
+msgid ""
+"If you want your team post type to have a custom slug in the url, please "
+"enter it here.<br/><br/>\n"
+"\t\t\t\t\t\t\t\t <b>You will still have to refresh your permalinks after "
+"saving this!</b><br/><br/>\n"
+"\t\t\t\t\t\t\t\t This is done by going to <b>Settings -> Permalinks</b> and "
+"clicking save."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1328
+msgid "Blog Options"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1329
+msgid "Control and configure the general setup of your blog."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1336
+msgid "Social Media Sharing Buttons"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1337
+msgid "Activate this to enable social sharing buttons on your blog posts."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1345
+msgid "Facebook"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1354
+msgid "Twitter"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1363
+msgid "Google Plus"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1372
+msgid "Pinterest"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1381
+msgid "Blog Type"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1382
+msgid "Please select your blog format here."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1395
+msgid "Standard Blog Layout"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1396
+msgid "Select main content and sidebar alignment."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1409
+msgid "Masonry Blog Layout"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1410
+msgid "Select the column for masonry blog."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1422
+msgid "Single Post Blog Layout"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1423
+msgid "Select main content and sidebar alignment for single post."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1438
+msgid "404 Options"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1439
+msgid "Control and configure the general setup of your 404 page."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1446
+msgid "Background Image Upload"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1447
+msgid "Please upload an image that will be used for background image."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1453
+msgid "Insert your 404 Title"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1454
+msgid ""
+"Please Enter here your title for 404 Page.<br/><br/>\n"
+"                                  <em>HTML is allowed.</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1461
+msgid "Insert your 404 Caption"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1462
+msgid ""
+"Please Enter here your caption for 404 Page.<br/><br/>\n"
+"                                  <em>HTML is allowed.</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1471
+msgid "Contact Map Options"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1472
+msgid "Control and configure the general setup of your contact and map page."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1479
+msgid "Insert your Title Marker"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1480
+msgid "Please Enter here your text of Title Marker."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1486
+msgid "Default Map Zoom Level"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1487
+msgid ""
+"Value should be between 1-18, 1 being the entire earth and 18 being right at "
+"street level."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1494
+msgid "Map Center Latitude"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1495
+msgid "Please enter the latitude for the maps center point."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1502
+msgid "Map Center Longitude"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1503
+msgid "Please enter the longitude for the maps center point."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1510
+msgid "Marker Icon Upload"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1511
+msgid "Please upload an image that will be used for the marker on your map."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1517
+msgid "Map Infowindow Text"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1518
+msgid ""
+"If you would like to display any text in an info window for location, please "
+"enter it here.<br/><br/>\n"
+"\t\t\t\t\t\t\t\t  <em>HTML is allowed.</em>"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1527
+msgid "Social Options"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1528
+msgid ""
+"Control and configure the general setup of your social profile. <br/>Will be "
+"visible in the footer area (if enabled) and the social profile widget."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1535
+msgid "500PX URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1536
+msgid "Please enter in your 500PX URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1542
+msgid "Add This URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1543
+msgid "Please enter in your Add This URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1549
+msgid "Behance URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1550
+msgid "Please enter in your Behance URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1556
+msgid "Bebo URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1557
+msgid "Please enter in your Bebo URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1563
+msgid "Blogger URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1564
+msgid "Please enter in your Blogger URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1570
+msgid "Deviant Art URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1571
+msgid "Please enter in your Deviant Art URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1577
+msgid "Digg URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1578
+msgid "Please enter in your Digg URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1584
+msgid "Dribbble URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1585
+msgid "Please enter in your Dribbble URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1591
+msgid "Email URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1592
+msgid "Please enter in your Email URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1598
+msgid "Envato URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1599
+msgid "Please enter in your Envato URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1605
+msgid "Evernote URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1606
+msgid "Please enter in your Envernote URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1612
+msgid "Facebook URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1613
+msgid "Please enter in your Facebook URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1619
+msgid "Flickr URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1620
+msgid "Please enter in your Flickr URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1626
+msgid "Forrst URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1627
+msgid "Please enter in your Forrst URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1633
+msgid "Github URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1634
+msgid "Please enter in your Github URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1640
+msgid "Google Plus URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1641
+msgid "Please enter in your Google Plus URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1647
+msgid "Grooveshark URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1648
+msgid "Please enter in your Grooveshark URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1654
+msgid "Instagram URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1655
+msgid "Please enter in your Instagram URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1661
+msgid "Last FM URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1662
+msgid "Please enter in your Last FM URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1668
+msgid "Linked In URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1669
+msgid "Please enter in your Linked In URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1675
+msgid "My Space URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1676
+msgid "Please enter in your My Space URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1682
+msgid "Paypal URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1683
+msgid "Please enter in your Paypal URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1689
+msgid "Photobucket URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1690
+msgid "Please enter in your Photobucket URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1696
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1697
+msgid "Please enter in your Pinterest URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1703
+msgid "Quora URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1704
+msgid "Please enter in your Quora URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1710
+msgid "Share This URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1711
+msgid "Please enter in your Share This URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1717
+msgid "Skype URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1718
+msgid "Please enter in your Skype URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1724
+msgid "Soundcloud URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1725
+msgid "Please enter in your Soundcloud URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1731
+msgid "Stumble Upon URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1732
+msgid "Please enter in your Stumble Upon URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1738
+msgid "Tumblr URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1739
+msgid "Please enter in your Tumblr URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1745
+msgid "Twitter URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1746
+msgid "Please enter in your Twitter URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1752
+msgid "Viddler URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1753
+msgid "Please enter in your Viddler URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1759
+msgid "Vimeo URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1760
+msgid "Please enter in your Vimeo URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1766
+msgid "Virb URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1767
+msgid "Please enter in your Virb URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1773
+msgid "Wordpress URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1774
+msgid "Please enter in your Wordpress URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1780
+msgid "Yahoo URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1781
+msgid "Please enter in your Yahoo URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1787
+msgid "Yelp URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1788
+msgid "Please enter in your Yelp URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1794
+msgid "You Tube URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1795
+msgid "Please enter in your You Tube URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1801
+msgid "Zerply URL"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1802
+msgid "Please enter in your Zerply URL."
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1828
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1829
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1830
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1832
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1847
+msgid "Documentation"
+msgstr ""
+
+#: ../framework/options/az_framework/config.php:1855
+msgid "Theme Information"
+msgstr ""
+
+#: ../framework/options/inc/fields/border/field_border.php:102
+msgid "Border size"
+msgstr ""
+
+#: ../framework/options/inc/fields/border/field_border.php:110
+msgid "Border style"
+msgstr ""
+
+#: ../framework/options/inc/fields/color_gradient/field_color_gradient.php:73
+msgid "From "
+msgstr ""
+
+#: ../framework/options/inc/fields/color_gradient/field_color_gradient.php:84
+msgid "To "
+msgstr ""
+
+#: ../framework/options/inc/fields/dimensions/field_dimensions.php:70
+msgid "Width"
+msgstr ""
+
+#: ../framework/options/inc/fields/dimensions/field_dimensions.php:84
+msgid "height"
+msgstr ""
+
+#: ../framework/options/inc/fields/dimensions/field_dimensions.php:94
+#: ../framework/options/inc/fields/dimensions/field_dimensions.php:95
+#: ../framework/options/inc/fields/spacing/field_spacing.php:126
+#: ../framework/options/inc/fields/spacing/field_spacing.php:127
+msgid "Units"
+msgstr ""
+
+#: ../framework/options/inc/fields/group/field_group.php:71
+msgid "New"
+msgstr ""
+
+#: ../framework/options/inc/fields/group/field_group.php:126
+msgid "Delete"
+msgstr ""
+
+#: ../framework/options/inc/fields/group/field_group.php:131
+msgid "Add"
+msgstr ""
+
+#: ../framework/options/inc/fields/link_color/field_link_color.php:84
+msgid "Regular"
+msgstr ""
+
+#: ../framework/options/inc/fields/link_color/field_link_color.php:90
+msgid "Hover"
+msgstr ""
+
+#: ../framework/options/inc/fields/link_color/field_link_color.php:96
+msgid "Active"
+msgstr ""
+
+#: ../framework/options/inc/fields/media/field_media.php:139
+#: ../framework/options/inc/fields/multi_text/field_multi_text.php:70
+#: ../framework/options/inc/fields/multi_text/field_multi_text.php:73
+#: ../framework/options/inc/fields/multi_text/field_multi_text.php:76
+#: ../framework/options/inc/fields/slides/field_slides.php:116
+#: ../framework/options/inc/fields/slides/field_slides.php:153
+msgid "Remove"
+msgstr ""
+
+#: ../framework/options/inc/fields/multi_text/field_multi_text.php:80
+msgid "Add More"
+msgstr ""
+
+#: ../framework/options/inc/fields/password/field_password.php:29
+msgid "Password"
+msgstr ""
+
+#: ../framework/options/inc/fields/password/field_password.php:29
+msgid "Username"
+msgstr ""
+
+#: ../framework/options/inc/fields/select/field_select.php:67
+msgid "Select an item"
+msgstr ""
+
+#: ../framework/options/inc/fields/select/field_select.php:81
+msgid "No items of this type were found."
+msgstr ""
+
+#: ../framework/options/inc/fields/slides/field_slides.php:129
+#: ../framework/options/inc/fields/slides/field_slides.php:166
+msgid "Delete Slide"
+msgstr ""
+
+#: ../framework/options/inc/fields/slides/field_slides.php:169
+msgid "Add Slide"
+msgstr ""
+
+#: ../framework/options/inc/fields/spacing/field_spacing.php:83
+msgid "Top"
+msgstr ""
+
+#: ../framework/options/inc/fields/spacing/field_spacing.php:94
+msgid "Right"
+msgstr ""
+
+#: ../framework/options/inc/fields/spacing/field_spacing.php:105
+msgid "Bottom"
+msgstr ""
+
+#: ../framework/options/inc/fields/spacing/field_spacing.php:116
+msgid "Left"
+msgstr ""
+
+#: ../framework/options/inc/fields/typography/field_typography.php:101
+msgid "Font family"
+msgstr ""
+
+#: ../framework/options/inc/fields/typography/field_typography.php:186
+#: ../framework/options/inc/fields/typography/field_typography.php:190
+msgid "Font style"
+msgstr ""
+
+#: ../framework/options/inc/fields/typography/field_typography.php:190
+msgid "Style"
+msgstr ""
+
+#: ../framework/options/inc/fields/typography/field_typography.php:215
+msgid "Font subsets"
+msgstr ""
+
+#: ../framework/options/inc/fields/typography/field_typography.php:216
+msgid "Subsets"
+msgstr ""
+
+#: ../framework/options/inc/fields/typography/field_typography.php:216
+msgid "Font script"
+msgstr ""
+
+#: ../framework/options/inc/fields/typography/field_typography.php:233
+msgid "Size"
+msgstr ""
+
+#: ../framework/options/inc/fields/typography/field_typography.php:241
+msgid "Height"
+msgstr ""
+
+#: ../framework/options/inc/fields/typography/field_typography.php:248
+msgid "Word Spacing"
+msgstr ""
+
+#: ../framework/options/inc/fields/typography/field_typography.php:255
+msgid "Letter Spacing"
+msgstr ""
+
+#: ../framework/options/inc/fields/typography/field_typography.php:268
+msgid "Backup Font Family"
+msgstr ""
+
+#: ../framework/options/inc/fields/typography/field_typography.php:287
+msgid "Font color"
+msgstr ""
+
+#: ../framework/options/inc/validation/color/validation_color.php:15
+#: ../framework/options/inc/validation/color_rgba/validation_color_rgba.php:15
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: ../framework/options/inc/validation/comma_numeric/validation_comma_numeric.php:15
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: ../framework/options/inc/validation/date/validation_date.php:15
+msgid "This field must be a valid date."
+msgstr ""
+
+#: ../framework/options/inc/validation/email/validation_email.php:15
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: ../framework/options/inc/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: ../framework/options/inc/validation/no_special_chars/validation_no_special_chars.php:15
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: ../framework/options/inc/validation/numeric/validation_numeric.php:15
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: ../framework/options/inc/validation/url/validation_url.php:15
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:164
+#: ../framework/plugin-activation/init.php:126
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:165
+#: ../framework/plugin-activation/init.php:127
+msgid "Install Plugins"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:166
+#: ../framework/plugin-activation/init.php:128
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:178
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:490
+#: ../framework/plugin-activation/init.php:140
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:179
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1846
+#: ../framework/plugin-activation/init.php:141
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:517
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1956
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1956
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../framework/plugin-activation/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/plugin-activation/init.php:129
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../framework/plugin-activation/init.php:142
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../framework/widgets/dribbble-widget.php:9
+msgid "Use this widget to display your Dribbble shots."
+msgstr ""
+
+#: ../framework/widgets/dribbble-widget.php:12
+msgid "Custom Dribbble Widget"
+msgstr ""
+
+#: ../framework/widgets/dribbble-widget.php:78
+#: ../framework/widgets/flickr-widget.php:166
+#: ../framework/widgets/social-widget.php:38
+#: ../framework/widgets/twitter-widget.php:94
+msgid "Title:"
+msgstr ""
+
+#: ../framework/widgets/dribbble-widget.php:83
+msgid "Dribbble Username:"
+msgstr ""
+
+#: ../framework/widgets/dribbble-widget.php:88
+msgid "Number of Shots:"
+msgstr ""
+
+#: ../framework/widgets/flickr-widget.php:17
+msgid "Quick Flickr Widget"
+msgstr ""
+
+#: ../framework/widgets/flickr-widget.php:18
+msgid "Display up to 20 of your latest Flickr submissions in your sidebar."
+msgstr ""
+
+#: ../framework/widgets/flickr-widget.php:93
+msgid "Could not fetch photos."
+msgstr ""
+
+#: ../framework/widgets/flickr-widget.php:170
+msgid "Username or RSS:"
+msgstr ""
+
+#: ../framework/widgets/flickr-widget.php:174
+msgid "Tags:"
+msgstr ""
+
+#: ../framework/widgets/flickr-widget.php:178
+msgid "Count:"
+msgstr ""
+
+#: ../framework/widgets/social-widget.php:23
+msgid "Show your social Profiles."
+msgstr ""
+
+#: ../framework/widgets/social-widget.php:26
+msgid "Social Profiles"
+msgstr ""
+
+#: ../framework/widgets/twitter-widget.php:9
+msgid "Use this widget to display your latest tweets."
+msgstr ""
+
+#: ../framework/widgets/twitter-widget.php:12
+msgid "Custom Twitter Widget"
+msgstr ""
+
+#: ../framework/widgets/twitter-widget.php:99
+msgid "Twitter Username"
+msgstr ""
+
+#: ../framework/widgets/twitter-widget.php:104
+msgid "Number of tweets"
+msgstr ""
+
+#: ../framework/widgets/twitter-widget.php:113
+msgid "Exclude Replies"
+msgstr ""

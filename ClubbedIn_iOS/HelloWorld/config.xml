@@ -50,6 +50,7 @@
         <plugin name="Notification" value="CDVNotification" />
         <plugin name="Capture" value="CDVCapture" />
         <plugin name="InAppBrowser" value="CDVInAppBrowser" />
+        <gap:plugin name="com.phonegap.plugins.PushPlugin"/>
     </plugins>
 
     <access origin="*" />

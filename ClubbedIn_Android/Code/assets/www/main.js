@@ -5,7 +5,13 @@
 			$.mobile.changepage("#");
 		}
 
+		$(document).ajaxStart(function() {
+			$.mobile.loading('show');
+		});
 
+		$(document).ajaxStop(function() {
+			$.mobile.loading('hide');
+		});
 
 		function startApp(){
 			userID = window.localStorage.getItem('uID');
@@ -22,7 +28,7 @@
 			}
 
 		}
-
+        
         $(document).on("mobileinit", function(){
             $.mobile.defaultPageTransition   = 'none';
             $.mobile.defaultDialogTransition = 'none';
@@ -601,7 +607,7 @@
         });
     };
 
-    $('.deleteMe5').live('click', function(){
+    $('.deleteMe5').live('touchend', function(){
 
     var removeID = $(this).attr('id');
     var removeFrom = $(this).parent();
@@ -835,7 +841,7 @@
         });
     };
 
-    $(document).on('click', '#clubcontent li a', function () {
+    $(document).on('touchend', '#clubcontent li a', function () {
         getClubData($(this).data('club-id'));
         curClub=$(this).data('club-id');
     });
@@ -845,7 +851,7 @@
     });
 
     $(document).ready( function () {
-        $(document).on('click', '.attendanceclass', function () {
+        $(document).on('touchend', '.attendanceclass', function () {
             $.ajax({
                 url: 'http://clubbedinapp.com/web/php/isanadmin.php',
                 crossDomain: true,
@@ -919,7 +925,7 @@
 		        });
     });
 
-        $(document).on('click', '#exportattendancelist li a', function () {
+        $(document).on('touchend', '#exportattendancelist li a', function () {
 
 		        var clubID = $(this).attr('id');
 		        exportAttendance(clubID);
@@ -930,7 +936,7 @@
            $('#whosgoinglist').listview();
         });
 
-    $(document).on('click', '#editattendanceback', function () {
+    $(document).on('touchend', '#editattendanceback', function () {
         $.mobile.changePage('#defaultevent');
         getEventData(curEvent, 5);
     });
@@ -1034,7 +1040,7 @@
     });
 
 
-    $(document).on('click', '#takeattendancelist li a', function () {
+    $(document).on('touchend', '#takeattendancelist li a', function () {
         var eventID = $(this).attr('id');
         curEvent = eventID;
         $.mobile.changePage('#takeattendance2');
@@ -1153,16 +1159,16 @@
         });
     });
 
-    $(document).on('click', '#adminsid', function () {
+    $(document).on('touchend', '#adminsid', function () {
         $.mobile.changePage($('#admins'));
     });
 
-    $(document).on('click', '#upcominglist li a', function () {
+    $(document).on('touchend', '#upcominglist li a', function () {
         getEventData($(this).data('event-id'), 1);
         addSwitch($(this).data('event-id'));
     });
 
-    $(document).on('click', '#viewattendancelist li a', function () {
+    $(document).on('touchend', '#viewattendancelist li a', function () {
         $.mobile.changePage('#viewattendance2');
         $('#viewattendancelist2').empty();
         $('#attendancename').empty();
@@ -1199,7 +1205,7 @@
 
     });
 
-    $(document).on('click', '#viewattendancelist2 li a', function () {
+    $(document).on('touchend', '#viewattendancelist2 li a', function () {
         $.mobile.changePage('#viewattendance3');
         $('#attendancename2').empty();
         $('#viewattendancelist3').empty();
@@ -1240,7 +1246,7 @@
 
     });
 
-    $(document).on('click', '#contactlink', function () {
+    $(document).on('touchend', '#contactlink', function () {
         var num = 1;
         $('#boldemail').empty();
         $('#appendaftercontact').empty();
@@ -1259,7 +1265,7 @@
 
     });
 
-    $(document).on('click', '#changeemaillink', function () {
+    $(document).on('touchend', '#changeemaillink', function () {
         var finalemail = "";
         var num = 1;
 
@@ -1279,26 +1285,26 @@
 
     });
 
-    $(document).on('click', '#leaveclub', function () {
+    $(document).on('touchend', '#leaveclub', function () {
 
     });
 
-    $(document).on('click', '#eventlist li a', function () {
+    $(document).on('touchend', '#eventlist li a', function () {
         getEventData($(this).data('event-id'), 3);
         addSwitch($(this).data('event-id'));
     });
 
-    $(document).on('click', '#searchlist li a', function () {
+    $(document).on('touchend', '#searchlist li a', function () {
         var id = $(this).data('option-id');
         afterSearch(id);
     });
 
-    $(document).on('click', '#alleventslist li a', function () {
+    $(document).on('touchend', '#alleventslist li a', function () {
         getEventData($(this).data('event-id'), 2);
         addSwitch($(this).data('event-id'));
     });
 
-    $(document).on('click', '#clubcontent2 li a', function() {
+    $(document).on('touchend', '#clubcontent2 li a', function() {
        curClub = $(this).data('clubevent-id');
        $.mobile.changePage($('#newevent1'));
     });
@@ -1474,7 +1480,7 @@
     });
 
 
-    $('.deleteMe').live('click', function(){
+    $('.deleteMe').live('touchend', function(){
 
         if(leaders.length>1)
         {
@@ -1517,7 +1523,7 @@
     });
 
 
-    $('.deleteMe2').live('click', function(){
+    $('.deleteMe2').live('touchend', function(){
 
         var parent = $(this).parent();
         var removeID = $(this).attr('id');
@@ -1772,7 +1778,7 @@
         });
     };
 
-    $(document).on('click', '#editeventid', function () {
+    $(document).on('touchend', '#editeventid', function () {
         $.ajax({
             url: 'http://clubbedinapp.com/web/php/geteventdata.php',
             crossDomain: true,

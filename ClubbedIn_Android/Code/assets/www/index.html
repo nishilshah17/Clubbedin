@@ -73,6 +73,7 @@
             height: auto;
         }
 
+
     </style>
     <meta charset='utf-8'/>
     <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
@@ -148,11 +149,8 @@
     <link rel="stylesheet" href="css/latest.css"/>
     <script src="js/latest.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/jquery.validate.min.js"></script>
-    <link rel="stylesheet" href="css/jqm-datebox.min.css" />
     <link rel="stylesheet" href="css/jquery.mobile.simpledialog.min.css" />
     <link rel="stylesheet" href="jquery.mobile.flatui.css" />
-    
-    <script type="text/javascript" charset="utf-8" src="js/jqm-datebox.core.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/jquery.mobile.simpledialog2.min.js"></script>
 
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
@@ -178,53 +176,30 @@
 		google.maps.event.addDomListener(window, 'load', initialize);
 	</script>
 </head>
-<body>
-<div data-role="page" id="page-unauthorized" onLoad='relogornot();'>
+<body font="arial" align="center">
+<div data-role="page" data-theme="g" id="page-unauthorized" onLoad='relogornot();'>
+    <div align="center" data-role="content">
+        <img src="images/logo_main.png" class="logo">
+        <form id="loginform">
+            <input type="text" id="loginemail" name="loginemail" placeholder="Email..." />
+            <input type="password" id="loginpassword" name="loginpassword" placeholder="Password..." />
+            <input type="submit" id="loginsubmit" value="Login" data-theme="f"/>
+        </form>
+        <div id="invalidlogin"></div>
 
-    <body bgcolor="#FFF" font="arial" align="center">
-    <img src="images/fulllogo.png" alt="Clubbed In!" align="center" width="75%" height="45%">
-    <br>
-    <br>
-    <br>
-	<a href="#login" id="home2sigup" data-role="button" data-theme="a" data-inline="true">&nbsp;&nbsp;Login&nbsp;&nbsp;</a>
-    <br>
-	<a href="#signup" id="home3sigup" data-role="button" data-theme="f" data-inline="true">Sign Up</a>
-    <br>
-    <a href="#about" id="homebutton3" data-role="button" data-theme="d" data-inline="true" data-rel="dialog"
-       name="aboutbutton">&nbsp;&nbsp;About&nbsp;&nbsp;</a>
-       <br>
-       <br>
-    <div data-role="footer" data-position="fixed" data-theme="f">
-          <h1>  ClubbedIn &copy; 2013 </h1>
+        <br><br><br>
+
+        <div data-position="bottom" data-theme="g">Don't have an account? <a href="#signup">Sign Up</a></div>
     </div>
-
-</div>
-<div data-role="page" id="login">
-	<div data-role="header">
-        <a href="#page-unauthorized" data-icon="arrow-l" data-theme="f">Back</a>
-		<h1>Login</h1>
-	</div>
-	<div data-role="content">
-		<img src="images/logo.png" class="logo">
-
-		<form id="loginform">
-			<input type="text" id="loginemail" name="loginemail" placeholder="Email..." />
-			<input type="password" id="loginpassword" name="loginpassword" placeholder="Password..." />
-			<input type="submit" id="loginsubmit" value="Login" data-theme="f"/>
-		</form>
-		<div id="invalidlogin"></div>
-	</div>
     <div data-role="footer" data-position="fixed" data-theme="f">
           <h1>  ClubbedIn &copy; 2013 </h1>
     </div>
 </div>
-<div data-role="page" id="signup">
-	<div data-role="header">
-        <a href="#page-unauthorized" data-icon="arrow-l" data-theme="f">Back</a>
-		<h1>Sign Up!</h1>
-	</div>
+
+</div>
+<div data-role="page" data-theme="g" id="signup">
 	<div align="center" data-role="content">
-		<img src="images/logo.png" class="logo">
+		<img src="images/logo_main.png" class="logo">
 		<form id="signupform">
 			<input type="text" id="signupname" name="signupname" placeholder="Full Name..."/>
 			<input type="text" id="signupemail" name="signupemail" placeholder="Email..."/>
@@ -233,36 +208,16 @@
 			<input type="submit" id="signupsubmit" value="Sign Up" />
 		</form>
         <div id="invalidsignup"></div>
+
+        <br><br>
+
+        <div data-theme="g">Already have an account? <a href="#page-unauthorized">Sign In</a></div>
+
 	</div>
-    <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="f">
+    <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="g">
           <h1>  ClubbedIn &copy; 2013 </h1>
     </div>
 </div>
-
-<div data-role="page" id="about">
-    <div data-role="header">
-        <h1>About</h1>
-    </div>
-    <div data-role="content">
-        <img src="images/logo.png" class="logo"/>
-
-        <div data-role="collapsible" data-theme="f" data-content-theme="d">
-            <h3>General</h3>
-
-            <p align="justify">The purpose of this app is to allow ease of communication between leaders and members of
-                clubs. This application allows one
-                to create events and meetings for their club and send notifications to members about upcoming ones, as
-                well as track
-                member attendance.</p>
-        </div>
-        <div data-role="collapsible" data-theme="f" data-content-theme="d">
-            <h3>Getting Started</h3>
-
-            <p align="justify">Once you create an account, you will be instantly connected to Clubbed In. Start by joining your clubs or starting your own!</p>
-        </div>
-    </div>
-</div>
-
 <div data-role="page" id="page-tasklist">
 
     <div data-role="header" data-position="fixed">
@@ -273,14 +228,6 @@
         <h1>Your Clubs</h1>
     </div>
     <div data-role="content">
-        <div data-role="controlgroup" data-mini="true" align="right" data-type="horizontal">
-            <a href="#createclub" data-role="button" data-icon="plus" data-inline="true" data-theme="f" data-rel="dialog">
-                Create Club
-            </a>
-            <a href="#joinclub" data-role="button" data-icon="plus" data-inline="true" data-theme="f" data-rel="dialog">
-                Join Club
-            </a>
-        </div>
         <ul data-role="listview" id="clubcontent" data-inset="true">
 
         </ul>
@@ -357,16 +304,24 @@
     <div data-role="content">
         <fieldset>
             <ul id="settingslist" data-role="listview" data-divider-theme="f">
-                <li data-role="list-divider">USER</li>
+                <br>
+                <p align="left">&nbsp;&nbsp;&nbsp;USER</p>
+                <hr style="color:red;"/>
                     <li><a href="#changename" data-rel="dialog">Change Name</a></li>
                     <li><a href="#changeemail" data-rel="dialog" id="changeemaillink">Change Email</a></li>
                     <li><a href="#changepassword" data-rel="dialog">Change Password</a></li>
-                <li data-role="list-divider">CLUBS</li>
+                <br>
+                <p align="left">&nbsp;&nbsp;&nbsp;CLUBS</p>
+                <hr />
                     <li><a href="#leaveclub" onclick="refreshLeave();" id="leaveaclub">Leave A Club</a></li>
-                <li data-role="list-divider">HELP</li>
+                <br>
+                <p align="left">&nbsp;&nbsp;&nbsp;HELP</p>
+                <hr />
                     <li><a href="#help">General</a></li>
                     <li><a href="#contactus" id="contactlink">Contact Us</a></li>
-                <li data-role="list-divider">OTHER</li>
+                <br>
+                <p align="left">&nbsp;&nbsp;&nbsp;OTHER</p>
+                <hr />
                     <!--<li><a href="#sponsors">Sponsors</a></li>-->
                     <li id="settingslogout"><a>Log Out</a></li>
             </ul>

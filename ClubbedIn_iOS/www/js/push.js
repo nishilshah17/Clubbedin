@@ -50,7 +50,6 @@ register: function() {
                                     app.myLog.value+=JSON.stringify(['registerDevice status: ', status])+"\n";
                                     app.storeToken(status.deviceToken);
                                     });
-    alert("registered ios");
 },
 storeToken: function(token) {
     console.log("Token is " + token);

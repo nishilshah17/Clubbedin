@@ -174,52 +174,6 @@
 
 		google.maps.event.addDomListener(window, 'load', initialize);
 	</script>
-    <script type="text/javascript">
-        var PushNotification;
-        
-        function onDeviceReady() {
-            if ( device.platform == 'android' || device.platform == 'Android' )
-            {
-                pushNotification.register(
-                                          successHandler,
-                                          errorHandler, {
-                                          "senderID":"470920464906",
-                                          "ecb":"onNotificationGCM"
-                                          });
-            }
-            else
-            {
-                pushNotification.register(
-                                          tokenHandler,
-                                          errorHandler, {
-                                          "badge":"true",
-                                          "sound":"true",
-                                          "alert":"true",
-                                          "ecb":"onNotificationAPN"
-                                          });
-            }
-            
-            
-        }
-    
-        function onNotificationAPN (event) {
-            if ( event.alert )
-            {
-                navigator.notification.alert(event.alert);
-            }
-        
-            if ( event.sound )
-            {
-                var snd = new Media(event.sound);
-                snd.play();
-            }
-        
-            if ( event.badge )
-            {
-                pushNotification.setApplicationIconBadgeNumber(successHandler, errorHandler, event.badge);
-            }
-        }
-        </script>
     
 </head>
 <body>
@@ -1116,6 +1070,7 @@
 </div>
 
 <!-- MAIN SCRIPT -->
-<script src="main.js"></script>
+<script src="js/main.js"></script>
+<script src="js/push.js"></script>
 </body>
 </html>

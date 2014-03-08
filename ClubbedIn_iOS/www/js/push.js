@@ -45,11 +45,15 @@ getPending: function() {
                                              });
 },
 register: function() {
+    alert("hi");
     var pushNotification = window.plugins.pushNotification;
     pushNotification.registerDevice({alert:true, badge:true, sound:true}, function(status) {
+                                    alert("hey");
                                     app.myLog.value+=JSON.stringify(['registerDevice status: ', status])+"\n";
                                     app.storeToken(status.deviceToken);
                                     });
+
+
 },
 storeToken: function(token) {
     console.log("Token is " + token);

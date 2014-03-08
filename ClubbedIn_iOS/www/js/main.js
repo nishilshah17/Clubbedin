@@ -1685,7 +1685,7 @@ document.addEventListener("deviceready", startApp, false);
                 'theid': id
             },
             success: function (data2) {
-                $('#hdr, #defcont, #addbuttons, #annlist, #eventlist, #memberlist').empty();
+                $('#hdr, #defcont, #addbuttons, #annlist, #eventlist, #memberlist, #threads').empty();
                 $('#annlist, #eventlist, #memberlist').trigger('collapse');
                 var json = jQuery.parseJSON(data2);
                 $.mobile.changePage($('#defaultclub'));
@@ -1703,9 +1703,33 @@ document.addEventListener("deviceready", startApp, false);
                 getAnnouncements('#annlist');
                 getMembers();
 		        getLogo();
+                getThreads();
             },
         });
     };
+
+function getThreads() {
+
+    $.ajax({
+           url: 'http://clubbedinapp.com/web/php/getthreads.php',
+           crossDomain: true,
+           type: 'post',
+           data: {
+                'clubID': curClub
+           },
+           success: function(data) {
+                var json = jQuery.parseJSON(data);
+                if(json.length == 0)
+                {
+                    $('#threads').append('No conversations :(');
+                }
+                else {
+                    //post all topics
+                }
+                $('#threads').listview('refresh');
+           }
+    });
+}
 
     function getLogo() {
         $('#clubimage').empty();
@@ -1896,6 +1920,7 @@ document.addEventListener("deviceready", startApp, false);
 
         $('#memlist').listview();
         getMembers(tempBool);
+        $('#threads').listview();
 
     });
 

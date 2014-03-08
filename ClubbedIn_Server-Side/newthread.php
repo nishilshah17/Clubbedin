@@ -9,18 +9,8 @@ mysql_select_db($db)
     or die("Unable to select database: " . mysql_error());
 
 $clubID = $_POST['clubID'];
+$topic = $_POST['thread'];
 
-$topics = array();
-
-$result = mysql_query('SELECT * FROM topics
-						WHERE clubID = "'.$clubID.'"');
-
-while ($row = mysql_fetch_assoc($result)) {
-
-	array_push($topics, array("topic" => $row['topic'], "topicID" => $row['topicID']));
-
-}
-
-echo json_encode($topics);
+mysql_query('INSERT INTO topics (clubID, topic) VALUES ("'.$clubID.'","'.$topic.'")');
 
 ?>

@@ -25,6 +25,9 @@
 
 <!-- Main Style -->
 <link href="_include/css/main.css" rel="stylesheet">
+<link href="_include/css/animate.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.7.2.min.js"></script>
+
 
 <!-- Supersized -->
 <link href="_include/css/supersized.css" rel="stylesheet">
@@ -60,6 +63,8 @@
 
 <!-- Modernizr -->
 <script src="_include/js/modernizr.js"></script>
+<script src="_include/js/jquery.lettering.js"></script>
+<script src="_include/js/jquery.textillate.js"></script>
 
 <!-- Analytics -->
 <script type="text/javascript">
@@ -75,55 +80,122 @@
   })();
 
 </script>
-<!-- End Analytics -->
 
-<script src="../js/jquery-1.7.2.min.js" type="text/javascript"></script>
-
+<script src="js/snow.js" type="text/javascript"></script>
 <script type="text/javascript">
-function getclubsnmembers(){
-       $.ajax({
-            url: 'http://clubbedinapp.com/counter.php',
-            crossDomain: true,
-            type: 'post',
-            success: function (data) {
-            var json = jQuery.parseJSON(data);
-            	$("#counterleft").empty();
-		$("#counterleft").append('&nbsp;Clubs&nbsp; <b class = "numberCircle">'+json.numClubs+'</b>');
-            	$("#counterright").empty();
-		$("#counterright").append('Members&nbsp; <b class = "numberCircle">'+json.numMembers+'</b>');
-            }
-        });
-}
-	getclubsnmembers();
+var secret1 = "766984738483787987";
+var input1 = "";
+var timer;
+var tester = 0;
 
-setInterval(function(){
-	getclubsnmembers();
-}, 5000);
+$(document).keyup(function(e) {
+   input1 += e.which;
+   clearTimeout(timer);
+   timer = setTimeout(function() { input1 = ""; }, 750);
+   check_input();
+
+});
+
+function startDaSnow() {
+    snow.count = 30;   // number of flakes
+    snow.delay = 20;   // timer interval
+    snow.minSpeed = 2; // minimum movement/time slice
+    snow.maxSpeed = 5; // maximum movement/time slice
+    snow.start();
+}
+
+function check_input() {
+    if(input1 == secret1) {
+	tester = 1;
+    }
+    if(tester == 1) {
+  	startDaSnow();
+    }
+};
+
+var secret = "72658080897869878969658283";
+var input = "";
+var timer;
+$(document).keyup(function(e) {
+   input += e.which;
+   clearTimeout(timer);
+   timer = setTimeout(function() { input = ""; }, 750);
+   check_input1();
+});
+function check_input1() {
+    if(input == secret) {
+        window.location.replace("http://i.imgur.com/ehCeEdn.gif");
+    }
+};
+
+var secret2 = "656667";
+var input2 = "";
+var timer;
+$(document).keyup(function(e) {
+   input += e.which;
+   clearTimeout(timer);
+   timer = setTimeout(function() { input2 = ""; }, 750);
+   check_input3();
+});
+function check_input3() {
+    if(input == secret2) {
+
+    }
+};
 
 </script>
+
+
+<script>
+$('.tlt').textillate({ loop: true, initialDelay: 500, in: { effect: 'rollIn' }, out: { effect: 'rollOut'} });
+</script>
+<!-- End Analytics -->
+
+
+
 </head>
 
 
 <body>
 
-<!-- This section is for Splash Screen -->
+<!-- This section is for Splash Screen
+     80768368798472696865786769 - plsdothedance
+ -->
 <div class="ole">
 <section id="jSplash">
 	<div id="circle"></div>
 </section>
 </div>
 <!-- End of Splash Screen -->
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
 
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li class="current"><a href="#home-slider">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+		<li><a href="#jobs">Team</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+<!-- End Header -->
 <!-- Homepage Slider -->
 <div id="home-slider">
-    <div class="overlay">Clubbed In</div>
+    <div class="overlay"></div>
 
     <div class="slider-text">
     	<!--<p class="button" align="right" id="counterleft"> <b></b></p>
 	    <p class="button" align="right" id="counterright"> <b></b></p>-->
-    	<div id="slidecaption">Clubbed In</div>
-    </div>
+    	<div class="tlt2" id="slidecaption">Clubbed In</div>
 
+    </div>
+	<!--<div class="slider-text" ><br><br><br><br><br><br><br><br>Scroll down for more!</div>-->
 	<div class="control-nav">
         <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
         <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
@@ -132,31 +204,6 @@ setInterval(function(){
     </div>
 </div>
 <!-- End Homepage Slider -->
-
-<!-- Header -->
-<header>
-    <div class="sticky-nav">
-    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
-
-        <div id="logo">
-        	<a id="goUp" href="#home-slider" title="By students for students.">Clubbed In</a>
-        </div>
-
-        <nav id="menu">
-        	<ul id="menu-nav">
-            	<li class="current"><a href="#home-slider">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#contact">Contact</a></li>
-		<li><a href="#jobs">Jobs</a></li>
-            </ul>
-        </nav>
-
-    </div>
-</header>
-<!-- End Header -->
-
-
 <!-- About Section -->
 <div id="about" class="page-alternate">
 <div class="container">
@@ -177,14 +224,14 @@ setInterval(function(){
 					<div class="info-text">
 						<h3><span class="color-text">Clubbed In</span> Made by students for students.</h3>
 						<p>
-Clubbed In is an application with the primary goal of helping high school students manage their clubs. With many features such as events and keeping track of attendance, Clubbed In is the ideal application for a highschooler to have on their smartphones. Connect and communicate with other members. The best part is...it''s completely free!
+Clubbed In is an application with the primary goal of helping high school students manage their clubs. With many features such as events and keeping track of attendance, Clubbed In is the ideal application for a highschooler to have on their smartphones. Connect and communicate with other members. The best part is...it's completely free!
 						</p>
 						<br>
 						<a class="button" target="_blank" href="">Donate</a>
-						<div align="center" data-inline="true">
+						<!--<div align="center" data-inline="true">
 							<p class="button" align="right" id="counterleft"> <b></b></p>
 							<p class="button" align="right" id="counterright"> <b></b></p>
-						</div>
+						</div>-->
 					</div>
 				</div>
 			</div>
@@ -199,77 +246,13 @@ Clubbed In is an application with the primary goal of helping high school studen
 						<h3>iOS<a target="_tab" href="https://itunes.apple.com/us/app/clubbed-in/id711178962?mt=8"> Download</a></h3>
 						<h3>Android<a target="_tab" href="https://play.google.com/store/apps/details?id=com.RNI.clubbedin"> Download</a></h3>
 						<h3>Web <a href="http://www.clubbedinapp.com/web">Sign In</a></h3>
-                        <h3>Spotify <a href="spotify:user:1294288575:playlist:6s61fmWgCAQvl5iuM8gXkZ"> pls</a></h3>
 
 					</div>
 				</div>
 			</div>
         </div>
-    <!-- People -->
-	<!--
-    <div class="row">
-    	<div class="span4 profile">
-        	<div class="image-wrap">
-                <div class="hover-wrap">
-                    <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">Founder | Developer</span>
-                </div>
-                <img src="_include/img/profile/Nishil.jpg" alt="Nishil Shah">
-            </div>
-            <h3 class="profile-name">Nishil Shah</h3>
-            <p class="profile-description"></p>
-
-            <div class="social">
-            	<ul class="social-icons">
-                	<li><a href="https://www.facebook.com/nishil.shah17?fref=ts"><i class="font-icon-social-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/nishilshah12"><i class="font-icon-social-twitter"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    	<div class="span4 profile">
-        	<div class="image-wrap">
-                <div class="hover-wrap">
-                    <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">Lead Graphics | Developer</span>
-                </div>
-                <img src="_include/img/profile/Rohith.jpg" alt="Rohith Varanasi">
-            </div>
-            <h3 class="profile-name">Rohith Varanasi</h3>
-            <p class="profile-description">Hi I'm Rohith Varanasi, I enjoy programming during my freetime, long walks on the beach, sunsets and building robots.Hi I'm Rohith Varanasi, I enjoy programming during my freetime, long walks on the beach,
-            							   sunsets and building robots.Hi I'm Rohith Varanasi, I enjoy programming during my freetime, long walks on the beach, sunsets and building robots.Hi I'm Rohith Varanasi, I enjoy programming during my freetime.</p>
-
-            <div class="social">
-            	<ul class="social-icons">
-                	<li><a href="https://www.facebook.com/Rohfosho?fref=ts"><i class="font-icon-social-facebook"></i></a></li>
-                </ul>
-            </div>
-        </div>
-
-    	<div class="span4 profile">
-        	<div class="image-wrap">
-                <div class="hover-wrap">
-                    <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">Web Developer</span>
-                </div>
-                <img src="_include/img/profile/Akash.jpg" alt="Akash Srinagesh">
-            </div>
-            <h3 class="profile-name">Akash Srinagesh</h3>
-            <p class="profile-description">Hey! My name is Akash, which you probably already saw above. I am currently in high school, and I joined the Clubbed In team after they released their Android App. I was interested
-            							   in what they were doing and the future of the app. I asked to join, and made our first website. I enjoy buliding robots, and programming. Also I enjoy long walks on the beach, preferably with Rohith.</p>
-
-            <div class="social">
-            	<ul class="social-icons">
-            		<li><a href="https://www.facebook.com/akash.srinagesh"><i class="font-icon-social-facebook"></i></a></li>
-                	<li><a href="https://twitter.com/pyromanic221"><i class="font-icon-social-twitter"></i></a></li>
-                </ul>
-            </div>
-        </div>
-
-    </div>-->
-    <!-- End People -->
 </div>
 </div>
-<!-- End About Section -->
 
 <!-- Our Work Section -->
 <div id="features" class="page">
@@ -499,6 +482,7 @@ Clubbed In is an application with the primary goal of helping high school studen
 </div>
 </div>
 
+
 <!-- Twitter Feed -->
 <!--<div id="twitter-feed" class="page-alternate">
 	<div class="container">
@@ -539,7 +523,7 @@ Clubbed In is an application with the primary goal of helping high school studen
 
 <!-- Footer -->
 <footer>
-	<p class="credits">&copy;2013 Clubbed In. <!--<a href="http://themes.alessioatzeni.com/html/brushed/" title="Brushed | Responsive One Page Template">Brushed Template</a> by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio Atzeni</a>--></p>
+	<p class="credits">&copy;2013 Clubbed In. </p>
 </footer>
 <!-- End Footer -->
 

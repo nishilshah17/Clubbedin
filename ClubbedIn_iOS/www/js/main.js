@@ -1721,7 +1721,7 @@ function getThreads() {
                 var json = jQuery.parseJSON(data);
                 if(json.length == 0)
                 {
-                    $('#threads').append('No conversations :(');
+                    $('#threads').append('<li>No conversations :(</li>');
                 }
                 else {
                     //post all topics
@@ -2347,3 +2347,9 @@ function getMembersAfterSearch(all) {
         });
 
     }
+
+    $('.deploy-toggle-1').click(function(){
+        $(this).parent().find('.toggle-content').toggle(100);
+        $(this).toggleClass('toggle-1-active');
+        return false;
+    });

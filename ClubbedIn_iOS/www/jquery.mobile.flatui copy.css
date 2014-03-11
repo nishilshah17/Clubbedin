@@ -1,26 +1,38 @@
 @font-face {
-  font-family:'Open Sans', sans-serif;
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-
+  src: local('Lato Regular'),
+    local('Lato-Regular'),
+    url(fonts/lato-regular.woff) format('woff'),
+    url(fonts/lato-regular.ttf) format('truetype');
 }
 @font-face {
-  font-family:'Open Sans', sans-serif;
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-
+  src: local('Lato Bold'),
+    local('Lato-Bold'),
+    url(fonts/lato-bold.woff) format('woff'),
+    url(fonts/lato-bold.ttf) format('truetype');
 }
 @font-face {
-  font-family:'Open Sans', sans-serif;
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 900;
-
+  src: local('Lato Black'),
+    local('Lato-Black'),
+    url(fonts/lato-black.woff) format('woff'),
+    url(fonts/lato-black.ttf) format('truetype');
 }
 @font-face {
-  font-family:'Open Sans', sans-serif;
+  font-family: 'Lato';
   font-style: italic;
   font-weight: 400;
-
+  src: local('Lato Italic'),
+    local('Lato-Italic'),
+    url(fonts/lato-italic.woff) format('woff'),
+    url(fonts/lato-italic.ttf) format('truetype');
 }
 @font-face {
   font-family: "Flat-UI-Icons-24";
@@ -1630,7 +1642,7 @@ div.ui-mobile-viewport { overflow-x: hidden; }
 .ui-navbar ul:before, .ui-navbar ul:after { content: " "; display: table; }
 .ui-navbar ul:after { clear: both; }
 .ui-navbar ul { list-style:none; margin: 0; padding: 0; position: relative; display: block; border: 0; max-width: 100%; overflow: visible; zoom: 1; }
-.ui-navbar li .ui-btn { display: block; text-align: center; text-shadow: 0; margin: 0 -1px 0 0; border-right-width: 0; }
+.ui-navbar li .ui-btn { display: block; text-align: center; margin: 0 -1px 0 0; border-right-width: 0; }
 .ui-navbar li .ui-btn-icon-right .ui-icon { right: 6px; }
 /* add border if not in header/footer (full width) */
 .ui-navbar li:last-child .ui-btn,

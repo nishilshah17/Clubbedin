@@ -192,6 +192,12 @@
         <div id="invalidlogin"></div>
 
         <br><br><br>
+        <!--<div class="toggle-1">
+            <div class="deploy-toggle-1" id="deploy-toggle-1">News</div>
+            <div class="toggle-content" style="overflow: hidden; display: none;">
+
+            </div>
+        </div>-->
 
         <div data-position="bottom" data-theme="g">Don't have an account? <a href="#signup">Sign Up</a></div>
     </div>
@@ -224,7 +230,7 @@
 
 <div data-role="page" id="page-tasklist">
 
-    <div data-role="header" data-position="fixed">
+    <div data-role="header" data-position="fixed" data-tap-toggle="false">
         <a href="#defaultpanel" data-icon="grid" data-theme="f">More</a>
         <a href="#" id="head-menu-refresh" data-theme="a" data-role="button" data-icon="refresh" data-iconpos="notext"
            class="ui-btn-right refresh-list" onclick="getClubs()" style="right:0.55em;">Refresh</a>
@@ -232,6 +238,12 @@
         <h1>Your Clubs</h1>
     </div>
     <div class="content" data-role="content">
+        <!--<div class="content-controls header-color fixed-header">
+            <a class="deploy-contact"></a>
+            <a href="#defaultpanel" class="deploy-sidebar"></a>
+            <em class="content-title">Your Clubs</em>
+        </div>
+        <div class="fixed-header-clear"></div>-->
         <div data-role="controlgroup" data-mini="true" align="right" data-type="horizontal">
             <a href="#createclub" data-role="button" data-icon="plus" data-inline="true" data-theme="f" data-rel="dialog">
                 Create Club
@@ -272,7 +284,7 @@
 </div>
 
 <div data-role="page" id="upcoming">
-    <div data-role="header" data-position="fixed">
+    <div data-role="header" data-position="fixed" data-tap-toggle="false">
         <a href="#defaultpanel2" data-icon="grid" data-theme="f">More</a>
 
         <h1>Upcoming Events</h1>
@@ -311,7 +323,7 @@
 </div>
 
 <div data-role="page" id="settings">
-    <div data-role="header" data-position="fixed">
+    <div data-role="header" data-position="fixed" data-tap-toggle="false">
         <a href="#defaultpanel3" data-icon="grid" data-theme="f">More</a>
         <h1>Settings</h1>
     </div>
@@ -360,7 +372,7 @@
 </div>
 
 <div data-role="page" id="newsfeed">
-    <div data-role="header">
+    <div data-role="header" data-position="fixed" data-tap-toggle="false">
         <a href="#defaultpanel4" data-icon="grid" data-theme="f">More</a>
         <h1>Newsfeed</h1>
                 <a href="#" id="head-menu-refresh" data-theme="a" data-role="button" data-icon="refresh" data-iconpos="notext"
@@ -414,7 +426,7 @@
 </div> -->
 
 <div data-role="page" id="changepassword">
-    <div data-role="header">
+    <div data-role="header" data-position="fixed" data-tap-toggle="false">
         <h1>Password</h1>
     </div>
     <div data-role="content">
@@ -429,7 +441,7 @@
 </div>
 
 <div data-role="page" id="contactus">
-    <div data-role="header">
+    <div data-role="header" data-position="fixed" data-tap-toggle="false">
         <a href="#settings" data-icon="arrow-l" data-theme="f">Back</a>
         <h1>Contact Us</h1>
     </div>
@@ -447,7 +459,7 @@
 </div>
 
 <div data-role="page" id="leaveclub">
-    <div data-role="header">
+    <div data-role="header" data-position="fixed" data-tap-toggle="false">
         <a href="#settings" data-icon="arrow-l" data-theme="f">Back</a>
         <h1>Leave Club</h1>
         <a href="#" id="head-menu-refresh4" data-theme="a" data-role="button" data-icon="refresh" data-iconpos="notext"
@@ -461,7 +473,7 @@
 </div>
 
 <div data-role="page" id="changename">
-    <div data-role="header">
+    <div data-role="header" data-position="fixed" data-tap-toggle="false">
         <h1>Change Name</h1>
     </div>
     <div data-role="content">
@@ -523,7 +535,7 @@
 </div>
 
 <div data-role="page" id="defaultclub">
-    <div data-role="header" data-position="fixed">
+    <div data-role="header" data-position="fixed" data-tap-toggle="false">
         <a href="#page-tasklist" data-icon="arrow-l" data-theme="f" id="clubbutton">Back</a>
         <h1 class="ui-title" role="heading" id="hdr"></h1>
 
@@ -561,10 +573,10 @@
                    </ul>
             </div>
         <hr>
-        <span style="float:left;color:black;font-weight:bold;font-size:24px"><label for="newpostbutton">Communicate</label></span>
-        <span style="float:right"><button id="newpostbutton" class="newpostbutton" data-mini="true" data-icon="plus">Post</button></span>
+        <span style="float:left;color:black;font-weight:bold;font-size:24px"><label for="newpostbutton">Posts</label></span>
+        <span style="float:right;margin-top:-10px"><a href="#" data-role="button" id="newpostbutton" data-icon="plus" data-iconpos="notext"></a></span>
         <br>
-        <ul data-role="listview" id="threads">
+        <ul data-role="listview" data-inset="true" id="threads">
         </ul>
     </div>
 </div>

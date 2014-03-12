@@ -356,6 +356,36 @@ document.addEventListener("deviceready", startApp, false);
     return false;
     });
 
+
+    $("#postform").submit(function (e) {
+
+        if ($(this).validate({
+            rules: {
+                textareapost: {
+                    required: true
+                },
+            }
+        }).form()) {
+
+        var serData = $('#postform').serialize() + "&uID=" + userID + "&clubID" + curClub;
+        e.preventDefault();
+        $.ajax({
+            url: 'http://clubbedinapp.com/web/php/...php',
+            crossDomain: true,
+            type: 'post',
+            data: serData,
+            success: function (data) {
+                //$.mobile.changePage($('#page-tasklist'));
+                //getClubs();
+            },
+        });
+
+        } else {
+            return false;
+        }
+    return false;
+    });
+
     $("#contactform").submit(function (e) {
 
         $('#appendaftercontact').empty();
@@ -2353,3 +2383,12 @@ function getMembersAfterSearch(all) {
         $(this).toggleClass('toggle-1-active');
         return false;
     });
+
+    var options2 = {
+    'maxCharacterSize': 140,
+    'originalStyle': 'originalDisplayInfo',
+    'warningStyle': 'warningDisplayInfo',
+    'warningNumber': 40,
+    'displayFormat': '#left'
+    };
+    $('#textareapost').textareaCount(options2);

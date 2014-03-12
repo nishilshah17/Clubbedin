@@ -149,10 +149,11 @@
     <script src="js/latest.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/jquery.validate.min.js"></script>
     <link rel="stylesheet" href="css/jquery.mobile.simpledialog.min.css" />
-    <link rel="stylesheet" href="jquery.mobile.flatui.css" />
+    <link rel="stylesheet" href="css/jquery.mobile.flatui.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <script type="text/javascript" charset="utf-8" src="js/jquery.mobile.simpledialog2.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/PushNotification.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery.textareaCounter.plugin.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
 
 	<script type="text/javascript">
@@ -519,6 +520,18 @@
     </div>
 </div>
 
+<div data-role="page" id="postthread">
+    <div data-role="header">
+        <h1>Post</h1>
+    </div>
+    <div data-role="content">
+        <form id="postform" align="left">
+            <textarea id="textareapost" name="textareapost" class="textarearepost" style="color:black" rows="3"></textarea>
+            <input type="submit" value="Post" data-inline="true">
+        </form>
+    </div>
+</div>
+
 
 <div data-role="page" id="joinclub">
     <div data-role="header">
@@ -574,7 +587,7 @@
             </div>
         <hr>
         <span style="float:left;color:black;font-weight:bold;font-size:24px"><label for="newpostbutton">Posts</label></span>
-        <span style="float:right;margin-top:-10px"><a href="#" data-role="button" id="newpostbutton" data-icon="plus" data-iconpos="notext"></a></span>
+        <span style="float:right;margin-top:-10px"><a href="#postthread" data-role="button" id="newpostbutton" data-icon="plus" data-iconpos="notext" data-rel="dialog"></a></span>
         <br>
         <ul data-role="listview" data-inset="true" id="threads">
         </ul>

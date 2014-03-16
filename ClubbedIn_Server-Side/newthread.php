@@ -12,6 +12,6 @@ $clubID = $_POST['clubID'];
 $topic = $_POST['textareapost'];
 $userID = $_POST['uID'];
 
-mysql_query('INSERT INTO topics (clubID, topic) VALUES ("'.$clubID.'","'.$topic.'")');
+mysql_query('INSERT INTO topics (clubID, topic, userID) VALUES ("'.$clubID.'","'.$topic.'","'.$userID.'")');
 
 ?>

@@ -367,16 +367,18 @@ document.addEventListener("deviceready", startApp, false);
             }
         }).form()) {
 
-        var serData = $('#postform').serialize() + "&uID=" + userID + "&clubID" + curClub;
+        var serData = $('#postform').serialize() + "&uID=" + userID + "&clubID=" + curClub;
+                          alert(curClub);
+                          alert(userID);
         e.preventDefault();
         $.ajax({
-            url: 'http://clubbedinapp.com/web/php/...php',
+            url: 'http://clubbedinapp.com/web/php/newthread.php',
             crossDomain: true,
             type: 'post',
             data: serData,
             success: function (data) {
-                //$.mobile.changePage($('#page-tasklist'));
-                //getClubs();
+                $.mobile.changePage($('#defaultclub'));
+               getClubData(curClub, 2);
             },
         });
 
@@ -1754,7 +1756,16 @@ function getThreads() {
                     $('#threads').append('<li>No conversations :(</li>');
                 }
                 else {
-                    //post all topics
+                    if(json.length<5)
+                    {
+                        for(var i=0; i<json.length;i++){
+                            $('#threads').append('<li data-topic-id=\"' + json[i].topicID +'>'+json[i].topic+'</li>');
+                        }
+                    } else {
+                        for(var i=0; i<4;i++){
+                            $('#threads').append('<li data-topic-id=\"' + json[i].topicID +'>'+json[i].topic+'</li>');
+                        }
+                    }
                 }
                 $('#threads').listview('refresh');
            }

@@ -9,7 +9,8 @@ mysql_select_db($db)
     or die("Unable to select database: " . mysql_error());
 
 $clubID = $_POST['clubID'];
-$topic = $_POST['thread'];
+$topic = $_POST['textareapost'];
+$userID = $_POST['uID'];
 
 mysql_query('INSERT INTO topics (clubID, topic) VALUES ("'.$clubID.'","'.$topic.'")');
 

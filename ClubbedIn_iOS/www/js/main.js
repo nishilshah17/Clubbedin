@@ -17,9 +17,27 @@ document.addEventListener("deviceready", startApp, false);
 					transition : "flip",
 				});
 			}
+            loadContent();
 
 		}
 
+        function loadContent() {
+            $.ajax({
+                url: 'http://clubbedinapp.com/web/php/getclubs.php',
+                crossDomain: true,
+                type: 'post',
+                data: {
+                   'uID': userID
+                },
+                success: function (data) {
+                   window.localStorage.setItem("clubs",data);
+                },
+                error: function () {
+                   alert("Error: could not connect to server");
+                }
+            });
+
+        }
         $(document).on("mobileinit", function(){
             $.mobile.defaultPageTransition   = 'none';
             $.mobile.defaultDialogTransition = 'none';
@@ -595,6 +613,7 @@ document.addEventListener("deviceready", startApp, false);
     });
 
     $(document).on('pageinit', '#page-tasklist', function () {
+        $('clubcontent').listview();
         getClubs();
     });
 
@@ -856,30 +875,21 @@ document.addEventListener("deviceready", startApp, false);
 
     };
 
-
     function getClubs() {
-        $.ajax({
-            url: 'http://clubbedinapp.com/web/php/getclubs.php',
-            crossDomain: true,
-            type: 'post',
-            data: {
-                'uID': userID
-            },
-            success: function (data) {
-            	var clubcontent = $('#clubcontent')
-                clubcontent.empty();
-                var json = jQuery.parseJSON(data);
-                for (var i = 0; i < json.length; i++)
-                    clubcontent.append('<li><a href="#" data-club-id=\"' + json[i].id + '\" rel="external">' + json[i].name + '</a></li>');
-               if(json.length == 0){
+
+        var json = jQuery.parseJSON(window.localStorage.getItem("clubs"));
+        var clubcontent = $('clubcontent');
+
+        for (var i = 0; i < json.length; i++){
+            clubcontent.append('<li><a href="#" data-club-id=\"' + json[i].id + '\" rel="external">' + json[i].name + '</a></li>');
+            alert(json[i].name);
+        }
+        if(json.length == 0){
                clubcontent.append('<li>No clubs. Join or create one!</li>')
-               }
-                clubcontent.listview('refresh');
-            },
-            error: function () {
-				alert("Error: could not connect to server");
-            }
-        });
+        }
+        
+        clubcontent.listview( "refresh" );
+
     };
 
     function getNewsFeed() {

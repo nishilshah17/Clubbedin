@@ -87,10 +87,10 @@
     <script type="text/javascript">
         $(document).on("mobileinit", function() {
         $.mobile.touchOverflowEnabled = true; // required
-        $.mobile.defaultPageTransition = 'none'; // optional - for better performance on Android
+        $.mobile.defaultPageTransition = 'none';
         $.mobile.defaultDialogTransition = 'none';
-        $.mobile.loadingMessageTextVisible = true; // optional - added to show text message
-        $.mobile.buttonMarkup.hoverDelay = 0; // optional added to remove sluggishness - jqm default 200
+        $.mobile.loadingMessageTextVisible = true;
+        $.mobile.buttonMarkup.hoverDelay = 0;
         $.mobile.allowCrossDomainPages = true;
         $.support.cors = true;
         });
@@ -155,7 +155,7 @@
     <script type="text/javascript" charset="utf-8" src="js/PushNotification.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/jquery.textareaCounter.plugin.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
-
+    
 	<script type="text/javascript">
 		function initialize() {
 			var input = document.getElementById('locevent');
@@ -176,9 +176,11 @@
 
 		google.maps.event.addDomListener(window, 'load', initialize);
 	</script>
+
     
 </head>
 <body>
+
 
 <div data-role="page" data-theme="g" id="page-unauthorized" onLoad='relogornot();'>
 
@@ -189,7 +191,6 @@
             <input type="password" id="loginpassword" name="loginpassword" placeholder="Password..." />
             <input type="submit" id="loginsubmit" value="Login" data-theme="f"/>
         </form>
-        <!--<button onclick="app.register()">Register</button>-->
         <div id="invalidlogin"></div>
 
         <br><br><br>
@@ -206,6 +207,7 @@
           <h1>  ClubbedIn &copy; 2013 </h1>
     </div>
 </div>
+
 <div data-role="page" data-theme="g" id="signup">
     <div align="center" data-role="content">
         <img src="images/logo_main.png" class="logo">
@@ -218,8 +220,8 @@
         </form>
         <div id="invalidsignup"></div>
         <!--<em class="speach-left-title">John Doe says:</em>
-        <p class="speach-left green-bubble">This is just an awesome bubble! It's quite cute isn't it?</p>-->
-        <br><br>
+        <p class="speach-left green-bubble">This is just an awesome bubble! It's quite cute isn't it?</p>
+        <br><br>-->
 
         <div data-theme="g">Already have an account? <a href="#page-unauthorized">Sign In</a></div>
 
@@ -239,12 +241,7 @@
         <h1>Your Clubs</h1>
     </div>
     <div class="content" data-role="content">
-        <!--<div class="content-controls header-color fixed-header">
-            <a class="deploy-contact"></a>
-            <a href="#defaultpanel" class="deploy-sidebar"></a>
-            <em class="content-title">Your Clubs</em>
-        </div>
-        <div class="fixed-header-clear"></div>-->
+
         <div data-role="controlgroup" data-mini="true" align="right" data-type="horizontal">
             <a href="#createclub" data-role="button" data-icon="plus" data-inline="true" data-theme="f" data-rel="dialog">
                 Create Club
@@ -274,7 +271,6 @@
                 <li><a href="#newsfeed">Newsfeed</a></li>
                 <li><a href="#joinclub" data-rel="dialog">Join A Club</a></li>
                 <li><a href="#createclub" data-rel="dialog">Start A Club</a></li>
-                <!--<li><a href="#addanevent">Add An Event</a></li>-->
                 <li><a href="#attendance" data-rel="dialog" class="attendanceclass">Attendance</a></li>
                 <li><a href="#searchevents">Search</a></li>
                 <li><a href="#settings">Settings</a></li>
@@ -313,7 +309,6 @@
                 <li><a href="#newsfeed">Newsfeed</a></li>
                 <li><a href="#joinclub" data-rel="dialog">Join A Club</a></li>
                 <li><a href="#createclub" data-rel="dialog">Start A Club</a></li>
-                <!--<li><a href="#addanevent">Add An Event</a></li>-->
                 <li><a href="#attendance" data-rel="dialog" class="attendanceclass">Attendance</a></li>
                 <li><a href="#searchevents">Search</a></li>
                 <li><a href="#settings">Settings</a></li>
@@ -341,7 +336,6 @@
                     <li><a href="#help">General</a></li>
                     <li><a href="#contactus" id="contactlink">Contact Us</a></li>
                 <li data-role="list-divider">OTHER</li>
-                    <!--<li><a href="#sponsors">Sponsors</a></li>-->
                     <li id="settingslogout"><a>Log Out</a></li>
             </ul>
         </fieldset>
@@ -363,7 +357,6 @@
                 <li><a href="#newsfeed">Newsfeed</a></li>
                 <li><a href="#joinclub" data-rel="dialog">Join A Club</a></li>
                 <li><a href="#createclub" data-rel="dialog">Start A Club</a></li>
-                <!--<li><a href="#addanevent">Add An Event</a></li>-->
                 <li><a href="#attendance" data-rel="dialog" class="attendanceclass">Attendance</a></li>
                 <li><a href="#searchevents">Search</a></li>
                 <li><a href="#">Settings</a></li>
@@ -386,7 +379,7 @@
     </div>
         <div data-role="navbar" data-iconpos="top" data-position="fixed" data-tap-toggle="false">
         <ul>
-            <li><a href="#" data-icon="info">Newsfeed</a></li>
+            <li><a href="#" data-icon="info" data-theme="f">Newsfeed</a></li>
             <li><a href="#page-tasklist" data-icon="home" data-theme="f">Clubs</a></li>
             <li><a href="#upcoming" data-icon="alert" data-theme="f">Upcoming</a></li>
         </ul>
@@ -401,7 +394,6 @@
                 <li><a href="#">Newsfeed</a></li>
                 <li><a href="#joinclub" data-rel="dialog">Join A Club</a></li>
                 <li><a href="#createclub" data-rel="dialog">Start A Club</a></li>
-                <!--<li><a href="#addanevent">Add An Event</a></li>-->
                 <li><a href="#attendance" data-rel="dialog" class="attendanceclass">Attendance</a></li>
                 <li><a href="#searchevents">Search</a></li>
                 <li><a href="#settings">Settings</a></li>
@@ -409,22 +401,6 @@
         </div>
     </div>
 </div>
-
-<!--<div data-role="page" id="sponsors">
-    <div data-role="header">
-        <a href="#settings" data-icon="arrow-l" data-theme="f">Back</a>
-        <h1>Sponsors</h1>
-    </div>
-    <div data-role="content">
-        <p align="left">We thank the following businesses for sponsoring Clubbed In! Check them out!</p>
-        <br>
-        <img src="images/banner-ad.jpg" class="ad" />
-        <p align="left"><a>Website Link</a></p>
-        <p align="left">More information...</p>
-        <hr>
-        <p align="left">Email clubbedinapp@gmail.com for more info about placing ads.</p>
-    </div>
-</div> -->
 
 <div data-role="page" id="changepassword">
     <div data-role="header" data-position="fixed" data-tap-toggle="false">
@@ -586,8 +562,8 @@
                    </ul>
             </div>
         <hr>
-        <span style="float:left;color:black;font-weight:bold;font-size:24px"><label for="newpostbutton">Posts</label></span>
-        <span style="float:right;margin-top:-10px"><a href="#postthread" data-role="button" id="newpostbutton" data-icon="plus" data-iconpos="notext" data-rel="dialog"></a></span>
+        <!--<span style="float:left;color:black;font-weight:bold;font-size:24px"><label for="newpostbutton">Posts</label></span>
+        <span style="float:right;margin-top:-10px"><a href="#postthread" data-role="button" id="newpostbutton" data-icon="plus" data-iconpos="notext" data-rel="dialog"></a></span>-->
         <br>
         <ul data-role="listview" data-inset="true" id="threads">
         </ul>
@@ -698,7 +674,7 @@
 
 <div data-role="page" id="moreevents">
     <div data-role="header" data-position="fixed">
-        <a href="#defaultclub" data-icon="arrow-l" data-theme="f" onclick="getClubData(curClub, 1)" id="backtoclub">Back</a>
+        <a href="#defaultclub" data-icon="arrow-l" data-theme="f" id="backtoclub">Back</a>
         <h1 id="myTitle">All Events</h1>
         <span id="mySelect">
             <select name="switch" id="alleventsswitch" data-role="slider" data-mini="true">
@@ -717,7 +693,7 @@
 
 <div data-role="page" id="allmembers">
     <div data-role="header" data-position="fixed">
-        <a href="#defaultclub" data-icon="arrow-l" data-theme="f" onclick="getClubData(curClub, 1)" id="backtoclub">Back</a>
+        <a href="#defaultclub" data-icon="arrow-l" data-theme="f" id="backtoclub">Back</a>
         <h1>All Members</h1>
     </div>
     <div data-role="content">
@@ -1103,7 +1079,6 @@
     </div>
 </div>
 
-<!-- MAIN SCRIPT -->
 <script src="js/main.js"></script>
 <script src="js/push.js"></script>
 </body>

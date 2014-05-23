@@ -17,9 +17,41 @@ document.addEventListener("deviceready", startApp, false);
 					transition : "flip",
 				});
 			}
+            loadContent();
 
 		}
 
+        function loadContent() {
+            $.ajax({
+                url: 'http://clubbedinapp.com/web/php/getclubs.php',
+                crossDomain: true,
+                type: 'post',
+                data: {
+                   'uID': userID
+                },
+                success: function (data) {
+                   window.localStorage.setItem("clubs",data);
+                },
+                error: function () {
+                   alert("Error: could not connect to server");
+                }
+            });
+            $.ajax({
+                url: 'http://clubbedinapp.com/web/php/newsfeed.php',
+                crossDomain: true,
+                type: 'post',
+                data: {
+                   'userID': userID
+                },
+                success: function(data) {
+                   window.localStorage.setItem("newsfeed",data);
+                },
+                error: function () {
+                   alert("Error: could not connect to server");
+                }
+            })
+
+        }
         $(document).on("mobileinit", function(){
             $.mobile.defaultPageTransition   = 'none';
             $.mobile.defaultDialogTransition = 'none';
@@ -595,6 +627,7 @@ document.addEventListener("deviceready", startApp, false);
     });
 
     $(document).on('pageinit', '#page-tasklist', function () {
+        $('#clubcontent').listview();
         getClubs();
     });
 
@@ -856,57 +889,41 @@ document.addEventListener("deviceready", startApp, false);
 
     };
 
-
     function getClubs() {
-        $.ajax({
-            url: 'http://clubbedinapp.com/web/php/getclubs.php',
-            crossDomain: true,
-            type: 'post',
-            data: {
-                'uID': userID
-            },
-            success: function (data) {
-            	var clubcontent = $('#clubcontent')
-                clubcontent.empty();
-                var json = jQuery.parseJSON(data);
-                for (var i = 0; i < json.length; i++)
-                    clubcontent.append('<li><a href="#" data-club-id=\"' + json[i].id + '\" rel="external">' + json[i].name + '</a></li>');
-               if(json.length == 0){
+
+        var json = jQuery.parseJSON(window.localStorage.getItem("clubs"));
+        var clubcontent = $('#clubcontent');
+        
+        clubcontent.empty();
+
+        for (var i = 0; i < json.length; i++){
+            clubcontent.append('<li><a href="#" data-club-id=\"' + json[i].id + '\" rel="external">' + json[i].name + '</a></li>');
+        }
+        if(json.length == 0){
                clubcontent.append('<li>No clubs. Join or create one!</li>')
-               }
-                clubcontent.listview('refresh');
-            },
-            error: function () {
-				alert("Error: could not connect to server");
-            }
-        });
+        }
+        
+        clubcontent.listview("refresh");
+
     };
 
     function getNewsFeed() {
-        $.ajax({
-            url: 'http://clubbedinapp.com/web/php/newsfeed.php',
-            crossDomain: true,
-            type: 'post',
-            data: {
-                'userID': userID
-            },
-            success: function(data) {
-                var newsfeedcontent = $('#newsfeedcontent')
-                newsfeedcontent.empty();
-                var json = jQuery.parseJSON(data);
-                for(var i=0; i<json.length; i++)
-                {
-                    newsfeedcontent.append('<li><h3 class="ui-li-heading">' + json[i].title + '</h3><p class="ui-li-aside ui-li-desc">'+json[i].club+'</p><p class="ui-li-desc">'+json[i].info+'</p></li>')
-                }
-                if(json.length == 0){
-                    newsfeedcontent.append('<li>No News! Check back later.</li>')
-                }
-                newsfeedcontent.listview('refresh');
-            },
-            error: function () {
-                alert("Error: could not connect to server");
-            }
-        })
+        
+        var json = jQuery.parseJSON(window.localStorage.getItem("newsfeed"));
+        var newsfeedcontent = $('#newsfeedcontent');
+        
+        newsfeedcontent.empty();
+        
+        for (var i = 0; i < json.length; i++){
+               newsfeedcontent.append('<li><h3 class="ui-li-heading">' + json[i].title + '</h3><p class="ui-li-aside ui-li-desc">'+json[i].club+'</p><p class="ui-li-desc">'+json[i].info+'</p></li>');
+        }
+        if(json.length == 0){
+            newsfeedcontent.append('<li>No News! Check back later.</li>')
+        }
+        
+        newsfeedcontent.listview('refresh');
+        
+        
     }
 
     $(document).on('click', '#clubcontent li a', function () {

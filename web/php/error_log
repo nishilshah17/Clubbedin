@@ -1,0 +1,1086 @@
+[09-Sep-2013 21:24:33] PHP Parse error:  syntax error, unexpected T_STRING in /home4/clubbed/public_html/web/php/contactus.php on line 41
+[09-Sep-2013 21:24:35] PHP Parse error:  syntax error, unexpected T_STRING in /home4/clubbed/public_html/web/php/contactus.php on line 41
+[10-Sep-2013 14:51:02] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[10-Sep-2013 14:51:02] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[10-Sep-2013 21:31:29] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[10-Sep-2013 21:31:47] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[10-Sep-2013 21:33:26] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[10-Sep-2013 21:33:37] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[10-Sep-2013 21:33:37] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[10-Sep-2013 21:33:54] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[10-Sep-2013 21:34:03] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[13-Sep-2013 09:57:57] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home4/clubbed/public_html/web/php/deleteevent.php on line 16
+[13-Sep-2013 15:25:51] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home4/clubbed/public_html/web/php/deleteevent.php on line 16
+[14-Sep-2013 22:37:15] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home4/clubbed/public_html/web/php/deleteevent.php on line 16
+[15-Sep-2013 12:23:37] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[15-Sep-2013 12:23:37] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[15-Sep-2013 12:23:47] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[15-Sep-2013 12:23:47] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[17-Sep-2013 13:39:26] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[17-Sep-2013 13:39:32] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[20-Sep-2013 16:41:42] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[20-Sep-2013 16:41:42] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[20-Sep-2013 16:42:20] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[20-Sep-2013 16:42:20] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[21-Sep-2013 18:44:42] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[21-Sep-2013 18:44:42] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[21-Sep-2013 18:44:49] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[21-Sep-2013 18:44:49] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[21-Sep-2013 18:45:02] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[21-Sep-2013 18:45:02] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[22-Sep-2013 13:07:13] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[22-Sep-2013 13:07:13] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[26-Sep-2013 05:13:05] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[26-Sep-2013 05:13:12] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[26-Sep-2013 05:13:15] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[26-Sep-2013 05:13:19] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[26-Sep-2013 05:13:35] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[26-Sep-2013 05:13:48] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[26-Sep-2013 05:13:49] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[26-Sep-2013 05:20:00] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[26-Sep-2013 05:20:08] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[26-Sep-2013 05:20:09] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[26-Sep-2013 05:20:09] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[26-Sep-2013 05:20:09] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[26-Sep-2013 05:20:09] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[26-Sep-2013 05:20:50] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[26-Sep-2013 05:23:51] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[26-Sep-2013 05:39:51] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[26-Sep-2013 15:22:41] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 286
+[26-Sep-2013 15:26:13] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 272
+[26-Sep-2013 15:26:15] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 272
+[26-Sep-2013 15:27:03] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 74
+[26-Sep-2013 15:27:05] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 74
+[26-Sep-2013 15:27:51] PHP Fatal error:  Class 'PHPMailer' not found in /home4/clubbed/public_html/web/php/newannouncement.php on line 8
+[26-Sep-2013 15:28:34] PHP Parse error:  syntax error, unexpected $end in /home4/clubbed/public_html/web/php/newannouncement.php on line 279
+[26-Sep-2013 17:47:08] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[26-Sep-2013 17:47:08] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[26-Sep-2013 17:47:27] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[26-Sep-2013 17:47:27] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[26-Sep-2013 17:47:31] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[26-Sep-2013 17:47:31] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[26-Sep-2013 17:47:33] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[26-Sep-2013 17:47:33] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[26-Sep-2013 23:17:52] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[26-Sep-2013 23:17:52] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[27-Sep-2013 11:44:18] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[27-Sep-2013 11:44:18] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[27-Sep-2013 14:08:13] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[27-Sep-2013 14:08:13] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[27-Sep-2013 14:08:28] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[27-Sep-2013 14:08:28] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[27-Sep-2013 15:56:28] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[27-Sep-2013 15:56:28] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[27-Sep-2013 16:10:47] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[27-Sep-2013 16:10:47] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[27-Sep-2013 16:11:31] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[27-Sep-2013 16:11:31] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[27-Sep-2013 16:41:33] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[27-Sep-2013 16:41:34] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[27-Sep-2013 16:41:36] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[27-Sep-2013 16:41:36] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[27-Sep-2013 17:36:16] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[27-Sep-2013 17:36:16] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[27-Sep-2013 19:36:49] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[27-Sep-2013 19:36:49] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[27-Sep-2013 20:05:43] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[27-Sep-2013 20:05:43] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[27-Sep-2013 21:31:22] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home4/clubbed/public_html/web/php/deleteevent.php on line 16
+[27-Sep-2013 21:31:49] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home4/clubbed/public_html/web/php/editevent.php on line 45
+[28-Sep-2013 06:59:47] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[28-Sep-2013 06:59:47] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[28-Sep-2013 09:37:17] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home4/clubbed/public_html/web/php/editevent.php on line 45
+[28-Sep-2013 09:37:43] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home4/clubbed/public_html/web/php/editevent.php on line 45
+[28-Sep-2013 09:40:31] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home4/clubbed/public_html/web/php/editevent.php on line 46
+[28-Sep-2013 09:40:32] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home4/clubbed/public_html/web/php/editevent.php on line 46
+[28-Sep-2013 13:27:43] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[28-Sep-2013 13:27:43] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[28-Sep-2013 13:28:01] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[28-Sep-2013 13:28:01] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[28-Sep-2013 13:28:17] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[28-Sep-2013 13:28:17] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[28-Sep-2013 20:58:08] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[28-Sep-2013 20:58:08] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[29-Sep-2013 07:48:46] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[29-Sep-2013 07:48:46] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[29-Sep-2013 08:22:26] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[29-Sep-2013 08:22:26] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[29-Sep-2013 16:40:28] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[29-Sep-2013 16:40:28] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[29-Sep-2013 16:56:16] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[29-Sep-2013 16:56:16] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[29-Sep-2013 22:23:43] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[29-Sep-2013 22:23:43] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[30-Sep-2013 05:09:15] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[30-Sep-2013 05:09:15] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[30-Sep-2013 05:09:18] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[30-Sep-2013 05:09:18] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[30-Sep-2013 18:19:55] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[30-Sep-2013 18:19:55] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[30-Sep-2013 18:19:55] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[30-Sep-2013 18:19:55] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[30-Sep-2013 18:20:04] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[30-Sep-2013 18:20:04] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[30-Sep-2013 18:20:09] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[30-Sep-2013 18:20:09] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[30-Sep-2013 20:12:54] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[30-Sep-2013 20:12:54] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[01-Oct-2013 05:32:32] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on '67.220.217.230' (111) in /home4/clubbed/public_html/web/php/deleteclub.php on line 9
+[01-Oct-2013 11:47:31] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[01-Oct-2013 11:47:31] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[01-Oct-2013 12:38:30] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[01-Oct-2013 12:38:30] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[01-Oct-2013 21:58:46] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[01-Oct-2013 21:58:46] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[02-Oct-2013 19:00:18] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[02-Oct-2013 19:00:18] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[02-Oct-2013 19:00:24] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[02-Oct-2013 19:00:24] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[02-Oct-2013 19:00:26] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[02-Oct-2013 19:00:26] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[02-Oct-2013 19:00:27] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[02-Oct-2013 19:00:27] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[02-Oct-2013 19:00:27] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[02-Oct-2013 19:00:27] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[02-Oct-2013 19:00:28] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[02-Oct-2013 19:00:28] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[02-Oct-2013 20:29:41] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[02-Oct-2013 20:29:41] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[02-Oct-2013 20:29:46] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[02-Oct-2013 20:29:46] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[03-Oct-2013 14:11:41] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[03-Oct-2013 14:11:41] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[06-Oct-2013 17:42:03] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[06-Oct-2013 17:42:03] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[07-Oct-2013 21:57:09] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on '67.220.217.230' (111) in /home4/clubbed/public_html/web/php/deleteclub.php on line 9
+[07-Oct-2013 21:57:37] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on '67.220.217.230' (111) in /home4/clubbed/public_html/web/php/deleteclub.php on line 9
+[09-Oct-2013 17:45:53] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[09-Oct-2013 17:45:53] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[10-Oct-2013 19:43:07] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[10-Oct-2013 19:43:07] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[10-Oct-2013 21:13:37] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[10-Oct-2013 21:13:37] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[11-Oct-2013 05:52:49] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[11-Oct-2013 05:52:49] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[11-Oct-2013 15:35:10] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home4/clubbed/public_html/web/php/exportAttendance.php on line 32
+[11-Oct-2013 15:36:06] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home4/clubbed/public_html/web/php/exportAttendance.php on line 34
+[11-Oct-2013 15:36:08] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home4/clubbed/public_html/web/php/exportAttendance.php on line 34
+[11-Oct-2013 15:36:31] PHP Warning:  include(PHPExcel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 9
+[11-Oct-2013 15:36:31] PHP Warning:  include(PHPExcel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 9
+[11-Oct-2013 15:36:31] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'PHPExcel.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php;../Classes/') in /home4/clubbed/public_html/web/php/exportAttendance.php on line 9
+[11-Oct-2013 15:36:31] PHP Warning:  include(PHPExcel/Writer/Excel2007.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 12
+[11-Oct-2013 15:36:31] PHP Warning:  include(PHPExcel/Writer/Excel2007.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 12
+[11-Oct-2013 15:36:31] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'PHPExcel/Writer/Excel2007.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php;../Classes/') in /home4/clubbed/public_html/web/php/exportAttendance.php on line 12
+[11-Oct-2013 15:36:31] PHP Fatal error:  Class 'PHPExcel' not found in /home4/clubbed/public_html/web/php/exportAttendance.php on line 21
+[11-Oct-2013 15:40:10] PHP Warning:  include(PHPExcel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 9
+[11-Oct-2013 15:40:10] PHP Warning:  include(PHPExcel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 9
+[11-Oct-2013 15:40:10] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'PHPExcel.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php;../Classes/') in /home4/clubbed/public_html/web/php/exportAttendance.php on line 9
+[11-Oct-2013 15:40:10] PHP Warning:  include(PHPExcel/Writer/Excel2007.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 12
+[11-Oct-2013 15:40:10] PHP Warning:  include(PHPExcel/Writer/Excel2007.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 12
+[11-Oct-2013 15:40:10] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'PHPExcel/Writer/Excel2007.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php;../Classes/') in /home4/clubbed/public_html/web/php/exportAttendance.php on line 12
+[11-Oct-2013 15:40:10] PHP Fatal error:  Class 'PHPExcel' not found in /home4/clubbed/public_html/web/php/exportAttendance.php on line 21
+[11-Oct-2013 15:40:11] PHP Warning:  include(PHPExcel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 9
+[11-Oct-2013 15:40:11] PHP Warning:  include(PHPExcel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 9
+[11-Oct-2013 15:40:11] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'PHPExcel.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php;../Classes/') in /home4/clubbed/public_html/web/php/exportAttendance.php on line 9
+[11-Oct-2013 15:40:11] PHP Warning:  include(PHPExcel/Writer/Excel2007.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 12
+[11-Oct-2013 15:40:11] PHP Warning:  include(PHPExcel/Writer/Excel2007.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 12
+[11-Oct-2013 15:40:11] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'PHPExcel/Writer/Excel2007.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php;../Classes/') in /home4/clubbed/public_html/web/php/exportAttendance.php on line 12
+[11-Oct-2013 15:40:11] PHP Fatal error:  Class 'PHPExcel' not found in /home4/clubbed/public_html/web/php/exportAttendance.php on line 21
+[11-Oct-2013 15:40:14] PHP Warning:  include(PHPExcel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 9
+[11-Oct-2013 15:40:14] PHP Warning:  include(PHPExcel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 9
+[11-Oct-2013 15:40:14] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'PHPExcel.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php;../Classes/') in /home4/clubbed/public_html/web/php/exportAttendance.php on line 9
+[11-Oct-2013 15:40:14] PHP Warning:  include(PHPExcel/Writer/Excel2007.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 12
+[11-Oct-2013 15:40:14] PHP Warning:  include(PHPExcel/Writer/Excel2007.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 12
+[11-Oct-2013 15:40:14] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'PHPExcel/Writer/Excel2007.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php;../Classes/') in /home4/clubbed/public_html/web/php/exportAttendance.php on line 12
+[11-Oct-2013 15:40:14] PHP Fatal error:  Class 'PHPExcel' not found in /home4/clubbed/public_html/web/php/exportAttendance.php on line 21
+[11-Oct-2013 15:41:10] PHP Warning:  require(/home4/clubbed/public_html/web/php/PHPExcel/PHPExcel/Autoloader.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/PHPExcel/PHPExcel.php on line 32
+[11-Oct-2013 15:41:10] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home4/clubbed/public_html/web/php/PHPExcel/PHPExcel/Autoloader.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home4/clubbed/public_html/web/php/PHPExcel/PHPExcel.php on line 32
+[11-Oct-2013 15:42:34] PHP Fatal error:  Class 'PHPExcel_Shared_String' not found in /home4/clubbed/public_html/web/php/PHPExcel/PHPExcel/Autoloader.php on line 36
+[11-Oct-2013 15:42:39] PHP Fatal error:  Class 'PHPExcel_Shared_String' not found in /home4/clubbed/public_html/web/php/PHPExcel/PHPExcel/Autoloader.php on line 36
+[11-Oct-2013 15:43:29] PHP Fatal error:  Class 'PHPExcel_Shared_String' not found in /home4/clubbed/public_html/web/php/PHPExcel/PHPExcel/Autoloader.php on line 36
+[11-Oct-2013 15:58:45] PHP Fatal error:  Class 'PHPExcel_Shared_String' not found in /home4/clubbed/public_html/web/php/PHPExcel/PHPExcel/Autoloader.php on line 36
+[11-Oct-2013 16:51:42] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[11-Oct-2013 16:51:42] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[11-Oct-2013 16:58:25] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[11-Oct-2013 16:58:25] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[11-Oct-2013 21:39:25] PHP Fatal error:  Class 'PHPExcel_Shared_String' not found in /home4/clubbed/public_html/web/php/PHPExcel/PHPExcel/Autoloader.php on line 36
+[11-Oct-2013 21:39:25] PHP Fatal error:  Class 'PHPExcel_Shared_String' not found in /home4/clubbed/public_html/web/php/PHPExcel/PHPExcel/Autoloader.php on line 36
+[11-Oct-2013 21:40:44] PHP Fatal error:  Class 'PHPExcel_Shared_String' not found in /home4/clubbed/public_html/web/php/PHPExcel/PHPExcel/Autoloader.php on line 36
+[12-Oct-2013 08:41:58] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[12-Oct-2013 08:41:58] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[12-Oct-2013 12:52:52] PHP Fatal error:  Class 'PHPExcel_Shared_String' not found in /home4/clubbed/public_html/web/php/PHPExcel/PHPExcel/Autoloader.php on line 36
+[12-Oct-2013 13:40:37] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[12-Oct-2013 13:40:37] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[12-Oct-2013 20:14:50] PHP Fatal error:  Class 'PHPExcel_Writer_Abstract' not found in /home4/clubbed/public_html/web/php/PHPExcel/Excel2007.php on line 36
+[12-Oct-2013 20:16:55] PHP Fatal error:  Class 'PHPExcel_Writer_Abstract' not found in /home4/clubbed/public_html/web/php/PHPExcel/Excel2007.php on line 36
+[12-Oct-2013 20:16:57] PHP Fatal error:  Class 'PHPExcel_Writer_Abstract' not found in /home4/clubbed/public_html/web/php/PHPExcel/Excel2007.php on line 36
+[12-Oct-2013 20:16:59] PHP Fatal error:  Class 'PHPExcel_Writer_Abstract' not found in /home4/clubbed/public_html/web/php/PHPExcel/Excel2007.php on line 36
+[12-Oct-2013 20:17:58] PHP Fatal error:  Class 'PHPExcel_Abstract' not found in /home4/clubbed/public_html/web/php/PHPExcel/Excel2007.php on line 36
+[12-Oct-2013 20:18:27] PHP Fatal error:  Class 'PHPExcel_Writer_Abstract' not found in /home4/clubbed/public_html/web/php/PHPExcel/Excel2007.php on line 36
+[12-Oct-2013 20:26:10] PHP Fatal error:  Class 'PHPExcel_Writer_Abstract' not found in /home4/clubbed/public_html/web/php/PHPExcel/Excel2007.php on line 36
+[12-Oct-2013 20:40:34] PHP Warning:  include(PHPExcel/PHPExcel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 10
+[12-Oct-2013 20:40:34] PHP Warning:  include(PHPExcel/PHPExcel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 10
+[12-Oct-2013 20:40:34] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'PHPExcel/PHPExcel.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home4/clubbed/public_html/web/php/exportAttendance.php on line 10
+[12-Oct-2013 20:40:34] PHP Warning:  include(PHPExcel/Excel2007.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 13
+[12-Oct-2013 20:40:34] PHP Warning:  include(PHPExcel/Excel2007.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 13
+[12-Oct-2013 20:40:34] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'PHPExcel/Excel2007.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home4/clubbed/public_html/web/php/exportAttendance.php on line 13
+[12-Oct-2013 20:40:34] PHP Fatal error:  Class 'PHPExcel' not found in /home4/clubbed/public_html/web/php/exportAttendance.php on line 22
+[12-Oct-2013 20:41:01] PHP Fatal error:  Class 'PHPExcel_Writer_Abstract' not found in /home4/clubbed/public_html/web/php/PHPExcel/Excel2007.php on line 36
+[12-Oct-2013 20:41:54] PHP Fatal error:  Class 'PHPExcel_Writer_Abstract' not found in /home4/clubbed/public_html/web/php/PHPExcel/Excel2007.php on line 36
+[12-Oct-2013 20:41:55] PHP Fatal error:  Class 'PHPExcel_Writer_Abstract' not found in /home4/clubbed/public_html/web/php/PHPExcel/Excel2007.php on line 36
+[12-Oct-2013 20:41:56] PHP Fatal error:  Class 'PHPExcel_Writer_Abstract' not found in /home4/clubbed/public_html/web/php/PHPExcel/Excel2007.php on line 36
+[12-Oct-2013 20:41:56] PHP Fatal error:  Class 'PHPExcel_Writer_Abstract' not found in /home4/clubbed/public_html/web/php/PHPExcel/Excel2007.php on line 36
+[12-Oct-2013 20:46:25] PHP Warning:  include(PHPExcel/PHPExcel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 10
+[12-Oct-2013 20:46:25] PHP Warning:  include(PHPExcel/PHPExcel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 10
+[12-Oct-2013 20:46:25] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'PHPExcel/PHPExcel.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home4/clubbed/public_html/web/php/exportAttendance.php on line 10
+[12-Oct-2013 20:46:25] PHP Warning:  include(PHPExcel/Excel2007.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 13
+[12-Oct-2013 20:46:25] PHP Warning:  include(PHPExcel/Excel2007.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 13
+[12-Oct-2013 20:46:25] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'PHPExcel/Excel2007.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home4/clubbed/public_html/web/php/exportAttendance.php on line 13
+[12-Oct-2013 20:46:25] PHP Fatal error:  Class 'PHPExcel' not found in /home4/clubbed/public_html/web/php/exportAttendance.php on line 22
+[12-Oct-2013 20:47:11] PHP Warning:  include(Classes/PHPExcel/PHPExcel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 10
+[12-Oct-2013 20:47:11] PHP Warning:  include(Classes/PHPExcel/PHPExcel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 10
+[12-Oct-2013 20:47:11] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'Classes/PHPExcel/PHPExcel.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home4/clubbed/public_html/web/php/exportAttendance.php on line 10
+[12-Oct-2013 20:47:11] PHP Warning:  include(Classes/PHPExcel/Excel2007.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 13
+[12-Oct-2013 20:47:11] PHP Warning:  include(Classes/PHPExcel/Excel2007.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home4/clubbed/public_html/web/php/exportAttendance.php on line 13
+[12-Oct-2013 20:47:11] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'Classes/PHPExcel/Excel2007.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home4/clubbed/public_html/web/php/exportAttendance.php on line 13
+[12-Oct-2013 20:47:11] PHP Fatal error:  Class 'PHPExcel' not found in /home4/clubbed/public_html/web/php/exportAttendance.php on line 22
+[12-Oct-2013 20:48:26] PHP Notice:  Undefined index:  clubID in /home4/clubbed/public_html/web/php/exportAttendance.php on line 24
+[12-Oct-2013 20:48:26] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'clubbed'@'localhost' (using password: NO) in /home4/clubbed/public_html/web/php/exportAttendance.php on line 26
+[12-Oct-2013 20:48:26] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home4/clubbed/public_html/web/php/exportAttendance.php on line 26
+[12-Oct-2013 20:48:26] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/exportAttendance.php on line 30
+[12-Oct-2013 20:51:02] PHP Notice:  Undefined index:  clubID in /home4/clubbed/public_html/web/php/exportAttendance.php on line 24
+[12-Oct-2013 20:51:02] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'clubbed'@'localhost' (using password: NO) in /home4/clubbed/public_html/web/php/exportAttendance.php on line 26
+[12-Oct-2013 20:51:02] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home4/clubbed/public_html/web/php/exportAttendance.php on line 26
+[12-Oct-2013 20:51:02] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/exportAttendance.php on line 30
+[12-Oct-2013 20:51:03] PHP Notice:  Undefined index:  clubID in /home4/clubbed/public_html/web/php/exportAttendance.php on line 24
+[12-Oct-2013 20:51:03] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'clubbed'@'localhost' (using password: NO) in /home4/clubbed/public_html/web/php/exportAttendance.php on line 26
+[12-Oct-2013 20:51:03] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home4/clubbed/public_html/web/php/exportAttendance.php on line 26
+[12-Oct-2013 20:51:03] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/exportAttendance.php on line 30
+[12-Oct-2013 20:52:24] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'clubbed'@'localhost' (using password: NO) in /home4/clubbed/public_html/web/php/exportAttendance.php on line 26
+[12-Oct-2013 20:52:24] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home4/clubbed/public_html/web/php/exportAttendance.php on line 26
+[12-Oct-2013 20:52:24] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/exportAttendance.php on line 30
+[12-Oct-2013 22:49:37] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'clubbed'@'localhost' (using password: NO) in /home4/clubbed/public_html/web/php/exportAttendance.php on line 26
+[12-Oct-2013 22:49:37] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home4/clubbed/public_html/web/php/exportAttendance.php on line 26
+[12-Oct-2013 22:49:37] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/exportAttendance.php on line 30
+[12-Oct-2013 22:49:38] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'clubbed'@'localhost' (using password: NO) in /home4/clubbed/public_html/web/php/exportAttendance.php on line 26
+[12-Oct-2013 22:49:38] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home4/clubbed/public_html/web/php/exportAttendance.php on line 26
+[12-Oct-2013 22:49:38] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/exportAttendance.php on line 30
+[12-Oct-2013 23:01:47] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home4/clubbed/public_html/web/php/deleteevent.php on line 16
+[13-Oct-2013 13:14:08] PHP Fatal error:  Uncaught exception 'PHPExcel_Exception' with message 'Invalid cell coordinate A"3"' in /home4/clubbed/public_html/web/php/Classes/PHPExcel/Cell.php:546
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/Classes/PHPExcel/Worksheet.php(1134): PHPExcel_Cell::coordinateFromString('A"3"')
+#1 /home4/clubbed/public_html/web/php/Classes/PHPExcel/Worksheet.php(1042): PHPExcel_Worksheet->getCell('A"3"')
+#2 /home4/clubbed/public_html/web/php/exportAttendance.php(45): PHPExcel_Worksheet->setCellValue('A"3"', 'world!')
+#3 {main}
+  thrown in /home4/clubbed/public_html/web/php/Classes/PHPExcel/Cell.php on line 546
+[13-Oct-2013 15:50:59] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:50:59] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:50:59] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:50:59] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:50:59] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:50:59] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:50:59] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:50:59] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:50:59] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:50:59] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:50:59] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:50:59] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:50:59] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:50:59] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:50:59] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:50:59] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:52:01] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:52:01] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:52:01] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:52:01] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:52:01] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:52:01] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:52:01] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:52:01] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:52:01] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:52:01] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:52:01] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:52:01] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:52:01] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:52:01] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:52:01] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 15:52:01] PHP Notice:  Undefined index:  name in /home4/clubbed/public_html/web/php/exportAttendance.php on line 53
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:08:10] PHP Notice:  Undefined index:  date in /home4/clubbed/public_html/web/php/exportAttendance.php on line 61
+[13-Oct-2013 16:10:48] PHP Parse error:  syntax error, unexpected '}' in /home4/clubbed/public_html/web/php/exportAttendance.php on line 69
+[14-Oct-2013 14:54:56] PHP Warning:  date() expects at least 1 parameter, 0 given in /home4/clubbed/public_html/web/php/exportAttendance.php on line 75
+[14-Oct-2013 14:55:14] PHP Notice:  Use of undefined constant l - assumed 'l' in /home4/clubbed/public_html/web/php/exportAttendance.php on line 75
+[15-Oct-2013 16:09:19] PHP Parse error:  syntax error, unexpected '<' in /home4/clubbed/public_html/web/php/exportAttendance.php on line 89
+[15-Oct-2013 16:42:51] PHP Notice:  Undefined variable: list in /home4/clubbed/public_html/web/php/exportAttendance.php on line 99
+[15-Oct-2013 16:42:51] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Passed variable is not an array or object, using empty array instead' in /home4/clubbed/public_html/web/php/exportAttendance.php:99
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/exportAttendance.php(99): ArrayIterator->__construct(NULL)
+#1 {main}
+  thrown in /home4/clubbed/public_html/web/php/exportAttendance.php on line 99
+[15-Oct-2013 16:42:53] PHP Notice:  Undefined variable: list in /home4/clubbed/public_html/web/php/exportAttendance.php on line 99
+[15-Oct-2013 16:42:53] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Passed variable is not an array or object, using empty array instead' in /home4/clubbed/public_html/web/php/exportAttendance.php:99
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/exportAttendance.php(99): ArrayIterator->__construct(NULL)
+#1 {main}
+  thrown in /home4/clubbed/public_html/web/php/exportAttendance.php on line 99
+[15-Oct-2013 16:42:54] PHP Notice:  Undefined variable: list in /home4/clubbed/public_html/web/php/exportAttendance.php on line 99
+[15-Oct-2013 16:42:54] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Passed variable is not an array or object, using empty array instead' in /home4/clubbed/public_html/web/php/exportAttendance.php:99
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/exportAttendance.php(99): ArrayIterator->__construct(NULL)
+#1 {main}
+  thrown in /home4/clubbed/public_html/web/php/exportAttendance.php on line 99
+[15-Oct-2013 16:51:10] PHP Parse error:  syntax error, unexpected '=' in /home4/clubbed/public_html/web/php/exportAttendance.php on line 99
+[15-Oct-2013 16:51:11] PHP Parse error:  syntax error, unexpected '=' in /home4/clubbed/public_html/web/php/exportAttendance.php on line 99
+[15-Oct-2013 16:51:32] PHP Parse error:  syntax error, unexpected '=' in /home4/clubbed/public_html/web/php/exportAttendance.php on line 99
+[15-Oct-2013 16:51:33] PHP Parse error:  syntax error, unexpected '=' in /home4/clubbed/public_html/web/php/exportAttendance.php on line 99
+[15-Oct-2013 16:52:09] PHP Notice:  Use of undefined constant counterx - assumed 'counterx' in /home4/clubbed/public_html/web/php/exportAttendance.php on line 108
+[15-Oct-2013 16:52:09] PHP Notice:  Use of undefined constant countery - assumed 'countery' in /home4/clubbed/public_html/web/php/exportAttendance.php on line 108
+[15-Oct-2013 16:52:09] PHP Fatal error:  Uncaught exception 'PHPExcel_Exception' with message 'Invalid cell coordinate COUNTERXCOUNTERY' in /home4/clubbed/public_html/web/php/Classes/PHPExcel/Cell.php:546
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/Classes/PHPExcel/Worksheet.php(1134): PHPExcel_Cell::coordinateFromString('COUNTERXCOUNTER...')
+#1 /home4/clubbed/public_html/web/php/Classes/PHPExcel/Worksheet.php(1042): PHPExcel_Worksheet->getCell('counterxcounter...')
+#2 /home4/clubbed/public_html/web/php/exportAttendance.php(108): PHPExcel_Worksheet->setCellValue('counterxcounter...', 'Rohith Varanasi')
+#3 {main}
+  thrown in /home4/clubbed/public_html/web/php/Classes/PHPExcel/Cell.php on line 546
+[15-Oct-2013 16:59:05] PHP Notice:  Undefined variable: sheet in /home4/clubbed/public_html/web/php/exportAttendance.php on line 47
+[15-Oct-2013 16:59:05] PHP Fatal error:  Call to a member function getColumnDimension() on a non-object in /home4/clubbed/public_html/web/php/exportAttendance.php on line 47
+[15-Oct-2013 16:59:20] PHP Notice:  Undefined variable: sheet in /home4/clubbed/public_html/web/php/exportAttendance.php on line 47
+[15-Oct-2013 16:59:20] PHP Fatal error:  Call to a member function getColumnDimension() on a non-object in /home4/clubbed/public_html/web/php/exportAttendance.php on line 47
+[15-Oct-2013 16:59:48] PHP Notice:  Undefined variable: sheet in /home4/clubbed/public_html/web/php/exportAttendance.php on line 49
+[15-Oct-2013 16:59:48] PHP Fatal error:  Call to a member function getColumnDimension() on a non-object in /home4/clubbed/public_html/web/php/exportAttendance.php on line 49
+[15-Oct-2013 17:01:36] PHP Notice:  Undefined variable: sheet in /home4/clubbed/public_html/web/php/exportAttendance.php on line 47
+[15-Oct-2013 17:01:36] PHP Fatal error:  Call to a member function getColumnDimension() on a non-object in /home4/clubbed/public_html/web/php/exportAttendance.php on line 47
+[16-Oct-2013 22:16:11] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[16-Oct-2013 22:16:11] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[16-Oct-2013 22:16:15] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[16-Oct-2013 22:16:15] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[16-Oct-2013 23:21:41] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[16-Oct-2013 23:21:41] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[18-Oct-2013 10:52:49] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[18-Oct-2013 10:52:49] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[18-Oct-2013 10:52:54] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[18-Oct-2013 10:52:54] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[18-Oct-2013 17:47:45] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[18-Oct-2013 17:47:45] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[18-Oct-2013 20:13:44] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[18-Oct-2013 20:13:44] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[18-Oct-2013 20:52:25] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[18-Oct-2013 20:52:25] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[18-Oct-2013 21:09:46] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[18-Oct-2013 21:09:46] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[18-Oct-2013 21:16:38] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[18-Oct-2013 21:16:38] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[18-Oct-2013 21:18:46] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[18-Oct-2013 21:18:46] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[18-Oct-2013 21:22:37] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[18-Oct-2013 21:22:37] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[18-Oct-2013 21:22:40] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[18-Oct-2013 21:22:40] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[18-Oct-2013 21:34:46] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[18-Oct-2013 21:34:46] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[19-Oct-2013 22:13:42] PHP Parse error:  syntax error, unexpected T_STRING in /home4/clubbed/public_html/web/php/MailAttendance.php on line 55
+[20-Oct-2013 20:56:45] PHP Notice:  Undefined variable: clubName in /home4/clubbed/public_html/web/php/exportAttendance.php on line 375
+[20-Oct-2013 20:56:45] PHP Notice:  Undefined variable: clubName in /home4/clubbed/public_html/web/php/exportAttendance.php on line 375
+[20-Oct-2013 20:56:45] PHP Notice:  Undefined variable: clubName in /home4/clubbed/public_html/web/php/exportAttendance.php on line 375
+[20-Oct-2013 20:56:45] PHP Notice:  Undefined variable: clubName in /home4/clubbed/public_html/web/php/exportAttendance.php on line 375
+[20-Oct-2013 21:28:08] PHP Parse error:  syntax error, unexpected '.', expecting ')' in /home4/clubbed/public_html/web/php/exportAttendance.php on line 155
+[24-Oct-2013 20:59:02] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[24-Oct-2013 20:59:02] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[25-Oct-2013 19:41:30] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[25-Oct-2013 19:41:30] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[26-Oct-2013 15:38:20] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[26-Oct-2013 15:38:20] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[26-Oct-2013 15:45:41] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getpropic.php on line 17
+[26-Oct-2013 15:46:40] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getpropic.php on line 17
+[26-Oct-2013 15:47:30] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getpropic.php on line 17
+[26-Oct-2013 15:49:20] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getpropic.php on line 17
+[26-Oct-2013 15:51:01] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getpropic.php on line 17
+[26-Oct-2013 19:40:35] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[26-Oct-2013 19:40:35] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[26-Oct-2013 19:42:53] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[26-Oct-2013 19:42:53] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[26-Oct-2013 19:42:58] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[26-Oct-2013 19:42:58] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[26-Oct-2013 19:43:01] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[26-Oct-2013 19:43:01] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[28-Oct-2013 18:25:19] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home4/clubbed/public_html/web/php/deleteevent.php on line 16
+[05-Nov-2013 19:38:40] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[05-Nov-2013 19:38:40] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[07-Nov-2013 14:22:18] PHP Parse error:  syntax error, unexpected '{' in /home4/clubbed/public_html/web/php/exportAttendance.php on line 115
+[07-Nov-2013 14:22:34] PHP Parse error:  syntax error, unexpected '{' in /home4/clubbed/public_html/web/php/exportAttendance.php on line 115
+[07-Nov-2013 14:24:09] PHP Parse error:  syntax error, unexpected '{' in /home4/clubbed/public_html/web/php/exportAttendance.php on line 115
+[07-Nov-2013 14:31:52] PHP Notice:  Undefined index:  clubID in /home4/clubbed/public_html/web/php/exportAttendance.php on line 31
+[07-Nov-2013 14:31:52] PHP Notice:  Undefined variable: clubname in /home4/clubbed/public_html/web/php/exportAttendance.php on line 132
+[09-Nov-2013 20:09:33] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[09-Nov-2013 20:09:33] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[09-Nov-2013 20:09:42] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[09-Nov-2013 20:09:42] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[09-Nov-2013 20:13:05] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[09-Nov-2013 20:13:05] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[09-Nov-2013 20:17:15] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[09-Nov-2013 20:17:15] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[09-Nov-2013 20:17:22] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[09-Nov-2013 20:17:22] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[09-Nov-2013 20:17:24] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[09-Nov-2013 20:17:24] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[10-Nov-2013 12:47:16] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[10-Nov-2013 12:47:16] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[14-Nov-2013 07:26:17] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/going.php on line 27
+[16-Nov-2013 04:12:21] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getattendancemembers.php on line 68
+[16-Nov-2013 09:44:34] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/whosgoing.php on line 25
+[18-Nov-2013 20:39:14] PHP Warning:  Invalid argument supplied for foreach() in /home4/clubbed/public_html/web/php/takeattendance.php on line 16
+[19-Nov-2013 00:13:26] PHP Warning:  Invalid argument supplied for foreach() in /home4/clubbed/public_html/web/php/takeattendance.php on line 16
+[22-Nov-2013 19:18:43] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[22-Nov-2013 19:18:43] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[22-Nov-2013 19:19:02] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[22-Nov-2013 19:19:02] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[22-Nov-2013 19:19:13] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[22-Nov-2013 19:19:13] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[24-Nov-2013 15:58:18] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[25-Nov-2013 03:56:50] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home4/clubbed/public_html/web/php/deleteevent.php on line 16
+[26-Nov-2013 03:27:10] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[26-Nov-2013 03:27:10] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[26-Nov-2013 08:15:47] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on '67.220.217.230' (111) in /home4/clubbed/public_html/web/php/deleteclub.php on line 9
+[29-Nov-2013 20:25:07] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[29-Nov-2013 20:25:07] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[29-Nov-2013 20:25:19] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[29-Nov-2013 20:25:19] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[30-Nov-2013 18:34:18] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[30-Nov-2013 18:34:18] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[30-Nov-2013 18:34:20] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[30-Nov-2013 18:34:20] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[30-Nov-2013 18:41:09] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[30-Nov-2013 18:41:09] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[07-Dec-2013 10:24:30] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/newsfeed.php on line 20
+[07-Dec-2013 10:25:23] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/newsfeed.php on line 20
+[09-Dec-2013 12:24:21] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[09-Dec-2013 12:24:21] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[10-Dec-2013 18:34:49] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (49America/Chicagop31America/Chicago12bAmerica/ChicagoTue, 10 Dec 2013 18:34:49 -0600 16, 2014) at position 0 (4): Unexpected character' in /home4/clubbed/public_html/web/php/editevent.php:34
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/editevent.php(34): DateTime->__construct('49America/Chica...')
+#1 {main}
+  thrown in /home4/clubbed/public_html/web/php/editevent.php on line 34
+[10-Dec-2013 20:16:50] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (thAmerica/Chicagop31America/Chicago12bAmerica/ChicagoTue, 10 Dec 2013 20:16:50 -0600 16, 2014) at position 0 (t): The timezone could not be found in the database' in /home4/clubbed/public_html/web/php/editevent.php:34
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/editevent.php(34): DateTime->__construct('thAmerica/Chica...')
+#1 {main}
+  thrown in /home4/clubbed/public_html/web/php/editevent.php on line 34
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Dec-2013 09:56:58] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[24-Dec-2013 20:04:25] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[24-Dec-2013 20:04:25] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[25-Dec-2013 21:11:16] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[25-Dec-2013 21:11:16] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[28-Dec-2013 09:26:32] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[28-Dec-2013 09:26:32] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[29-Dec-2013 21:19:26] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[29-Dec-2013 21:19:26] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[31-Dec-2013 11:41:14] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[31-Dec-2013 11:41:15] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[04-Jan-2014 01:50:40] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[04-Jan-2014 01:50:40] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[06-Jan-2014 21:15:43] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[06-Jan-2014 21:15:43] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[13-Jan-2014 05:18:05] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[13-Jan-2014 05:18:05] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[15-Jan-2014 07:08:22] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[15-Jan-2014 07:08:22] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[15-Jan-2014 07:08:31] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[15-Jan-2014 07:08:31] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[15-Jan-2014 07:09:12] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[15-Jan-2014 07:09:12] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[15-Jan-2014 07:09:57] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[15-Jan-2014 07:09:57] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[15-Jan-2014 07:10:16] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[15-Jan-2014 07:10:16] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[15-Jan-2014 07:24:34] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[15-Jan-2014 07:24:34] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[17-Jan-2014 05:15:09] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/going.php on line 27
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 28
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 30
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 45
+[17-Jan-2014 22:48:06] PHP Warning:  stripos() [<a href='function.stripos'>function.stripos</a>]: needle is not a string or an integer in /home4/clubbed/public_html/web/php/search.php on line 47
+[26-Jan-2014 01:52:52] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 41
+[26-Jan-2014 01:52:52] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 73
+[10-Feb-2014 21:03:10] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[10-Feb-2014 21:03:10] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[10-Feb-2014 21:03:29] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[10-Feb-2014 21:03:29] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[28-Feb-2014 06:10:56 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[28-Feb-2014 06:10:56 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[28-Feb-2014 06:10:56 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[28-Feb-2014 06:10:56 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[28-Feb-2014 06:11:02 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[28-Feb-2014 06:11:02 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[28-Feb-2014 06:11:03 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[28-Feb-2014 06:11:03 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[28-Feb-2014 06:11:05 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[28-Feb-2014 06:11:05 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[28-Feb-2014 06:11:05 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[28-Feb-2014 06:11:05 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[07-Mar-2014 21:37:22 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home4/clubbed/public_html/web/php/getthreads.php on line 20
+[07-Mar-2014 21:37:32 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home4/clubbed/public_html/web/php/getthreads.php on line 20
+[07-Mar-2014 21:38:15 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home4/clubbed/public_html/web/php/getthreads.php on line 20
+[07-Mar-2014 21:40:07 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home4/clubbed/public_html/web/php/getthreads.php on line 20
+[07-Mar-2014 21:40:11 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home4/clubbed/public_html/web/php/getthreads.php on line 20
+[12-Mar-2014 07:24:04 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home4/clubbed/public_html/web/php/going.php on line 24
+[13-Mar-2014 21:03:26 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /home4/clubbed/public_html/web/php/whosgoing.php on line 22
+[16-Mar-2014 05:22:35 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /home4/clubbed/public_html/web/php/getattendancemembers.php on line 65
+[16-Mar-2014 21:49:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/clubbed/public_html/web/php/takeattendance.php on line 13
+[17-Mar-2014 08:08:27 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[17-Mar-2014 08:08:27 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[23-Mar-2014 04:10:27 America/Chicago] PHP Parse error:  syntax error, unexpected ''"'' (T_CONSTANT_ENCAPSED_STRING) in /home4/clubbed/public_html/web/php/deleteevent.php on line 13

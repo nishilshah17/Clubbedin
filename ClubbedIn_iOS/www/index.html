@@ -236,7 +236,7 @@
     <div data-role="header" data-position="fixed" data-tap-toggle="false">
         <a href="#defaultpanel" data-icon="grid" data-theme="f">More</a>
         <a href="#" id="head-menu-refresh" data-theme="a" data-role="button" data-icon="refresh" data-iconpos="notext"
-           class="ui-btn-right refresh-list" onclick="getClubs()" style="right:0.55em;">Refresh</a>
+           class="ui-btn-right refresh-list" onclick="refreshClubs();" style="right:0.55em;">Refresh</a>
 
         <h1>Your Clubs</h1>
     </div>
@@ -284,9 +284,9 @@
     <div data-role="header" data-position="fixed" data-tap-toggle="false">
         <a href="#defaultpanel2" data-icon="grid" data-theme="f">More</a>
 
-        <h1>Upcoming Events</h1>
+        <h1>Upcoming</h1>
         <a href="#" data-theme="a" data-role="button" data-icon="refresh" data-iconpos="notext"
-           class="ui-btn-right refresh-list" onclick="getUpcomingEvents()" style="right:0.55em;">Refresh</a>
+           class="ui-btn-right refresh-list" onclick="refreshUpcoming();" style="right:0.55em;">Refresh</a>
     </div>
     <div data-role="content">
         <ul data-role="listview" id="upcominglist" data-inset="true">
@@ -370,7 +370,7 @@
         <a href="#defaultpanel4" data-icon="grid" data-theme="f">More</a>
         <h1>Newsfeed</h1>
                 <a href="#" id="head-menu-refresh" data-theme="a" data-role="button" data-icon="refresh" data-iconpos="notext"
-           class="ui-btn-right refresh-list" onclick="getNewsFeed()" style="right:0.55em;">Refresh</a>
+           class="ui-btn-right refresh-list" onclick="refreshNewsfeed();" style="right:0.55em;">Refresh</a>
     </div>
     <div data-role="content">
         <ul data-role="listview" id="newsfeedcontent" data-inset="true">

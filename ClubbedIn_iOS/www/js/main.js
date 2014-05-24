@@ -49,7 +49,21 @@ document.addEventListener("deviceready", startApp, false);
                 error: function () {
                    alert("Error: could not connect to server");
                 }
-            })
+            });
+            $.ajax({
+                url: 'http://clubbedinapp.com/web/php/getupcoming.php',
+                crossDomain: true,
+                type: 'post',
+                data: {
+                    'uID': userID
+                },
+                success: function (data) {
+                   window.localStorage.setItem("upcoming",data);
+                },
+                error: function (data) {
+                    alert("Error: could not connect to server");
+                }
+            });
 
         }
         $(document).on("mobileinit", function(){
@@ -286,7 +300,7 @@ document.addEventListener("deviceready", startApp, false);
                         },
                         success: function (data) {
                             $.mobile.changePage('#page-tasklist');
-                            getClubs();
+                            refreshClubs();
                         }
                     });
                 }
@@ -378,7 +392,7 @@ document.addEventListener("deviceready", startApp, false);
             data: serData,
             success: function (data) {
                 $.mobile.changePage($('#page-tasklist'));
-                getClubs();
+               refreshClubs();
             },
         });
 
@@ -498,7 +512,7 @@ document.addEventListener("deviceready", startApp, false);
                 var json = jQuery.parseJSON(data);
                 if(json.num == '1') {
                     $.mobile.changePage('#page-tasklist');
-                    getClubs();
+                    refreshClubs();
                 } else if (json.num == '2') {
                     $('#joincluberror').append('<p class="error">You are already in '+json.clubname+'!</p>');
                 } else if (json.num == '3') {
@@ -631,9 +645,47 @@ document.addEventListener("deviceready", startApp, false);
         getClubs();
     });
 
-    $('#upcoming').on('pageshow', function () {
+    function refreshClubs() {
+            $.ajax({
+                async: false,
+                url: 'http://clubbedinapp.com/web/php/getclubs.php',
+                crossDomain: true,
+                type: 'post',
+                data: {
+                   'uID': userID
+                },
+                success: function (data) {
+                   window.localStorage.setItem("clubs",data);
+                },
+                error: function () {
+                   alert("Error: could not connect to server");
+                }
+            });
+        getClubs();
+    }
+
+    $(document).on('pageinit', '#upcoming', function () {
        getUpcomingEvents();
     });
+
+    function refreshUpcoming() {
+            $.ajax({
+                async: false,
+                url: 'http://clubbedinapp.com/web/php/getupcoming.php',
+                crossDomain: true,
+                type: 'post',
+                data: {
+                    'uID': userID
+                },
+                success: function (data) {
+                   window.localStorage.setItem("upcoming",data);
+                },
+                error: function (data) {
+                    alert("Error: could not connect to server");
+                }
+            });
+        getUpcomingEvents();
+    }
 
     $('#editmembers').on('pageshow', function() {
         getEditMembers();
@@ -819,6 +871,25 @@ document.addEventListener("deviceready", startApp, false);
         getNewsFeed();
     });
 
+    function refreshNewsfeed() {
+            $.ajax({
+                async: false,
+                url: 'http://clubbedinapp.com/web/php/newsfeed.php',
+                crossDomain: true,
+                type: 'post',
+                data: {
+                   'userID': userID
+                },
+                success: function(data) {
+                   window.localStorage.setItem("newsfeed",data);
+                },
+                error: function () {
+                   alert("Error: could not connect to server");
+                }
+            });
+        getNewsFeed();
+    }
+
     function getEventClubs() {
         $.ajax({
             url: 'http://clubbedinapp.com/web/php/getclubs.php',
@@ -890,7 +961,6 @@ document.addEventListener("deviceready", startApp, false);
     };
 
     function getClubs() {
-
         var json = jQuery.parseJSON(window.localStorage.getItem("clubs"));
         var clubcontent = $('#clubcontent');
         
@@ -923,7 +993,24 @@ document.addEventListener("deviceready", startApp, false);
         
         newsfeedcontent.listview('refresh');
         
+    }
+
+    function getUpcomingEvents() {
         
+        var json = jQuery.parseJSON(window.localStorage.getItem("upcoming"));
+        var upcominglist = $('#upcominglist');
+        
+        upcominglist.empty();
+        
+        for(var i=0; i<json.length; i++){
+            upcominglist.append('<li><a href="#" class="ui-link-inherit" data-event-id=\"' + json[i].id + '\" rel="external"><p class="ui-li-aside ui-li-desc">'+json[i].clubName+'</p><h3 class="ui-li-heading">' + json[i].name + '</h3><p class="ui-li-desc"><strong>'+json[i].date+' '+json[i].time+'</strong></p></a></li>');
+        }
+        if(json.length == 0){
+            upcominglist.append('<li>No Upcoming Events!</li>');
+        }
+        
+        upcominglist.listview('refresh');
+		
     }
 
     $(document).on('click', '#clubcontent li a', function () {
@@ -2274,32 +2361,6 @@ function getMembersAfterSearch(all) {
         }
         return false;
     });
-
-    function getUpcomingEvents() {
-		var upcominglist = $('#upcominglist')
-        $.ajax({
-            url: 'http://clubbedinapp.com/web/php/getupcoming.php',
-            crossDomain: true,
-            type: 'post',
-            data: {
-                'uID': userID
-            },
-            success: function (data) {
-				upcominglist.empty();
-                var json = jQuery.parseJSON(data);
-                for (var i = 0; i < json.length; i++)
-                    upcominglist.append('<li><a href="#" class="ui-link-inherit" data-event-id=\"' + json[i].id + '\" rel="external"><p class="ui-li-aside ui-li-desc">'+json[i].clubName+'</p><h3 class="ui-li-heading">' + json[i].name + '</h3><p class="ui-li-desc"><strong>'+json[i].date+' '+json[i].time+'</strong></p></a></li>');
-               if(json.length == 0)
-               {
-               upcominglist.append('<li><h1>No Upcoming Events!</h1></li>');
-               }
-                upcominglist.listview('refresh');
-            },
-            error: function (data) {
-				alert("Error: could not connect to server");
-			}
-        });
-    }
 
     function getEvents(all) {
     $.ajax({

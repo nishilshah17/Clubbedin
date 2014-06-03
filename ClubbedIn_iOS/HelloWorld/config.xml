@@ -50,8 +50,7 @@
         <plugin name="Notification" value="CDVNotification" />
         <plugin name="Capture" value="CDVCapture" />
         <plugin name="InAppBrowser" value="CDVInAppBrowser" />
-        <plugin name="Accelerometer" value="CDVAccelerometer" />
-        <gap:plugin name="com.phonegap.plugins.PushPlugin"/>
+        <feature name="PushPlugin"><param name="ios-package" value="PushPlugin" /></feature>
     </plugins>
 
     <access origin="*" />

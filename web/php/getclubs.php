@@ -24,7 +24,6 @@ while ($row = mysql_fetch_assoc($result)) {
     }
     else
     {
-
 	array_push($clubnames, array("name" => $row2['clubName'], "id" => $row['clubID']));
 	}
 

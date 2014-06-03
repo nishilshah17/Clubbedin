@@ -8,6 +8,7 @@ $dbserver = mysql_connect($dbhost, $dbuser, $dbpass)
 mysql_select_db($db)
 	or die("Unable to select database: " . mysql_error());
 
+$password = md5($password);
 $userID = $_POST['userID'];
 $isUserID = false;
 

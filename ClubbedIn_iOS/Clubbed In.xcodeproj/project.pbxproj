@@ -508,7 +508,7 @@
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 i386";
 			};
 			name = Debug;
 		};
@@ -529,7 +529,7 @@
 				PRODUCT_NAME = "Clubbed In";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 i386";
 			};
 			name = Release;
 		};

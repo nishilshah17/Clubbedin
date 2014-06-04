@@ -74,6 +74,5 @@
     <feature name="PushPlugin">
         <param name="ios-package" value="PushPlugin" />
     </feature>
-
     <access origin="*" />
 </widget>

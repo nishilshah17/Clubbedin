@@ -176,6 +176,16 @@
 
 		google.maps.event.addDomListener(window, 'load', initialize);
 	</script>
+    <script type="text/javascript">
+        //pushNotifications
+        
+        var pushNotification;
+        
+        document.addEventListener("deviceready", function(){
+            pushNotification = window.plugins.pushNotification;
+            alert("push notifs");
+        });
+    </script>
 
     
 </head>

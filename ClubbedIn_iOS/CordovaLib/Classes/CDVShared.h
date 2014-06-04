@@ -17,16 +17,17 @@
  under the License.
  */
 
-//  Bridge implementation file for using Cordova > 1.5 plugins in 1.5.0.
-//
+#import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
 
-#import <Cordova/CDV.h>
+@interface NSError (JSONMethods)
 
-/*
- Returns YES if it is at least version specified as NSString(X)
- Usage:
- if (IsAtLeastiOSVersion(@"5.1")) {
- // do something for iOS 5.1 or greater
- }
- */
-#define IsAtLeastiOSVersion(X) ([[[UIDevice currentDevice] systemVersion] compare:X options:NSNumericSearch] != NSOrderedAscending)
+- (NSString*)JSONRepresentation;
+
+@end
+
+@interface CLLocation (JSONMethods)
+
+- (NSString*)JSONRepresentation;
+
+@end

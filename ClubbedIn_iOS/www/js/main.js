@@ -185,7 +185,6 @@ document.addEventListener("deviceready", startApp, false);
 							window.localStorage.setItem('uID',json.userID);
 							startApp();
 	//		   				$.mobile.changePage('#page-tasklist');
-							getClubs();
 	                    } else {
 							$('#invalidlogin').append('<p class="error"><b>Login Failed!</b></p>');
 	                    }
@@ -962,6 +961,7 @@ document.addEventListener("deviceready", startApp, false);
 
     function getClubs() {
         var json = jQuery.parseJSON(window.localStorage.getItem("clubs"));
+        alert(json);
         var clubcontent = $('#clubcontent');
         
         clubcontent.empty();

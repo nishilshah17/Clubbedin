@@ -961,7 +961,7 @@ document.addEventListener("deviceready", startApp, false);
 
     function getClubs() {
         var json = jQuery.parseJSON(window.localStorage.getItem("clubs"));
-        alert(json);
+
         var clubcontent = $('#clubcontent');
         
         clubcontent.empty();

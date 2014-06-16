@@ -25,6 +25,7 @@
 #import "CDVCommandQueue.h"
 #import "CDVWhitelist.h"
 #import "CDVViewController.h"
+#import "CDVFile.h"
 
 @interface CDVHTTPURLResponse : NSHTTPURLResponse
 @property (nonatomic) NSInteger statusCode;
@@ -34,8 +35,6 @@ static CDVWhitelist* gWhitelist = nil;
 // Contains a set of NSNumbers of addresses of controllers. It doesn't store
 // the actual pointer to avoid retaining.
 static NSMutableSet* gRegisteredControllers = nil;
-
-NSString* const kCDVAssetsLibraryPrefixes = @"assets-library://";
 
 // Returns the registered view controller that sent the given request.
 // If the user-agent is not from a UIWebView, or if it's from an unregistered one,
@@ -110,7 +109,7 @@ static CDVViewController *viewControllerForRequest(NSURLRequest* request)
     NSURL* theUrl = [theRequest URL];
     CDVViewController* viewController = viewControllerForRequest(theRequest);
 
-    if ([[theUrl absoluteString] hasPrefix:kCDVAssetsLibraryPrefixes]) {
+    if ([[theUrl absoluteString] hasPrefix:kCDVAssetsLibraryPrefix]) {
         return YES;
     } else if (viewController != nil) {
         if ([[theUrl path] isEqualToString:@"/!gap_exec"]) {
@@ -122,11 +121,10 @@ static CDVViewController *viewControllerForRequest(NSURLRequest* request)
             }
             BOOL hasCmds = [queuedCommandsJSON length] > 0;
             if (hasCmds) {
-                SEL sel = @selector(enqueueCommandBatch:);
+                SEL sel = @selector(enqueCommandBatch:);
                 [viewController.commandQueue performSelectorOnMainThread:sel withObject:queuedCommandsJSON waitUntilDone:NO];
-                [viewController.commandQueue performSelectorOnMainThread:@selector(executePending) withObject:nil waitUntilDone:NO];
             } else {
-                SEL sel = @selector(processXhrExecBridgePoke:);
+                SEL sel = @selector(maybeFetchCommandsFromJs:);
                 [viewController.commandQueue performSelectorOnMainThread:sel withObject:[NSNumber numberWithInteger:[requestId integerValue]] waitUntilDone:NO];
             }
             // Returning NO here would be 20% faster, but it spams WebInspector's console with failure messages.
@@ -160,7 +158,7 @@ static CDVViewController *viewControllerForRequest(NSURLRequest* request)
     if ([[url path] isEqualToString:@"/!gap_exec"]) {
         [self sendResponseWithResponseCode:200 data:nil mimeType:nil];
         return;
-    } else if ([[url absoluteString] hasPrefix:kCDVAssetsLibraryPrefixes]) {
+    } else if ([[url absoluteString] hasPrefix:kCDVAssetsLibraryPrefix]) {
         ALAssetsLibraryAssetForURLResultBlock resultBlock = ^(ALAsset* asset) {
             if (asset) {
                 // We have the asset!  Get the data and send it along.

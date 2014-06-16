@@ -18,16 +18,20 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <CoreLocation/CoreLocation.h>
+#import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioServices.h>
+#import "CDVPlugin.h"
 
-@interface NSError (JSONMethods)
+@interface CDVNotification : CDVPlugin <UIAlertViewDelegate>{}
 
-- (NSString*)JSONRepresentation;
+- (void)alert:(CDVInvokedUrlCommand*)command;
+- (void)confirm:(CDVInvokedUrlCommand*)command;
+- (void)prompt:(CDVInvokedUrlCommand*)command;
+- (void)vibrate:(CDVInvokedUrlCommand*)command;
 
 @end
 
-@interface CLLocation (JSONMethods)
-
-- (NSString*)JSONRepresentation;
+@interface CDVAlertView : UIAlertView {}
+@property (nonatomic, copy) NSString* callbackId;
 
 @end

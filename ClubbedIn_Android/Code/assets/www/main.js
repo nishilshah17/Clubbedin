@@ -26,7 +26,7 @@
 					transition : "flip",
 				});
 			}
-
+            loadContent();
 		}
         
         $(document).on("mobileinit", function(){
@@ -2275,7 +2275,7 @@ function getMembersAfterSearch(all) {
                    for (var i=0; i<json.length; i++)
                     auri.append('<li><a><h3 class="ui-li-heading">' + json[i].title + '</h3><p class="ui-li-desc">'+json[i].info+'</p></a><a id=\"' + json[i].num + '\" class="deleteMe2"></a></li>');
                   auri.listview('refresh');
-               }
+               }'
             },
         });
 

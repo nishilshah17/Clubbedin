@@ -81,9 +81,9 @@
     <meta name="description" content="ClubApp"/>
 
     <link rel="stylesheet" href="css/jquery.mobile-1.3.1.min.css"/>
+    <script type="text/javascript" charset="utf-8" src="js/PushNotification.js"></script>
     <script src="js/jquery-1.7.2.min.js"></script>
     <script src="js/jquery.mobile-1.3.1.min.js"></script>
-    <script src="cordova.js"></script>
 
     <!-- The following must be AFTER jquery core and BEFORE jquery mobile js -->
     <script type="text/javascript">
@@ -102,8 +102,13 @@
 
     // PhoneGap is ready
     function onDeviceReady() {
-    // Do cool things here...
-    }
+        try{
+         var pushNotification = window.plugins.pushNotification;
+            alert(pushNotification);
+        } catch (err) {
+            alert(err);
+        }
+     }
 
     function getImage() {
     // Retrieve image file location from specified source
@@ -142,7 +147,7 @@
     }
 
     function fail(error) {
-    alert("An error has occurred: Code = " = error.code);
+        alert("An error has occurred: Code = " + error.code);
     }
     </script>
     
@@ -154,7 +159,6 @@
     <link rel="stylesheet" href="css/jquery.mobile.simpledialog.min.css" />
     <link rel="stylesheet" href="jquery.mobile.flatui.css" />
     <script type="text/javascript" charset="utf-8" src="js/jquery.mobile.simpledialog2.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="js/PushNotification.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
 
 	<script type="text/javascript">
@@ -198,10 +202,6 @@
         <div data-role="footer" data-position="fixed" data-theme="f">
               <h1>  Clubbed In &copy; 2013 </h1>
         </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> b39ef4e86d66f5100cb6e39ba508f1474a744010
 </div>
 
 </div>

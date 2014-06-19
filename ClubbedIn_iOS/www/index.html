@@ -152,8 +152,8 @@
     <link rel="stylesheet" href="css/jquery.mobile.flatui.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <script type="text/javascript" charset="utf-8" src="js/jquery.mobile.simpledialog2.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="js/PushNotification.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/jquery.textareaCounter.plugin.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/PushNotification.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
     
 	<script type="text/javascript">
@@ -176,6 +176,39 @@
 
 		google.maps.event.addDomListener(window, 'load', initialize);
 	</script>
+    <script type="text/javascript">
+        //pushNotifications
+        
+        var pushNotification;
+        
+        document.addEventListener("deviceready", function(){
+            pushNotification = window.plugins.pushNotification;
+            //alert(pushNotification);
+            pushNotification.register(
+                tokenHandler,
+                errorHandler,
+                {
+                    "badge":"true",
+                    "sound":"true",
+                    "alert":"true",
+                    "ecb":"onNotificationAPN"
+                });
+        });
+        
+        function errorHandler (error) {
+            alert('error = ' + error);
+        }
+    
+        function successHandler (result) {
+            alert('result = ' + result);
+        }
+    
+        function tokenHandler (result) {
+
+            alert('device token = ' + result);
+        }
+    
+    </script>
 
     
 </head>
@@ -236,7 +269,7 @@
     <div data-role="header" data-position="fixed" data-tap-toggle="false">
         <a href="#defaultpanel" data-icon="grid" data-theme="f">More</a>
         <a href="#" id="head-menu-refresh" data-theme="a" data-role="button" data-icon="refresh" data-iconpos="notext"
-           class="ui-btn-right refresh-list" onclick="getClubs()" style="right:0.55em;">Refresh</a>
+           class="ui-btn-right refresh-list" onclick="refreshClubs();" style="right:0.55em;">Refresh</a>
 
         <h1>Your Clubs</h1>
     </div>
@@ -284,9 +317,9 @@
     <div data-role="header" data-position="fixed" data-tap-toggle="false">
         <a href="#defaultpanel2" data-icon="grid" data-theme="f">More</a>
 
-        <h1>Upcoming Events</h1>
+        <h1>Upcoming</h1>
         <a href="#" data-theme="a" data-role="button" data-icon="refresh" data-iconpos="notext"
-           class="ui-btn-right refresh-list" onclick="getUpcomingEvents()" style="right:0.55em;">Refresh</a>
+           class="ui-btn-right refresh-list" onclick="refreshUpcoming();" style="right:0.55em;">Refresh</a>
     </div>
     <div data-role="content">
         <ul data-role="listview" id="upcominglist" data-inset="true">
@@ -370,7 +403,7 @@
         <a href="#defaultpanel4" data-icon="grid" data-theme="f">More</a>
         <h1>Newsfeed</h1>
                 <a href="#" id="head-menu-refresh" data-theme="a" data-role="button" data-icon="refresh" data-iconpos="notext"
-           class="ui-btn-right refresh-list" onclick="getNewsFeed()" style="right:0.55em;">Refresh</a>
+           class="ui-btn-right refresh-list" onclick="refreshNewsfeed();" style="right:0.55em;">Refresh</a>
     </div>
     <div data-role="content">
         <ul data-role="listview" id="newsfeedcontent" data-inset="true">
@@ -718,7 +751,7 @@
 
 <div data-role="page" id="editclubinfo">
     <div data-role="header">
-        <a href="#defaultclub" data-icon="arrow-l" data-theme="f" onclick="getClubData(curClub, 1)" id="backtoclub4">Back</a>
+        <a href="#defaultclub" data-icon="arrow-l" data-theme="f" onclick="getClubInfo(curClub, 1)" id="backtoclub4">Back</a>
         <h1>Edit Info</h1>
     </div>
     <div data-role="content">
@@ -741,8 +774,8 @@
 
 <div data-role="page" id="editimage">
     <div data-role="header">
-        <a href="#defaultclub" data-icon="arrow-l" data-theme="f" onclick="getClubData(curClub, 1)" id="backtoclub8">Back</a>
-        <h1>Edit Logo</h1>
+        <a href="#defaultclub" data-icon="arrow-l" data-theme="f" onclick="getClubInfo(curClub, 1)" id="backtoclub8">Back</a>
+        <h1>Club Logo</h1>
     </div>
     <div data-role="content">
         <div data-role = "button" onClick = "getImage();" >Upload Logo</div>
@@ -791,7 +824,7 @@
 </div>
 
 <div data-role="page" id="admins">
-    <div data-role="header" data-position="fixed">
+    <div data-role="header" data-tap-toggle="false" data-position="fixed">
         <a href="#defaultclub" data-icon="arrow-l" data-theme="f" onclick="getClubData(curClub, 1)" id="backtoclub2">Back</a>
         <h1>Admins</h1>
         <a href="#" id="head-menu-refresh2" data-theme="a" data-role="button" data-icon="refresh" data-iconpos="notext"
@@ -811,7 +844,7 @@
 </div>
 
 <div data-role="page" id="defaultevent">
-    <div data-role="header" id="ehdr">
+    <div data-role="header" data-tap-toggle="false" id="ehdr">
     </div>
     <div data-role="content">
         <div class="ui-grid-a">
@@ -839,7 +872,7 @@
 </div>
 
 <div data-role="page" id="addanevent">
-    <div data-role="header">
+    <div data-role="header" data-tap-toggle="false">
         <a href="#page-tasklist" data-icon="arrow-l" data-theme="f" id="backtoclub7">Home</a>
         <h1>Choose Club</h1>
     </div>
@@ -853,7 +886,7 @@
 </div>
 
 <div data-role="page" id="searchevents">
-    <div data-role="header">
+    <div data-role="header" data-tap-toggle="false" data-position="fixed">
         <a href="#page-tasklist" data-icon="arrow-l" data-theme="f">Home</a>
         <h1>Search</h1>
     </div>
@@ -1080,6 +1113,5 @@
 </div>
 
 <script src="js/main.js"></script>
-<script src="js/push.js"></script>
 </body>
 </html>

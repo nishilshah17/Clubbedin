@@ -87,6 +87,7 @@ document.addEventListener("deviceready", startApp, false);
             });
 
         }
+
         $(document).on("mobileinit", function(){
             $.mobile.defaultPageTransition   = 'none';
             $.mobile.defaultDialogTransition = 'none';
@@ -1890,7 +1891,7 @@ function getClubInfo(id, num) {
     
 }
 
-function getThreads() {
+/*function getThreads() {
 
     $.ajax({
            url: 'http://clubbedinapp.com/web/php/getthreads.php',
@@ -1920,7 +1921,7 @@ function getThreads() {
                 $('#threads').listview('refresh');
            }
     });
-}
+}*/
 
     function getLogo() {
         $('#clubimage').empty();

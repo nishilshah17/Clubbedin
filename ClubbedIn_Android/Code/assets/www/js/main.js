@@ -2535,4 +2535,4 @@ function getMembersAfterSearch(all) {
     'warningNumber': 40,
     'displayFormat': '#left'
     };
-    $('#textareapost').textareaCount(options2);
+//    $('#textareapost').textareaCount(options2);

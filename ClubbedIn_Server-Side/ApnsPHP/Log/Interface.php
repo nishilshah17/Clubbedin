@@ -14,7 +14,7 @@
  * to aldo.armiento@gmail.com so we can send you a copy immediately.
  *
  * @author (C) 2010 Aldo Armiento (aldo.armiento@gmail.com)
- * @version $Id$
+ * @version $Id: Interface.php 50 2010-03-01 21:45:23Z aldo.armiento $
  */
 
 /**

@@ -14,7 +14,7 @@
  * to aldo.armiento@gmail.com so we can send you a copy immediately.
  *
  * @author (C) 2010 Aldo Armiento (aldo.armiento@gmail.com)
- * @version $Id$
+ * @version $Id: Abstract.php 53 2010-08-27 17:45:19Z aldo.armiento $
  */
 
 /**
@@ -44,7 +44,6 @@ abstract class ApnsPHP_Abstract
 
 	const DEVICE_BINARY_SIZE = 32; /**< @type integer Device token length. */
 
-	const WRITE_INTERVAL = 10000; /**< @type integer Default write interval in micro seconds. */
 	const CONNECT_RETRY_INTERVAL = 1000000; /**< @type integer Default connect retry interval in micro seconds. */
 	const SOCKET_SELECT_TIMEOUT = 1000000; /**< @type integer Default socket select timeout in micro seconds. */
 
@@ -56,10 +55,8 @@ abstract class ApnsPHP_Abstract
 	protected $_nConnectRetryTimes = 3; /**< @type integer Connect retry times. */
 
 	protected $_sProviderCertificateFile; /**< @type string Provider certificate file with key (Bundled PEM). */
-	protected $_sProviderCertificatePassphrase; /**< @type string Provider certificate passphrase. */
 	protected $_sRootCertificationAuthorityFile; /**< @type string Root certification authority file. */
 
-	protected $_nWriteInterval; /**< @type integer Write interval in micro seconds. */
 	protected $_nConnectRetryInterval; /**< @type integer Connect retry interval in micro seconds. */
 	protected $_nSocketSelectTimeout; /**< @type integer Socket select timeout in micro seconds. */
 
@@ -93,7 +90,6 @@ abstract class ApnsPHP_Abstract
 		$this->_sProviderCertificateFile = $sProviderCertificateFile;
 
 		$this->_nConnectTimeout = ini_get("default_socket_timeout");
-		$this->_nWriteInterval = self::WRITE_INTERVAL;
 		$this->_nConnectRetryInterval = self::CONNECT_RETRY_INTERVAL;
 		$this->_nSocketSelectTimeout = self::SOCKET_SELECT_TIMEOUT;
 	}
@@ -142,17 +138,6 @@ abstract class ApnsPHP_Abstract
 	}
 
 	/**
-	 * Set the Provider Certificate passphrase.
-	 *
-	 * @param  $sProviderCertificatePassphrase @type string Provider Certificate
-	 *         passphrase.
-	 */
-	public function setProviderCertificatePassphrase($sProviderCertificatePassphrase)
-	{
-		$this->_sProviderCertificatePassphrase = $sProviderCertificatePassphrase;
-	}
-
-	/**
 	 * Set the Root Certification Authority file.
 	 *
 	 * Setting the Root Certification Authority file automatically set peer verification
@@ -185,30 +170,6 @@ abstract class ApnsPHP_Abstract
 	public function getCertificateAuthority()
 	{
 		return $this->_sRootCertificationAuthorityFile;
-	}
-
-	/**
-	 * Set the write interval.
-	 *
-	 * After each socket write operation we are sleeping for this 
-	 * time interval. To speed up the sending operations, use Zero
-	 * as parameter but some messages may be lost.
-	 *
-	 * @param  $nWriteInterval @type integer Write interval in micro seconds.
-	 */
-	public function setWriteInterval($nWriteInterval)
-	{
-		$this->_nWriteInterval = (int)$nWriteInterval;
-	}
-
-	/**
-	 * Get the write interval.
-	 *
-	 * @return @type integer Write interval in micro seconds.
-	 */
-	public function getWriteInterval()
-	{
-		return $this->_nWriteInterval;
 	}
 
 	/**
@@ -333,10 +294,10 @@ abstract class ApnsPHP_Abstract
 			try {
 				$bConnected = $this->_connect();
 			} catch (ApnsPHP_Exception $e) {
-				$this->_log('ERROR: ' . $e->getMessage());
 				if ($nRetry >= $this->_nConnectRetryTimes) {
 					throw $e;
 				} else {
+					$this->_log('ERROR: ' . $e->getMessage());
 					$this->_log(
 						"INFO: Retry to connect (" . ($nRetry+1) .
 						"/{$this->_nConnectRetryTimes})..."
@@ -379,15 +340,10 @@ abstract class ApnsPHP_Abstract
 		 * @see http://php.net/manual/en/context.ssl.php
 		 */
 		$streamContext = stream_context_create(array('ssl' => array(
-			'verify_peer' => isset($this->_sRootCertificationAuthorityFile),
-			'cafile' => $this->_sRootCertificationAuthorityFile,
+			//'verify_peer' => isset($this->_sRootCertificationAuthorityFile),
+			//'cafile' => $this->_sRootCertificationAuthorityFile,
 			'local_cert' => $this->_sProviderCertificateFile
 		)));
-
-		if (!empty($this->_sProviderCertificatePassphrase)) {
-			stream_context_set_option($streamContext, 'ssl',
-				'passphrase', $this->_sProviderCertificatePassphrase);
-		}
 
 		$this->_hSocket = @stream_socket_client($sURL, $nError, $sError,
 			$this->_nConnectTimeout, STREAM_CLIENT_CONNECT, $streamContext);

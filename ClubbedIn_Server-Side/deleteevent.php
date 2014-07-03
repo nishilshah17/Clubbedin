@@ -2,6 +2,7 @@
 header("access-control-allow-origin: *");
 
 include 'mysqlconnect.php';
+include 'pushnotifs.php';
 
 $dbserver = mysql_connect($dbhost, $dbuser, $dbpass)
     or die("Unable to connect to MySQL: " . mysql_error());
@@ -10,12 +11,12 @@ mysql_select_db($db)
 
 $eventID = $_POST['eventID'];
 
-$result = mysql_query('SELECT * FROM events WHERE eventID = "'. $eventID'"');
+$result = mysql_query('SELECT * FROM events WHERE eventID = "'.$eventID.'"');
 $row = mysql_fetch_assoc($result);
 $clubID = $row['clubID'];
 $eventName = $row['eventName'];
 
-$result2 = mysql_query('SELECT * FROM clubmember WHERE clubID = "'.$clubID'"');
+$result2 = mysql_query('SELECT * FROM clubmember WHERE clubID = "'.$clubID.'"');
 
 while ($row2 = mysql_fetch_assoc($result2)) {
 
@@ -278,6 +279,8 @@ while ($row2 = mysql_fetch_assoc($result2)) {
 	{
 	  echo "Message sent!";
 	}
+    $message = "Sorry, ".$eventName." has been canceled!";
+    sendNotification($userID, $message);
 }
 
 ?>

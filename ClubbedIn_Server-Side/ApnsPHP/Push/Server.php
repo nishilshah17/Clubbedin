@@ -14,7 +14,7 @@
  * to aldo.armiento@gmail.com so we can send you a copy immediately.
  *
  * @author (C) 2010 Aldo Armiento (aldo.armiento@gmail.com)
- * @version $Id$
+ * @version $Id: Server.php 55 2010-08-27 19:07:38Z aldo.armiento $
  */
 
 /**
@@ -22,6 +22,8 @@
  * @ingroup ApnsPHP_Push
  */
 
+ require_once realpath(dirname(__FILE__).'/..').'/Push.php';
+ 
 /**
  * The Push Notification Server Provider.
  *

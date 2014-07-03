@@ -176,40 +176,6 @@
 
 		google.maps.event.addDomListener(window, 'load', initialize);
 	</script>
-    <script type="text/javascript">
-        //pushNotifications
-        
-        var pushNotification;
-        
-        document.addEventListener("deviceready", function(){
-            pushNotification = window.plugins.pushNotification;
-            //alert(pushNotification);
-            pushNotification.register(
-                tokenHandler,
-                errorHandler,
-                {
-                    "badge":"true",
-                    "sound":"true",
-                    "alert":"true",
-                    "ecb":"onNotificationAPN"
-                });
-        });
-        
-        function errorHandler (error) {
-            alert('error = ' + error);
-        }
-    
-        function successHandler (result) {
-            alert('result = ' + result);
-        }
-    
-        function tokenHandler (result) {
-
-            alert('device token = ' + result);
-        }
-    
-    </script>
-
     
 </head>
 <body>

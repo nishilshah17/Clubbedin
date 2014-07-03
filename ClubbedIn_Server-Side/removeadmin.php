@@ -2,6 +2,7 @@
 header("access-control-allow-origin: *");
 
 include 'mysqlconnect.php';
+include 'pushnotifs.php';
 
 $dbserver = mysql_connect($dbhost, $dbuser, $dbpass)
     or die("Unable to connect to MySQL: " . mysql_error());
@@ -268,6 +269,9 @@ else
 {
   echo "Message sent!";
 }
+
+$message = "You are no longer an admin for ".$club;
+sendNotification($lid,$message);
 
 
 

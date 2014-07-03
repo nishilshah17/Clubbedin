@@ -11,8 +11,14 @@ mysql_select_db($db)
 
 $platform = $_POST['platform'];
 $deviceID = $_POST['deviceID'];
-$userID = $_POST['userID'];
+$userID = $_POST['uID'];
 
-mysql_query("INSERT INTO devids (userID, deviceID, platform) VALUES ("'.$platform.'", "'.$deviceID.'", "'.$userID.'")");
+$result = mysql_query('SELECT * FROM devids WHERE userID = "'.$userID.'" and deviceID = "'.$deviceID.'"');
+
+if(mysql_num_rows($result) == 0) {
+
+    mysql_query('INSERT INTO devids (userID, deviceID, platform) VALUES ("'.$userID.'", "'.$deviceID.'", "'.$platform.'")');
+    
+}
 
 ?>

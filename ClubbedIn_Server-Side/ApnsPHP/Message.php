@@ -14,7 +14,7 @@
  * to aldo.armiento@gmail.com so we can send you a copy immediately.
  *
  * @author (C) 2010 Aldo Armiento (aldo.armiento@gmail.com)
- * @version $Id$
+ * @version $Id: Message.php 100 2011-09-12 13:50:56Z aldo.armiento $
  */
 
 /**
@@ -43,7 +43,6 @@ class ApnsPHP_Message
 	protected $_sText; /**< @type string Alert message to display to the user. */
 	protected $_nBadge; /**< @type integer Number to badge the application icon with. */
 	protected $_sSound; /**< @type string Sound to play. */
-	protected $_bContentAvailable; /**< @type boolean True to initiates the Newsstand background download. @see http://tinyurl.com/ApplePushNotificationNewsstand */
 
 	protected $_aCustomProperties; /**< @type mixed Custom properties container. */
 
@@ -187,34 +186,6 @@ class ApnsPHP_Message
 	}
 
 	/**
-	 * Initiates the Newsstand background download.
-	 * @see http://tinyurl.com/ApplePushNotificationNewsstand
-	 *
-	 * @param  $bContentAvailable @type boolean True to initiates the Newsstand background download.
-	 * @throws ApnsPHP_Message_Exception if ContentAvailable is not a
-	 *         boolean.
-	 */
-	public function setContentAvailable($bContentAvailable = true)
-	{
-		if (!is_bool($bContentAvailable)) {
-			throw new ApnsPHP_Message_Exception(
-				"Invalid content-available value '{$bContentAvailable}'"
-			);
-		}
-		$this->_bContentAvailable = $bContentAvailable ? true : null;
-	}
-
-	/**
-	 * Get if should initiates the Newsstand background download.
-	 *
-	 * @return @type boolean Initiates the Newsstand background download property.
-	 */
-	public function getContentAvailable()
-	{
-		return $this->_bContentAvailable;
-	}
-
-	/**
 	 * Set a custom property.
 	 *
 	 * @param  $sName @type string Custom property name.
@@ -344,14 +315,11 @@ class ApnsPHP_Message
 		if (isset($this->_sText)) {
 			$aPayload[self::APPLE_RESERVED_NAMESPACE]['alert'] = (string)$this->_sText;
 		}
-		if (isset($this->_nBadge) && $this->_nBadge >= 0) {
+		if (isset($this->_nBadge) && $this->_nBadge > 0) {
 			$aPayload[self::APPLE_RESERVED_NAMESPACE]['badge'] = (int)$this->_nBadge;
 		}
 		if (isset($this->_sSound)) {
 			$aPayload[self::APPLE_RESERVED_NAMESPACE]['sound'] = (string)$this->_sSound;
-		}
-		if (isset($this->_bContentAvailable)) {
-			$aPayload[self::APPLE_RESERVED_NAMESPACE]['content-available'] = (int)$this->_bContentAvailable;
 		}
 
 		if (is_array($this->_aCustomProperties)) {
@@ -372,18 +340,10 @@ class ApnsPHP_Message
 	 */
 	public function getPayload()
 	{
-		$sJSON = json_encode($this->_getPayload(), defined('JSON_UNESCAPED_UNICODE') ? JSON_UNESCAPED_UNICODE : 0);
-		if (!defined('JSON_UNESCAPED_UNICODE') && function_exists('mb_convert_encoding')) {
-			$sJSON = preg_replace_callback(
-				'~\\\\u([0-9a-f]{4})~i',
-				create_function('$aMatches', 'return mb_convert_encoding(pack("H*", $aMatches[1]), "UTF-8", "UTF-16");'),
-				$sJSON);
-		}
-
 		$sJSONPayload = str_replace(
 			'"' . self::APPLE_RESERVED_NAMESPACE . '":[]',
 			'"' . self::APPLE_RESERVED_NAMESPACE . '":{}',
-			$sJSON
+			json_encode($this->_getPayload())
 		);
 		$nJSONPayloadLen = strlen($sJSONPayload);
 

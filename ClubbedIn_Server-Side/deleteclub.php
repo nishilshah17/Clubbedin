@@ -2,6 +2,7 @@
 header("access-control-allow-origin: *");
 
 include 'mysqlconnect.php';
+include 'pushnotifs.php';
 
 $dbserver = mysql_connect($dbhost, $dbuser, $dbpass)
     or die("Unable to connect to MySQL: " . mysql_error());
@@ -278,6 +279,9 @@ while ($row2 = mysql_fetch_assoc($result2)) {
 	{
 	  echo "Message sent!";
 	}
+    
+    $message = $club." has been deleted!";
+    sendNotification($userID, $message);
 }
 
 ?>

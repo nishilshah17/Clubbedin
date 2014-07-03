@@ -14,9 +14,11 @@
  * to aldo.armiento@gmail.com so we can send you a copy immediately.
  *
  * @author (C) 2010 Aldo Armiento (aldo.armiento@gmail.com)
- * @version $Id$
+ * @version $Id: Embedded.php 50 2010-03-01 21:45:23Z aldo.armiento $
  */
 
+ require_once('Interface.php');
+		
 /**
  * A simple logger.
  *
@@ -37,8 +39,10 @@ class ApnsPHP_Log_Embedded implements ApnsPHP_Log_Interface
 	 */
 	public function log($sMessage)
 	{
+		/*
 		printf("%s ApnsPHP[%d]: %s\n",
 			date('r'), getmypid(), trim($sMessage)
 		);
+		*/
 	}
 }

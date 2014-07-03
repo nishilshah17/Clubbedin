@@ -14,7 +14,7 @@
  * to aldo.armiento@gmail.com so we can send you a copy immediately.
  *
  * @author (C) 2010 Aldo Armiento (aldo.armiento@gmail.com)
- * @version $Id$
+ * @version $Id: Push.php 90 2010-12-25 21:32:47Z aldo.armiento $
  */
 
 /**
@@ -181,7 +181,6 @@ class ApnsPHP_Push extends ApnsPHP_Abstract
 						)
 					);
 				}
-				usleep($this->_nWriteInterval);
 
 				$bError = $this->_updateQueue($aErrorMessage);
 				if ($bError) {

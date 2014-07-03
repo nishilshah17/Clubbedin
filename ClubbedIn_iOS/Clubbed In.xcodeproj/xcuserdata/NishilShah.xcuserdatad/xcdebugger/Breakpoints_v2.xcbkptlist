@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../../NishilShah/workspace/Clubbedin/ClubbedIn_iOS/www/js/main.js"
-            timestampString = "423885789.992469"
+            timestampString = "425594311.309078"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1870"
-            endingLineNumber = "1870"
+            startingLineNumber = "1915"
+            endingLineNumber = "1915"
             landmarkName = "getClubInfo"
             landmarkType = "7">
          </BreakpointContent>

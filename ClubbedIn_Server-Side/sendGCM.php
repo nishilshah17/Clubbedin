@@ -22,7 +22,7 @@ $result = mysql_query('SELECT * FROM devids WHERE userID = 646225650');
 $row = $result['deviceID'];
         
             date_default_timezone_set('America/New_York');
-            $message = "We made it!";
+            $message = "Push notification testing!";
 
             // Report all PHP errors
             error_reporting(-1);

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.RNI.clubbedin" version="2.0.0">
+    <name>
+        Clubbed In
+    </name>
+    <description>
+        Helping YOU get organized.
+    </description>
+
+    <author href="https://clubbedinapp.com" email="clubbedinapp@gmail.com">
+        RNI
+    </author>
+    <gap:platforms>
+        <gap:platform name="ios" minVersion="4.0"/>
+        <gap:platform name="android" minVersion="2.1"/>
+    </gap:platforms>
+
+	<preference name="phonegap-version" value="2.9.0" />
+	<preference name="orientation" value="portrait" />
+    
+	<icon src="icon.png" />
+    <feature name="PushPlugin">
+      <param name="android-package" value="com.plugin.gcm.PushPlugin" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+	<feature name="http://api.phonegap.com/1.0/camera"/>
+	<feature name="http://api.phonegap.com/1.0/file"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/notification"/>
+    <access origin="*" />
+	
+</widget>

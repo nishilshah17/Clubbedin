@@ -29,3 +29,8 @@
     -webkit-box-shadow: -3px 0px 2px #888;
     box-shadow: -3px 0px 2px #888;
 }
+
+.customnav{
+    background:rgba(26, 120, 178, 1);
+    color:#fff
+}

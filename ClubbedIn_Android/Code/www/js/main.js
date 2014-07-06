@@ -447,8 +447,6 @@
         }).form()) {
 
         var serData = $('#postform').serialize() + "&uID=" + userID + "&clubID=" + curClub;
-                          alert(curClub);
-                          alert(userID);
         e.preventDefault();
         $.ajax({
             url: 'http://clubbedinapp.com/web/php/newthread.php',
@@ -561,24 +559,22 @@
     });
 
     $("#getclubid2").submit(function (e) {
-        var serData = $('#getclubid2').serialize() + "&uID=" + userID;
+        var serData = $('#getclubid2').serialize() + "&uID=" + userID + "&curClub=" + curClub;
         e.preventDefault();
         $.ajax({
-            url: 'http://clubbedinapp.com/web/php/joinclub.php',
+            url: 'http://clubbedinapp.com/web/php/joinclubsearch.php',
             crossDomain: true,
             type: 'post',
             data: serData,
             success: function (data) {
-                $('#message1, #message2, #errorjoining').empty();
+                $('#errorjoining').empty();
                 var json = jQuery.parseJSON(data);
-                $('#message1').append('<h1>' + json.message + '</h1>');
-                $('#message2').append('<a href=\"' + json.redirect + '\"><h2>' + json.message2 + '</h2></a>');
-                if(json.message == "There is no club with that id!")
-                    $('#errorjoining').append("Incorrect ID. Please retry.");
-                else {
+               if(json.num == 1) {
                     $.mobile.changePage('#defaultclub');
-                    getClubInfo(json.id, 2);
-                }
+                    getClubInfo(curClub, 2);
+               } else {
+                    $('#errorjoining').append("<strong>Incorrect ID. Please retry.</strong>");
+               }
             }
         });
 
@@ -1146,7 +1142,6 @@
                             'eventID': curEvent
                         },
                         success: function (data) {
-                           alert(data);
                             var json = jQuery.parseJSON(data);
                             for (var i = 0; i < json.length; i++)
                             {
@@ -2009,7 +2004,7 @@ function getClubInfo(id, num) {
                     if(json[i].id == userID)
                     {
                         var htmlStrings = [
-                           '<a href="#edite" data-role="button" data-rel="dialog" data-inline="true" data-iconpos="notext" data-icon="gear" data-theme="f">Edit</a>'
+                           '<a class="hdrbtn" href="#edite" data-role="button" data-rel="dialog" data-inline="true" data-iconpos="notext" data-icon="gear" data-theme="f">Edit</a>'
                         ];
                         $('#addbuttons2').append(htmlStrings.join(''));
                         $('#defaultevent').trigger('pagecreate');
@@ -2471,7 +2466,7 @@ function getMembersAfterSearch(all) {
                         $('#alleventshdr').empty();
                         var json2 = jQuery.parseJSON(data);
                         $('#alleventshdr').append(json2.name);
-                        $("#backtoclub .ui-btn-text").text("Back");
+                        $('#backtoclub .ui-btn-text').text('Back');
                     }
                 });
             }
@@ -2539,15 +2534,7 @@ function getMembersAfterSearch(all) {
     'warningNumber': 40,
     'displayFormat': '#left'
     };
-//    $('#textareapost').textareaCount(options2);
-
-
-
-
-
-
-
-
+    $('#textareapost').textareaCount(options2);
 
 //IGNORE FROM HERE ON
           function initPush() {

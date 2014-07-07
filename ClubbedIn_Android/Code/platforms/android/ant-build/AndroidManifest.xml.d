@@ -1,2 +1,2 @@
-C:\Users\Rohith\Documents\GitHub\ClubbedIn_Android\platforms\android\ant-build\AndroidManifest.xml : \
-C:\Users\Rohith\Documents\GitHub\ClubbedIn_Android\platforms\android\AndroidManifest.xml \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/ant-build/AndroidManifest.xml : \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/AndroidManifest.xml \

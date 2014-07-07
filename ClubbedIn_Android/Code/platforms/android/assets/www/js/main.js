@@ -447,8 +447,6 @@
         }).form()) {
 
         var serData = $('#postform').serialize() + "&uID=" + userID + "&clubID=" + curClub;
-                          alert(curClub);
-                          alert(userID);
         e.preventDefault();
         $.ajax({
             url: 'http://clubbedinapp.com/web/php/newthread.php',
@@ -561,24 +559,22 @@
     });
 
     $("#getclubid2").submit(function (e) {
-        var serData = $('#getclubid2').serialize() + "&uID=" + userID;
+        var serData = $('#getclubid2').serialize() + "&uID=" + userID + "&curClub=" + curClub;
         e.preventDefault();
         $.ajax({
-            url: 'http://clubbedinapp.com/web/php/joinclub.php',
+            url: 'http://clubbedinapp.com/web/php/joinclubsearch.php',
             crossDomain: true,
             type: 'post',
             data: serData,
             success: function (data) {
-                $('#message1, #message2, #errorjoining').empty();
+                $('#errorjoining').empty();
                 var json = jQuery.parseJSON(data);
-                $('#message1').append('<h1>' + json.message + '</h1>');
-                $('#message2').append('<a href=\"' + json.redirect + '\"><h2>' + json.message2 + '</h2></a>');
-                if(json.message == "There is no club with that id!")
-                    $('#errorjoining').append("Incorrect ID. Please retry.");
-                else {
+               if(json.num == 1) {
                     $.mobile.changePage('#defaultclub');
-                    getClubInfo(json.id, 2);
-                }
+                    getClubInfo(curClub, 2);
+               } else {
+                    $('#errorjoining').append("<strong>Incorrect ID. Please retry.</strong>");
+               }
             }
         });
 
@@ -1146,7 +1142,6 @@
                             'eventID': curEvent
                         },
                         success: function (data) {
-                           alert(data);
                             var json = jQuery.parseJSON(data);
                             for (var i = 0; i < json.length; i++)
                             {
@@ -1947,9 +1942,12 @@ function getClubInfo(id, num) {
             success: function (data) {
                 var json = jQuery.parseJSON(data);
                 if(json == null) {
-                    $('#clubimage').append('<img class="holder" src="images/unknown.jpg" align="left">');
+//                    $('#clubimage').append('<img class="holder" src="images/unknown.jpg" align="left">');
+                      $('#clubimage').css('background-image','url(../images/unknown.jpg) !important;');
                 } else {
-                     $('#clubimage').append('<img class="holder" src=\"' + json.logo + '\" align="left">');
+                     $('#clubimage').append('<img class="clubimg" src=\"' + json.logo + '\" align="center">');
+//                     $('#clubimage').css('background-image','url('+json.logo+');');
+                    
                 }
             }
         });
@@ -1968,6 +1966,7 @@ function getClubInfo(id, num) {
 				var econt = $('#econt')
                 $('#econt, #ehdr, #etoggle').empty();
                 var json = jQuery.parseJSON(data);
+                
                 $.mobile.changePage($('#defaultevent'));
                 if(num == 1){
                     $('#ehdr').append('<a href="#upcoming" data-role="button" data-inline="true" data-icon="arrow-l" data-theme="f">Back</a>');
@@ -1980,15 +1979,18 @@ function getClubInfo(id, num) {
                 }  else if (num == 5) {
                     $('#ehdr').append('<a href="#page-tasklist" data-role="button" data-inline="true" data-icon="arrow-l" data-theme="f">Back</a>');
                 }
-                $('#ehdr').append('<h1 id="myTitle2">'+json.eventName+'</h1>');
-                $('#etoggle').append('<span id="mySelect2"><select name="switch" id="goingswitch" data-theme="f" data-role="slider" data-mini="true"><option value="notgoing"></option><option value="going">Going</option></select></span>');
+                econt.empty();
+                $('#ehdr').append('<h1 id="myTitle2">'+json.clubName+'</h1>');
+                $('#eventtitle').empty();
+                $('#eventtitle').append('<h3>'+json.eventName+'</h3>');
+                $('#etoggle').append('<span id="mySelect2" style="margin-bottom:10px;"><select name="switch" id="goingswitch" data-theme="f" data-role="slider" data-mini="true"><option value="notgoing"></option><option value="going">Going</option></select></span><br><br>');
                 $('#defaultevent').trigger('pagecreate');
                 $('#ehdr').append('<div class="ui-btn-right" id="addbuttons2" data-theme="f" data-role="controlgroup" data-type="horizontal"></div>');
-                econt.append('<strong>Club: </strong>' + json.clubName + '<br /><br />');
-                econt.append('<strong>Description: </strong>' + json.description + '<br/><br/>');
-                econt.append('<strong>Date: </strong>' + json.date + '<br/><br/>');
-                econt.append('<strong>Time: </strong>' + json.startTime + " - " + json.endTime + '<br/><br/>');
-                econt.append('<strong>Venue: </strong>' + json.venue +'<br/><br/>');
+                econt.append('<p align="left" style="margin-bottom:0;"><strong>Hosted by: </strong><i style="float:right;">' + json.clubName + '</i></p><hr>');
+                econt.append('<p align="left" style="margin-bottom:0;"><strong>Description: </strong><i style="float:right;">' + json.description + '</i></p><hr>');
+                econt.append('<p align="left" style="margin-bottom:0;"><strong>Date: </strong><i style="float:right;">' + json.date + '</i></p><hr>');
+                econt.append('<p align="left" style="margin-bottom:0;"><strong>Time: </strong><i style="float:right;">' + json.startTime + " - " + json.endTime + '</i></p><hr>');
+                econt.append('<p align="left" style="margin-bottom:0;"><strong>Venue: </strong><i style="float:right;">' + json.venue +'</i></p><br>');
                 curEvent = id;
             }
         });
@@ -2009,7 +2011,7 @@ function getClubInfo(id, num) {
                     if(json[i].id == userID)
                     {
                         var htmlStrings = [
-                           '<a href="#edite" data-role="button" data-rel="dialog" data-inline="true" data-iconpos="notext" data-icon="gear" data-theme="f">Edit</a>'
+                           '<a class="hdrbtn" href="#edite" data-role="button" data-rel="dialog" data-inline="true" data-iconpos="notext" data-icon="gear" data-theme="f">Edit</a>'
                         ];
                         $('#addbuttons2').append(htmlStrings.join(''));
                         $('#defaultevent').trigger('pagecreate');
@@ -2471,7 +2473,7 @@ function getMembersAfterSearch(all) {
                         $('#alleventshdr').empty();
                         var json2 = jQuery.parseJSON(data);
                         $('#alleventshdr').append(json2.name);
-                        $("#backtoclub .ui-btn-text").text("Back");
+                        $('#backtoclub .ui-btn-text').text('Back');
                     }
                 });
             }
@@ -2539,15 +2541,14 @@ function getMembersAfterSearch(all) {
     'warningNumber': 40,
     'displayFormat': '#left'
     };
-//    $('#textareapost').textareaCount(options2);
+    $('#textareapost').textareaCount(options2);
 
-
-
-
-
-
-
-
+/////////////////////////
+//  Cordova API Stuff  //
+/////////////////////////
+    function vibrate(){
+        navigator.notification.vibrate(1500);
+    }
 
 //IGNORE FROM HERE ON
           function initPush() {
@@ -2562,20 +2563,18 @@ function getMembersAfterSearch(all) {
 				{ 
 					txt="There was an error on this page.\n\n"; 
 					txt+="Error description: " + err.message + "\n\n"; 
-					//alert(txt); 
 				} 
             }
         
             // handle GCM notifications for Android
             function onNotification(e) {
-                //alert('<li>EVENT -> RECEIVED:' + e.event + '</li>');
                 
                 switch( e.event )
                 {
                     case 'registered':
 					if ( e.regid.length > 0 )
 					{
-						console.log('<li>REGISTERED -> ');//REGID:' + e.regid + "</li>");
+						//console.log('<li>REGISTERED -> ');//REGID:' + e.regid + "</li>");
 						// Your GCM push server needs to know the regID before it can push to this device
 						// here is where you might want to send it the regID for later use.
 						console.log("regID = " + e.regid);
@@ -2600,7 +2599,9 @@ function getMembersAfterSearch(all) {
                     	// you might want to play a sound to get the user's attention, throw up a dialog, etc.
                     	if (e.foreground)
                     	{
-							console.log('<li>--INLINE NOTIFICATION--</li>');						      
+							//console.log('<li>--INLINE NOTIFICATION--</li>');
+                            vibrate();
+                            
 						}
 						else
 						{	// otherwise we were launched because the user touched a notification in the notification tray.

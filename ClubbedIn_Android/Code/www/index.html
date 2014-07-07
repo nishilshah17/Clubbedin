@@ -453,17 +453,17 @@
         </div>
         <div data-role="content">
             <div class="ui-grid-a">
-                <div class="ui-block-a" id="clubimage"></div>
-                <div class="ui-block-b"><p id="defcont" align="left"></p></div>
+                <div class="holder" id="clubimage"></div>
+                <div class="clubinfo"><p id="defcont" align="left"></p></div>
             </div>
             <div data-role="collapsible-set" data-type="tabs" data-tabs="4" >
-                <div data-role="collapsible" data-collapsed="false" id="ann">
+                <div class="listview" style="margin:3px !important;" data-role="collapsible" data-collapsed="false" id="ann">
                     <h2>News</h2>
                     <ul data-role="listview" id="annlist">
 
                     </ul>
                 </div>
-                <div data-role="collapsible" id="ev">
+                <div class="listview" style="margin:3px !important;" data-role="collapsible" id="ev">
                     <h2>Events</h2>
                     <ul data-role="listview" id="eventlist">
 
@@ -472,7 +472,7 @@
 
                     </div>
                 </div>
-                <div data-role="collapsible" id="mem">
+                <div class="listview" style="margin:3px !important;" data-role="collapsible" id="mem">
                     <h2>Members</h2>
                        <ul data-role="listview" id="memlist">
 
@@ -728,25 +728,21 @@
         <div class="hdr" data-role="header" data-tap-toggle="false" id="ehdr">
         </div>
         <div data-role="content">
-            <div class="ui-grid-a">
-                <div class="ui-block-a">
-                    <p align="left" id="econt">
-
-                    </p>
-                </div>
-                <div class="ui-block-b" id="etoggle">
-
-                </div>
+            <div class="eventheader" id="eventtitle"></div>
+            <div id="eventContent">
+                    <p align="left" id="econt"></p>
+                    <div id="etoggle"></div>
             </div>
-            <hr>
-            <div data-role="collapsible">
-                <h4>Who's Going</h4>
-                <ul data-role="listview" id="whosgoinglist"></ul>
+            <div id="people">
+                <div class="whosgoing" data-role="collapsible">
+                    <h4>Who's Going</h4>
+                    <ul data-role="listview" id="whosgoinglist"></ul>
+                </div>
             </div>
         </div>
         <div data-role="navbar" data-iconpos="top" data-position="fixed" data-tap-toggle="false">
             <ul>
-                <li><a class="customnav" href="#newsfeed" data-icon="info" data-theme="f">News</a></li>
+                <li><a class="customnav" href="#newsfeed" data-icon="info" data-theme="f">Newsfeed</a></li>
                 <li><a class="customnav" href="#page-tasklist" data-icon="home" data-theme="f">Clubs</a></li>
                 <li><a class="customnav" href="#upcoming" data-icon="alert" data-theme="f">Upcoming</a></li>
             </ul>

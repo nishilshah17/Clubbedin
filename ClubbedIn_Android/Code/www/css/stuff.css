@@ -108,16 +108,28 @@ ul.tabs a.current {
         }
 
         .holder {
-            width: 60%; /* Will shrink image to 30% of its original width */
-            height: 27vw;
-            border-radius:50%;
-            border: 5px solid #db2121;
-            -webkit-border-radius: 50%;
-            -moz-border-radius: 50%;  
+            height: 25% !important;
+            width: 35% !important;
+            background: rgba(219, 33, 33, 0.65);
+            margin-right: 10px !important;
+            overflow: hidden !important;
+            float:left;
+            position:absolute;
         }
 
-        .clublogo {
-    
+        .clubinfo{
+            height: 25%;
+            width: 75%;
+            float:right;
+            position:relative;
+        }
+
+        .clubimg{
+            top:50%;
+            left:50%;
+            overflow: hidden;
+            height:100%;
+            width:100;
         }
 
         .logo {

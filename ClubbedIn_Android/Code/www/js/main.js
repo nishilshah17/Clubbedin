@@ -1942,9 +1942,12 @@ function getClubInfo(id, num) {
             success: function (data) {
                 var json = jQuery.parseJSON(data);
                 if(json == null) {
-                    $('#clubimage').append('<img class="holder" src="images/unknown.jpg" align="left">');
+//                    $('#clubimage').append('<img class="holder" src="images/unknown.jpg" align="left">');
+                      $('#clubimage').css('background-image','url(../images/unknown.jpg) !important;');
                 } else {
-                     $('#clubimage').append('<img class="holder" src=\"' + json.logo + '\" align="left">');
+                     $('#clubimage').append('<img class="clubimg" src=\"' + json.logo + '\" align="center">');
+//                     $('#clubimage').css('background-image','url('+json.logo+');');
+                    
                 }
             }
         });
@@ -1963,6 +1966,7 @@ function getClubInfo(id, num) {
 				var econt = $('#econt')
                 $('#econt, #ehdr, #etoggle').empty();
                 var json = jQuery.parseJSON(data);
+                
                 $.mobile.changePage($('#defaultevent'));
                 if(num == 1){
                     $('#ehdr').append('<a href="#upcoming" data-role="button" data-inline="true" data-icon="arrow-l" data-theme="f">Back</a>');
@@ -1975,15 +1979,18 @@ function getClubInfo(id, num) {
                 }  else if (num == 5) {
                     $('#ehdr').append('<a href="#page-tasklist" data-role="button" data-inline="true" data-icon="arrow-l" data-theme="f">Back</a>');
                 }
-                $('#ehdr').append('<h1 id="myTitle2">'+json.eventName+'</h1>');
-                $('#etoggle').append('<span id="mySelect2"><select name="switch" id="goingswitch" data-theme="f" data-role="slider" data-mini="true"><option value="notgoing"></option><option value="going">Going</option></select></span>');
+                econt.empty();
+                $('#ehdr').append('<h1 id="myTitle2">'+json.clubName+'</h1>');
+                $('#eventtitle').empty();
+                $('#eventtitle').append('<h3>'+json.eventName+'</h3>');
+                $('#etoggle').append('<span id="mySelect2" style="margin-bottom:10px;"><select name="switch" id="goingswitch" data-theme="f" data-role="slider" data-mini="true"><option value="notgoing"></option><option value="going">Going</option></select></span><br><br>');
                 $('#defaultevent').trigger('pagecreate');
                 $('#ehdr').append('<div class="ui-btn-right" id="addbuttons2" data-theme="f" data-role="controlgroup" data-type="horizontal"></div>');
-                econt.append('<strong>Club: </strong>' + json.clubName + '<br /><br />');
-                econt.append('<strong>Description: </strong>' + json.description + '<br/><br/>');
-                econt.append('<strong>Date: </strong>' + json.date + '<br/><br/>');
-                econt.append('<strong>Time: </strong>' + json.startTime + " - " + json.endTime + '<br/><br/>');
-                econt.append('<strong>Venue: </strong>' + json.venue +'<br/><br/>');
+                econt.append('<p align="left" style="margin-bottom:0;"><strong>Hosted by: </strong><i style="float:right;">' + json.clubName + '</i></p><hr>');
+                econt.append('<p align="left" style="margin-bottom:0;"><strong>Description: </strong><i style="float:right;">' + json.description + '</i></p><hr>');
+                econt.append('<p align="left" style="margin-bottom:0;"><strong>Date: </strong><i style="float:right;">' + json.date + '</i></p><hr>');
+                econt.append('<p align="left" style="margin-bottom:0;"><strong>Time: </strong><i style="float:right;">' + json.startTime + " - " + json.endTime + '</i></p><hr>');
+                econt.append('<p align="left" style="margin-bottom:0;"><strong>Venue: </strong><i style="float:right;">' + json.venue +'</i></p><br>');
                 curEvent = id;
             }
         });

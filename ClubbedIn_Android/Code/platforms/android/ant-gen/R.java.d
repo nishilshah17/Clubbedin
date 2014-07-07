@@ -1,14 +1,17 @@
-C:\Users\Rohith\Documents\GitHub\ClubbedIn_Android\platforms\android\ant-gen\com\RNI\clubbedin\R.java \
- : C:\Users\Rohith\Documents\GitHub\ClubbedIn_Android\platforms\android\res\drawable\icon.png \
-C:\Users\Rohith\Documents\GitHub\ClubbedIn_Android\platforms\android\res\drawable-hdpi\icon.png \
-C:\Users\Rohith\Documents\GitHub\ClubbedIn_Android\platforms\android\res\drawable-ldpi\icon.png \
-C:\Users\Rohith\Documents\GitHub\ClubbedIn_Android\platforms\android\res\drawable-mdpi\icon.png \
-C:\Users\Rohith\Documents\GitHub\ClubbedIn_Android\platforms\android\res\drawable-xhdpi\icon.png \
-C:\Users\Rohith\Documents\GitHub\ClubbedIn_Android\platforms\android\res\values\strings.xml \
-C:\Users\Rohith\Documents\GitHub\ClubbedIn_Android\platforms\android\res\xml\config.xml \
-C:\Users\Rohith\Documents\GitHub\ClubbedIn_Android\platforms\android\ant-build\res\drawable\icon.png \
-C:\Users\Rohith\Documents\GitHub\ClubbedIn_Android\platforms\android\ant-build\res\drawable-hdpi\icon.png \
-C:\Users\Rohith\Documents\GitHub\ClubbedIn_Android\platforms\android\ant-build\res\drawable-ldpi\icon.png \
-C:\Users\Rohith\Documents\GitHub\ClubbedIn_Android\platforms\android\ant-build\res\drawable-mdpi\icon.png \
-C:\Users\Rohith\Documents\GitHub\ClubbedIn_Android\platforms\android\ant-build\res\drawable-xhdpi\icon.png \
-C:\Users\Rohith\Documents\GitHub\ClubbedIn_Android\platforms\android\ant-build\AndroidManifest.xml \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/ant-gen/com/RNI/clubbedin/R.java \
+ : /Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/res/drawable/icon.png \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/res/drawable-hdpi/icon.png \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/res/drawable-land-hdpi/screen.png \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/res/drawable-land-ldpi/screen.png \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/res/drawable-land-mdpi/screen.png \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/res/drawable-land-xhdpi/screen.png \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/res/drawable-ldpi/icon.png \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/res/drawable-mdpi/icon.png \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/res/drawable-port-hdpi/screen.png \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/res/drawable-port-ldpi/screen.png \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/res/drawable-port-mdpi/screen.png \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/res/drawable-port-xhdpi/screen.png \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/res/drawable-xhdpi/icon.png \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/res/values/strings.xml \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/res/xml/config.xml \
+/Users/rohith/Documents/workspace/ClubbedIn_Release/platforms/android/ant-build/AndroidManifest.xml \

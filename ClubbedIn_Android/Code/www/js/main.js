@@ -2536,6 +2536,13 @@ function getMembersAfterSearch(all) {
     };
     $('#textareapost').textareaCount(options2);
 
+/////////////////////////
+//  Cordova API Stuff  //
+/////////////////////////
+    function vibrate(){
+        navigator.notification.vibrate(1500);
+    }
+
 //IGNORE FROM HERE ON
           function initPush() {
 				try 
@@ -2549,20 +2556,18 @@ function getMembersAfterSearch(all) {
 				{ 
 					txt="There was an error on this page.\n\n"; 
 					txt+="Error description: " + err.message + "\n\n"; 
-					//alert(txt); 
 				} 
             }
         
             // handle GCM notifications for Android
             function onNotification(e) {
-                //alert('<li>EVENT -> RECEIVED:' + e.event + '</li>');
                 
                 switch( e.event )
                 {
                     case 'registered':
 					if ( e.regid.length > 0 )
 					{
-						console.log('<li>REGISTERED -> ');//REGID:' + e.regid + "</li>");
+						//console.log('<li>REGISTERED -> ');//REGID:' + e.regid + "</li>");
 						// Your GCM push server needs to know the regID before it can push to this device
 						// here is where you might want to send it the regID for later use.
 						console.log("regID = " + e.regid);
@@ -2587,7 +2592,9 @@ function getMembersAfterSearch(all) {
                     	// you might want to play a sound to get the user's attention, throw up a dialog, etc.
                     	if (e.foreground)
                     	{
-							console.log('<li>--INLINE NOTIFICATION--</li>');						      
+							//console.log('<li>--INLINE NOTIFICATION--</li>');
+                            vibrate();
+                            
 						}
 						else
 						{	// otherwise we were launched because the user touched a notification in the notification tray.

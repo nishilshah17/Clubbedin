@@ -1869,7 +1869,7 @@
                 getAnnouncements('#annlist');
                 getMembers();
 		        getLogo();
-                getThreads();
+                //getThreads();
             },
         });
     };
@@ -1956,6 +1956,7 @@ function getClubInfo(id, num) {
     function getEventData(id, num) {
         console.log("Event: "+id);
         $.ajax({
+            async: false,
             url: 'http://clubbedinapp.com/web/php/geteventdata.php',
             crossDomain: true,
             type: 'post',
@@ -1998,6 +1999,7 @@ function getClubInfo(id, num) {
         addWhosGoing(id);
 
         $.ajax({
+            async: false,
             url: 'http://clubbedinapp.com/web/php/getleadersevent.php',
             crossDomain: true,
             type: 'post',

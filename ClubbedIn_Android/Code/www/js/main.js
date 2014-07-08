@@ -399,7 +399,7 @@
                 'm' : m
             },
             success: function (data) {
-                refreshNews();
+                refreshNewsfeed(1);
             }
         });
 
@@ -425,7 +425,7 @@
             data: serData,
             success: function (data) {
                 $.mobile.changePage($('#page-tasklist'));
-               refreshClubs();
+                refreshClubs();
             },
         });
 
@@ -900,7 +900,7 @@
         getNewsFeed();
     });
 
-    function refreshNewsfeed() {
+    function refreshNewsfeed(num) {
             $.ajax({
                 async: false,
                 url: 'http://clubbedinapp.com/web/php/newsfeed.php',
@@ -916,7 +916,8 @@
                    alert("Error: could not connect to server");
                 }
             });
-        getNewsFeed();
+        if(num == 0)
+            getNewsFeed();
     }
 
     function getEventClubs() {
@@ -962,7 +963,7 @@
     };
 
     function refreshNews() {
-        getAnnouncements('#annlist2');
+        getNewsFeed();
     };
 
     function refreshLeave() {
@@ -985,7 +986,6 @@
                 $('#leavelist').listview('refresh');
             }
         });
-
 
     };
 

@@ -17,54 +17,9 @@ document.addEventListener("deviceready", startApp, false);
 					transition : "flip",
 				});
 			}
-            initPush();
             loadContent();
 
 		}
-
-        function initPush() {
-            
-            var pushNotification;
-        
-            pushNotification = window.plugins.pushNotification;
-
-                pushNotification.register(
-                    tokenHandler,
-                    errorHandler,
-                    {
-                        "badge":"true",
-                        "sound":"true",
-                        "alert":"true",
-                        "ecb":"onNotificationAPN"
-                    });
-            
-            function errorHandler (error) {
-                alert('error = ' + error);
-            }
-        
-            function successHandler (result) {
-                alert('result = ' + result);
-            }
-    
-            function tokenHandler (result) {
-
-                alert('device token = ' + result);
-                $.ajax({
-                       url: 'http://clubbedinapp.com/web/php/adddevice.php',
-                       crossDomain: true,
-                       type: 'post',
-                       data: {
-                            'uID': userID,
-                            'platform': 'ios',
-                            'deviceID': result
-                       },
-                       success: function(data) {
-                       
-                       }
-                });
-            }
-    
-        }
 
         function loadContent() {
             $.ajax({

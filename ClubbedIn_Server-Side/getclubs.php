@@ -9,6 +9,7 @@ mysql_select_db($db)
     or die("Unable to select database: " . mysql_error());
 
 $userID = $_POST['uID'];
+$userID = 339236670;
 
 $clubnames = array();
 

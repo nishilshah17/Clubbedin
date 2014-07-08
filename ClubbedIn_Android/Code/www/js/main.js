@@ -116,7 +116,7 @@
 					$.mobile.loading('hide');
 		});
 
-	    var curClub = 0;
+		    var curClub = 0;
 	    var curEvent = 0;
 
 	    $('#signupform').submit( function (e) {
@@ -399,7 +399,7 @@
                 'm' : m
             },
             success: function (data) {
-                refreshNewsfeed(1);
+                refreshNews();
             }
         });
 
@@ -425,7 +425,7 @@
             data: serData,
             success: function (data) {
                 $.mobile.changePage($('#page-tasklist'));
-                refreshClubs();
+               refreshClubs();
             },
         });
 
@@ -447,6 +447,8 @@
         }).form()) {
 
         var serData = $('#postform').serialize() + "&uID=" + userID + "&clubID=" + curClub;
+                          alert(curClub);
+                          alert(userID);
         e.preventDefault();
         $.ajax({
             url: 'http://clubbedinapp.com/web/php/newthread.php',
@@ -559,22 +561,24 @@
     });
 
     $("#getclubid2").submit(function (e) {
-        var serData = $('#getclubid2').serialize() + "&uID=" + userID + "&curClub=" + curClub;
+        var serData = $('#getclubid2').serialize() + "&uID=" + userID;
         e.preventDefault();
         $.ajax({
-            url: 'http://clubbedinapp.com/web/php/joinclubsearch.php',
+            url: 'http://clubbedinapp.com/web/php/joinclub.php',
             crossDomain: true,
             type: 'post',
             data: serData,
             success: function (data) {
-                $('#errorjoining').empty();
+                $('#message1, #message2, #errorjoining').empty();
                 var json = jQuery.parseJSON(data);
-               if(json.num == 1) {
+                $('#message1').append('<h1>' + json.message + '</h1>');
+                $('#message2').append('<a href=\"' + json.redirect + '\"><h2>' + json.message2 + '</h2></a>');
+                if(json.message == "There is no club with that id!")
+                    $('#errorjoining').append("Incorrect ID. Please retry.");
+                else {
                     $.mobile.changePage('#defaultclub');
-                    getClubInfo(curClub, 2);
-               } else {
-                    $('#errorjoining').append("<strong>Incorrect ID. Please retry.</strong>");
-               }
+                    getClubInfo(json.id, 2);
+                }
             }
         });
 
@@ -900,7 +904,7 @@
         getNewsFeed();
     });
 
-    function refreshNewsfeed(num) {
+    function refreshNewsfeed() {
             $.ajax({
                 async: false,
                 url: 'http://clubbedinapp.com/web/php/newsfeed.php',
@@ -916,8 +920,7 @@
                    alert("Error: could not connect to server");
                 }
             });
-        if(num == 0)
-            getNewsFeed();
+        getNewsFeed();
     }
 
     function getEventClubs() {
@@ -963,7 +966,7 @@
     };
 
     function refreshNews() {
-        getNewsFeed();
+        getAnnouncements('#annlist2');
     };
 
     function refreshLeave() {
@@ -987,6 +990,7 @@
             }
         });
 
+
     };
 
     function getClubs() {
@@ -997,7 +1001,7 @@
         clubcontent.empty();
 
         for (var i = 0; i < json.length; i++){
-            clubcontent.append('<li class="listview"><a href="#" style="color:#000" data-club-id=\"' + json[i].id + '\" rel="external">' + json[i].name + '</a></li>');
+            clubcontent.append('<li><a href="#" data-club-id=\"' + json[i].id + '\" rel="external">' + json[i].name + '</a></li>');
         }
         if(json.length == 0){
                clubcontent.append('<li>No clubs. Join or create one!</li>')
@@ -1015,7 +1019,7 @@
         newsfeedcontent.empty();
         
         for (var i = 0; i < json.length; i++){
-               newsfeedcontent.append('<li class="listview"><h3 class="ui-li-heading">' + json[i].title + '</h3><p class="ui-li-aside ui-li-desc">'+json[i].club+'</p><p class="ui-li-desc">'+json[i].info+'</p></li>');
+               newsfeedcontent.append('<li><h3 class="ui-li-heading">' + json[i].title + '</h3><p class="ui-li-aside ui-li-desc">'+json[i].club+'</p><p class="ui-li-desc">'+json[i].info+'</p></li>');
         }
         if(json.length == 0){
             newsfeedcontent.append('<li>No News! Check back later.</li>')
@@ -1033,7 +1037,7 @@
         upcominglist.empty();
         
         for(var i=0; i<json.length; i++){
-            upcominglist.append('<li class="listview"><a href="#" class="ui-link-inherit" data-event-id=\"' + json[i].id + '\" rel="external"><p class="ui-li-aside ui-li-desc">'+json[i].clubName+'</p><h3 class="ui-li-heading">' + json[i].name + '</h3><p class="ui-li-desc"><strong>'+json[i].date+' '+json[i].time+'</strong></p></a></li>');
+            upcominglist.append('<li><a href="#" class="ui-link-inherit" data-event-id=\"' + json[i].id + '\" rel="external"><p class="ui-li-aside ui-li-desc">'+json[i].clubName+'</p><h3 class="ui-li-heading">' + json[i].name + '</h3><p class="ui-li-desc"><strong>'+json[i].date+' '+json[i].time+'</strong></p></a></li>');
         }
         if(json.length == 0){
             upcominglist.append('<li>No Upcoming Events!</li>');
@@ -1142,6 +1146,7 @@
                             'eventID': curEvent
                         },
                         success: function (data) {
+                           alert(data);
                             var json = jQuery.parseJSON(data);
                             for (var i = 0; i < json.length; i++)
                             {
@@ -1625,8 +1630,8 @@
                     {
                         if (leaders[i] == userID && !done) {
                             var htmlStrings = [
-                                '<a class="hdrbtn" href="#edit" data-rel="dialog" data-role="button" data-inline="true" data-iconpos="notext" data-icon="gear" data-theme="f">Edit</a>',
-                                '<a class="hdrbtn" href="#add" data-rel="dialog" data-role="button" data-iconpos="notext" data-inline="true" data-icon="plus" data-theme="f">New Event</a>'
+                                '<a href="#edit" data-rel="dialog" data-role="button" data-inline="true" data-iconpos="notext" data-icon="gear" data-theme="f">Edit</a>',
+                                '<a href="#add" data-rel="dialog" data-role="button" data-iconpos="notext" data-inline="true" data-icon="plus" data-theme="f">New Event</a>'
                             ];
                             $('#addbuttons').append(htmlStrings.join(''));
                             $('#defaultclub').trigger('pagecreate');
@@ -1869,7 +1874,7 @@
                 getAnnouncements('#annlist');
                 getMembers();
 		        getLogo();
-                //getThreads();
+                getThreads();
             },
         });
     };
@@ -1930,33 +1935,9 @@ function getClubInfo(id, num) {
     });
 }*/
 
-    function getLogo() {
-        $('#clubimage').empty();
-        $.ajax({
-            url: 'http://clubbedinapp.com/web/php/getlogo.php',
-            crossDomain: true,
-            type: 'post',
-            data: {
-                'clubID': curClub
-            },
-            success: function (data) {
-                var json = jQuery.parseJSON(data);
-                if(json == null) {
-//                    $('#clubimage').append('<img class="holder" src="images/unknown.jpg" align="left">');
-                      $('#clubimage').css('background-image','url(../images/unknown.jpg) !important;');
-                } else {
-                     $('#clubimage').append('<img class="clubimg" src=\"' + json.logo + '\" align="center">');
-//                     $('#clubimage').css('background-image','url('+json.logo+');');
-                    
-                }
-            }
-        });
-    }
-
     function getEventData(id, num) {
         console.log("Event: "+id);
         $.ajax({
-            async: false,
             url: 'http://clubbedinapp.com/web/php/geteventdata.php',
             crossDomain: true,
             type: 'post',
@@ -1967,7 +1948,6 @@ function getClubInfo(id, num) {
 				var econt = $('#econt')
                 $('#econt, #ehdr, #etoggle').empty();
                 var json = jQuery.parseJSON(data);
-                
                 $.mobile.changePage($('#defaultevent'));
                 if(num == 1){
                     $('#ehdr').append('<a href="#upcoming" data-role="button" data-inline="true" data-icon="arrow-l" data-theme="f">Back</a>');
@@ -1980,18 +1960,15 @@ function getClubInfo(id, num) {
                 }  else if (num == 5) {
                     $('#ehdr').append('<a href="#page-tasklist" data-role="button" data-inline="true" data-icon="arrow-l" data-theme="f">Back</a>');
                 }
-                econt.empty();
-                $('#ehdr').append('<h1 id="myTitle2">'+json.clubName+'</h1>');
-                $('#eventtitle').empty();
-                $('#eventtitle').append('<h3>'+json.eventName+'</h3>');
-                $('#etoggle').append('<span id="mySelect2" style="margin-bottom:10px;"><select name="switch" id="goingswitch" data-theme="f" data-role="slider" data-mini="true"><option value="notgoing"></option><option value="going">Going</option></select></span><br><br>');
+                $('#ehdr').append('<h1 id="myTitle2">'+json.eventName+'</h1>');
+                $('#etoggle').append('<span id="mySelect2"><select name="switch" id="goingswitch" data-theme="f" data-role="slider" data-mini="true"><option value="notgoing"></option><option value="going">Going</option></select></span>');
                 $('#defaultevent').trigger('pagecreate');
                 $('#ehdr').append('<div class="ui-btn-right" id="addbuttons2" data-theme="f" data-role="controlgroup" data-type="horizontal"></div>');
-                econt.append('<p align="left" style="margin-bottom:0;"><strong>Hosted by: </strong><i style="float:right;">' + json.clubName + '</i></p><hr>');
-                econt.append('<p align="left" style="margin-bottom:0;"><strong>Description: </strong><i style="float:right;">' + json.description + '</i></p><hr>');
-                econt.append('<p align="left" style="margin-bottom:0;"><strong>Date: </strong><i style="float:right;">' + json.date + '</i></p><hr>');
-                econt.append('<p align="left" style="margin-bottom:0;"><strong>Time: </strong><i style="float:right;">' + json.startTime + " - " + json.endTime + '</i></p><hr>');
-                econt.append('<p align="left" style="margin-bottom:0;"><strong>Venue: </strong><i style="float:right;">' + json.venue +'</i></p><br>');
+                econt.append('<strong>Club: </strong>' + json.clubName + '<br /><br />');
+                econt.append('<strong>Description: </strong>' + json.description + '<br/><br/>');
+                econt.append('<strong>Date: </strong>' + json.date + '<br/><br/>');
+                econt.append('<strong>Time: </strong>' + json.startTime + " - " + json.endTime + '<br/><br/>');
+                econt.append('<strong>Venue: </strong>' + json.venue +'<br/><br/>');
                 curEvent = id;
             }
         });
@@ -1999,7 +1976,6 @@ function getClubInfo(id, num) {
         addWhosGoing(id);
 
         $.ajax({
-            async: false,
             url: 'http://clubbedinapp.com/web/php/getleadersevent.php',
             crossDomain: true,
             type: 'post',
@@ -2013,7 +1989,7 @@ function getClubInfo(id, num) {
                     if(json[i].id == userID)
                     {
                         var htmlStrings = [
-                           '<a class="hdrbtn" href="#edite" data-role="button" data-rel="dialog" data-inline="true" data-iconpos="notext" data-icon="gear" data-theme="f">Edit</a>'
+                           '<a href="#edite" data-role="button" data-rel="dialog" data-inline="true" data-iconpos="notext" data-icon="gear" data-theme="f">Edit</a>'
                         ];
                         $('#addbuttons2').append(htmlStrings.join(''));
                         $('#defaultevent').trigger('pagecreate');
@@ -2475,7 +2451,7 @@ function getMembersAfterSearch(all) {
                         $('#alleventshdr').empty();
                         var json2 = jQuery.parseJSON(data);
                         $('#alleventshdr').append(json2.name);
-                        $('#backtoclub .ui-btn-text').text('Back');
+                        $("#backtoclub .ui-btn-text").text("Back");
                     }
                 });
             }
@@ -2543,6 +2519,7 @@ function getMembersAfterSearch(all) {
     'warningNumber': 40,
     'displayFormat': '#left'
     };
+    //$('#textareapost').textareaCount(options2);
     //$('#textareapost').textareaCount(options2);
 
 /////////////////////////
@@ -2638,4 +2615,27 @@ function getMembersAfterSearch(all) {
                 //alert('<li>error:'+ error +'</li>');
             }
 
+
+    function getLogo() {
+        $('#clubimage').empty();
+        $.ajax({
+            url: 'http://clubbedinapp.com/web/php/getlogo.php',
+            crossDomain: true,
+            type: 'post',
+            data: {
+                'clubID': curClub
+            },
+            success: function (data) {
+                var json = jQuery.parseJSON(data);
+                if(json == null) {
+                      $('#clubimage').append('<img tyle="top:50%;left:50%;height:inherit;width:inherit" src="images/unknown.jpg" align="left">');
+//                      $('#clubimage').css('background-image','url(../images/unknown.jpg) !important;');
+                } else {
+                     $('#clubimage').append('<img style="top:50%;left:50%;height:inherit;width:inherit" src=\"' + json.logo + '\" align="center">');
+//                     $('#clubimage').css('background-image','url('+json.logo+');');
+                    
+                }
+            }
+        });
+    }
 

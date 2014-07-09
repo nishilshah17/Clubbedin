@@ -82,10 +82,10 @@ function sendNotification($userID, $message){
                     
                     // Set a custom identifier. To get back this identifier use the getCustomIdentifier() method
                     // over a ApnsPHP_Message object retrieved with the getErrors() message.
-                    $notif->setCustomIdentifier("Message-Badge-3");
+                    $notif->setCustomIdentifier("Message-Badge-1");
                     
                     // Set badge icon to "3"
-                    $notif->setBadge(3);
+                    $notif->setBadge(1);
                     
                     // Set a simple welcome text
                     $notif->setText($message);

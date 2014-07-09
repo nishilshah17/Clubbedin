@@ -1,0 +1,50 @@
+.hdr {
+    background:rgba(26, 120, 178, 1);
+}
+
+.hdrbtn,
+.ui-dialog-titlebar-close,
+.ui-btn-left {
+    border:2px solid #fff !important;
+    background:rgba(255,255,255,0) !important;
+    color:#fff !important;
+}
+
+.clubsbtns {
+    border:2px solid #2489ce !important;
+    background:#fff;
+    color:#2489ce;
+}
+
+.ui-widget-overlay {
+    background:rgba(255, 255, 255, .5) !important;
+}
+
+.listview {
+    background:#fff !important;
+    border:1px solid #db2121 !important;
+    padding-top:5px !important;
+    padding-bottom:5px !important;  
+    -moz-box-shadow: -3px 0px 2px #888;
+    -webkit-box-shadow: -3px 0px 2px #888;
+    box-shadow: -3px 0px 2px #888;
+}
+
+.customnav{
+    background:rgba(26, 120, 178, 1);
+    color:#fff
+}
+
+.eventheader{
+    width:100%;
+    height:3%;
+    border:3px solid rgba(0,0,0,.69);
+    float:left;
+    margin-left:-3px;
+    margin-bottom:10px;
+}
+
+.whosgoing{
+    bottom:0 !important;
+    margin-top:10px;
+}

@@ -3,6 +3,7 @@
 document.addEventListener("deviceready", startApp, false);
 
 		var userID = 0;
+        var deviceID;
 
 		function startApp(){
 			userID = window.localStorage.getItem('uID');
@@ -49,6 +50,7 @@ document.addEventListener("deviceready", startApp, false);
     
             function tokenHandler (result) {
 
+                deviceID = result;
                 //alert('device token = ' + result);
                 $.ajax({
                        url: 'http://clubbedinapp.com/web/php/adddevice.php',
@@ -333,8 +335,10 @@ document.addEventListener("deviceready", startApp, false);
 	        buttons: {
 	            'Yes': {
 	                click: function () {
-							window.localStorage.setItem('uID',0);
-							startApp();
+                            removeDevice();
+                            localStorage.clear();
+                            window.localStorage.setItem('uID',0);
+                            $.mobile.changePage('#page-tasklist');
 
 	                }
 	            },
@@ -347,6 +351,20 @@ document.addEventListener("deviceready", startApp, false);
 
 	    return false;
 	    });
+
+        function removeDevice() {
+            $.ajax({
+                url: 'http://clubbedinapp.com/web/php/removedevice.php',
+                crossDomain: true,
+                type: 'post',
+                data: {
+                   'deviceID' : deviceID
+                },
+                success: function (data) {
+
+                }
+            });
+        }
 
 
     $("#deleteclub").click(function (e) {
@@ -370,7 +388,7 @@ document.addEventListener("deviceready", startApp, false);
                         },
                         success: function (data) {
                             $.mobile.changePage('#page-tasklist');
-                            refreshClubs(1);
+                            refreshClubs(0);
                         }
                     });
                 }
@@ -461,7 +479,7 @@ document.addEventListener("deviceready", startApp, false);
             type: 'post',
             data: serData,
             success: function (data) {
-                $.mobile.changePage($('#page-tasklist'));
+               $.mobile.changePage($('#page-tasklist'));
                refreshClubs(0);
             },
         });
@@ -936,6 +954,9 @@ document.addEventListener("deviceready", startApp, false);
 
     $(document).on('pageinit', '#newsfeed', function () {
         $('#newsfeedcontent').listview();
+    });
+
+    jQuery('#newsfeed').on('pagebeforeshow', function() {
         getNewsFeed();
     });
 
@@ -2177,9 +2198,14 @@ function getClubInfo(id, num) {
     });
 
     $(document).on('pageinit', '#upcoming', function() {
-       $('#upcominglist').listview();
-       getUpcomingEvents();
+        $('#upcominglist').listview();
     });
+
+
+    jQuery('#upcoming').on('pagebeforeshow', function() {
+        getUpcomingEvents();
+    });
+                  
 
     $(document).on('pageinit', '#leaveclub', function() {
         $('#leavelist').listview();

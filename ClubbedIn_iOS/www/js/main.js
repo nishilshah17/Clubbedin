@@ -1,8 +1,9 @@
 
 
 document.addEventListener("deviceready", startApp, false);
-	//	var userID = window.localStorage.getItem('uID');
+
 		var userID = 0;
+        var deviceID;
 
 		function startApp(){
 			userID = window.localStorage.getItem('uID');
@@ -17,14 +18,62 @@ document.addEventListener("deviceready", startApp, false);
 					transition : "flip",
 				});
 			}
+            initPush();
             loadContent();
+            getClubs();
 
 		}
+
+        function initPush() {
+            
+            var pushNotification;
+        
+            pushNotification = window.plugins.pushNotification;
+
+                pushNotification.register(
+                    tokenHandler,
+                    errorHandler,
+                    {
+                        "badge":"true",
+                        "sound":"true",
+                        "alert":"true",
+                        "ecb":"onNotificationAPN"
+                    });
+            
+            function errorHandler (error) {
+                alert('error = ' + error);
+            }
+        
+            function successHandler (result) {
+                //alert('result = ' + result);
+            }
+    
+            function tokenHandler (result) {
+
+                deviceID = result;
+                //alert('device token = ' + result);
+                $.ajax({
+                       url: 'http://clubbedinapp.com/web/php/adddevice.php',
+                       crossDomain: true,
+                       type: 'post',
+                       data: {
+                            'uID': userID,
+                            'platform': 'ios',
+                            'deviceID': result
+                       },
+                       success: function(data) {
+                       
+                       }
+                });
+            }
+    
+        }
 
         function loadContent() {
             $.ajax({
                 url: 'http://clubbedinapp.com/web/php/getclubs.php',
                 crossDomain: true,
+                async: false,
                 type: 'post',
                 data: {
                    'uID': userID
@@ -60,6 +109,7 @@ document.addEventListener("deviceready", startApp, false);
             $.ajax({
                 url: 'http://clubbedinapp.com/web/php/newsfeed.php',
                 crossDomain: true,
+                async: false,
                 type: 'post',
                 data: {
                    'userID': userID
@@ -74,6 +124,7 @@ document.addEventListener("deviceready", startApp, false);
             $.ajax({
                 url: 'http://clubbedinapp.com/web/php/getupcoming.php',
                 crossDomain: true,
+                async: false,
                 type: 'post',
                 data: {
                     'uID': userID
@@ -97,11 +148,11 @@ document.addEventListener("deviceready", startApp, false);
             $.mobile.buttonMarkup.hoverDelay = 0;
         });
 
-        		$(document).ajaxStart(function() {
-					$.mobile.loading('show');
-				});
-				$(document).ajaxStop(function() {
-					$.mobile.loading('hide');
+        $(document).ajaxStart(function() {
+            $.mobile.loading('show');
+        });
+        $(document).ajaxStop(function() {
+            $.mobile.loading('hide');
 		});
 
 	    var curClub = 0;
@@ -155,7 +206,7 @@ document.addEventListener("deviceready", startApp, false);
                         }
                     },
                     error: function (data) {
-											alert("Error: could not connect to server");
+                        alert("Error: could not connect to server");
 					}
                 });
 
@@ -284,8 +335,10 @@ document.addEventListener("deviceready", startApp, false);
 	        buttons: {
 	            'Yes': {
 	                click: function () {
-							window.localStorage.setItem('uID',0);
-							startApp();
+                            removeDevice();
+                            localStorage.clear();
+                            window.localStorage.setItem('uID',0);
+                            $.mobile.changePage('#page-tasklist');
 
 	                }
 	            },
@@ -298,6 +351,20 @@ document.addEventListener("deviceready", startApp, false);
 
 	    return false;
 	    });
+
+        function removeDevice() {
+            $.ajax({
+                url: 'http://clubbedinapp.com/web/php/removedevice.php',
+                crossDomain: true,
+                type: 'post',
+                data: {
+                   'deviceID' : deviceID
+                },
+                success: function (data) {
+
+                }
+            });
+        }
 
 
     $("#deleteclub").click(function (e) {
@@ -321,7 +388,7 @@ document.addEventListener("deviceready", startApp, false);
                         },
                         success: function (data) {
                             $.mobile.changePage('#page-tasklist');
-                            refreshClubs();
+                            refreshClubs(0);
                         }
                     });
                 }
@@ -412,8 +479,8 @@ document.addEventListener("deviceready", startApp, false);
             type: 'post',
             data: serData,
             success: function (data) {
-                $.mobile.changePage($('#page-tasklist'));
-               refreshClubs();
+               $.mobile.changePage($('#page-tasklist'));
+               refreshClubs(0);
             },
         });
 
@@ -435,8 +502,6 @@ document.addEventListener("deviceready", startApp, false);
         }).form()) {
 
         var serData = $('#postform').serialize() + "&uID=" + userID + "&clubID=" + curClub;
-                          alert(curClub);
-                          alert(userID);
         e.preventDefault();
         $.ajax({
             url: 'http://clubbedinapp.com/web/php/newthread.php',
@@ -532,8 +597,9 @@ document.addEventListener("deviceready", startApp, false);
                 $('#joincluberror').empty();
                 var json = jQuery.parseJSON(data);
                 if(json.num == '1') {
+                    loadContent();
                     $.mobile.changePage('#page-tasklist');
-                    refreshClubs();
+                    getClubs();
                 } else if (json.num == '2') {
                     $('#joincluberror').append('<p class="error">You are already in '+json.clubname+'!</p>');
                 } else if (json.num == '3') {
@@ -549,24 +615,22 @@ document.addEventListener("deviceready", startApp, false);
     });
 
     $("#getclubid2").submit(function (e) {
-        var serData = $('#getclubid2').serialize() + "&uID=" + userID;
+        var serData = $('#getclubid2').serialize() + "&uID=" + userID + "&curClub=" + curClub;
         e.preventDefault();
         $.ajax({
-            url: 'http://clubbedinapp.com/web/php/joinclub.php',
+            url: 'http://clubbedinapp.com/web/php/joinclubsearch.php',
             crossDomain: true,
             type: 'post',
             data: serData,
             success: function (data) {
-                $('#message1, #message2, #errorjoining').empty();
+                $('#errorjoining').empty();
                 var json = jQuery.parseJSON(data);
-                $('#message1').append('<h1>' + json.message + '</h1>');
-                $('#message2').append('<a href=\"' + json.redirect + '\"><h2>' + json.message2 + '</h2></a>');
-                if(json.message == "There is no club with that id!")
-                    $('#errorjoining').append("Incorrect ID. Please retry.");
-                else {
+               if(json.num == 1) {
                     $.mobile.changePage('#defaultclub');
-                    getClubInfo(json.id, 2);
-                }
+                    getClubInfo(curClub, 2);
+               } else {
+                    $('#errorjoining').append("<strong>Incorrect ID. Please retry.</strong>");
+               }
             }
         });
 
@@ -663,10 +727,13 @@ document.addEventListener("deviceready", startApp, false);
 
     $(document).on('pageinit', '#page-tasklist', function () {
         $('#clubcontent').listview();
-        getClubs();
     });
 
-    function refreshClubs() {
+    $("#page-tasklist").on('pagebeforeshow',function() {
+        getClubs();
+    })
+
+    function refreshClubs(num) {
             $.ajax({
                 async: false,
                 url: 'http://clubbedinapp.com/web/php/getclubs.php',
@@ -682,14 +749,11 @@ document.addEventListener("deviceready", startApp, false);
                    alert("Error: could not connect to server");
                 }
             });
-        getClubs();
+        if(num == 0)
+            getClubs();
     }
 
-    $(document).on('pageinit', '#upcoming', function () {
-       getUpcomingEvents();
-    });
-
-    function refreshUpcoming() {
+    function refreshUpcoming(num) {
             $.ajax({
                 async: false,
                 url: 'http://clubbedinapp.com/web/php/getupcoming.php',
@@ -705,7 +769,8 @@ document.addEventListener("deviceready", startApp, false);
                     alert("Error: could not connect to server");
                 }
             });
-        getUpcomingEvents();
+        if(num == 0)
+            getUpcomingEvents();
     }
 
     $('#editmembers').on('pageshow', function() {
@@ -889,10 +954,13 @@ document.addEventListener("deviceready", startApp, false);
 
     $(document).on('pageinit', '#newsfeed', function () {
         $('#newsfeedcontent').listview();
+    });
+
+    jQuery('#newsfeed').on('pagebeforeshow', function() {
         getNewsFeed();
     });
 
-    function refreshNewsfeed() {
+    function refreshNewsfeed(num) {
             $.ajax({
                 async: false,
                 url: 'http://clubbedinapp.com/web/php/newsfeed.php',
@@ -908,7 +976,8 @@ document.addEventListener("deviceready", startApp, false);
                    alert("Error: could not connect to server");
                 }
             });
-        getNewsFeed();
+        if(num==0)
+            getNewsFeed();
     }
 
     function getEventClubs() {
@@ -989,7 +1058,7 @@ document.addEventListener("deviceready", startApp, false);
         clubcontent.empty();
 
         for (var i = 0; i < json.length; i++){
-            clubcontent.append('<li><a href="#" data-club-id=\"' + json[i].id + '\" rel="external">' + json[i].name + '</a></li>');
+            clubcontent.append('<li class="listview"><a href="#" style="color:#000" data-club-id=\"' + json[i].id + '\" rel="external">' + json[i].name + '</a></li>');
         }
         if(json.length == 0){
                clubcontent.append('<li>No clubs. Join or create one!</li>')
@@ -1007,7 +1076,7 @@ document.addEventListener("deviceready", startApp, false);
         newsfeedcontent.empty();
         
         for (var i = 0; i < json.length; i++){
-               newsfeedcontent.append('<li><h3 class="ui-li-heading">' + json[i].title + '</h3><p class="ui-li-aside ui-li-desc">'+json[i].club+'</p><p class="ui-li-desc">'+json[i].info+'</p></li>');
+               newsfeedcontent.append('<li class="listview"><h3 class="ui-li-heading">' + json[i].title + '</h3><p class="ui-li-aside ui-li-desc">'+json[i].club+'</p><p class="ui-li-desc">'+json[i].info+'</p></li>');
         }
         if(json.length == 0){
             newsfeedcontent.append('<li>No News! Check back later.</li>')
@@ -1025,7 +1094,7 @@ document.addEventListener("deviceready", startApp, false);
         upcominglist.empty();
         
         for(var i=0; i<json.length; i++){
-            upcominglist.append('<li><a href="#" class="ui-link-inherit" data-event-id=\"' + json[i].id + '\" rel="external"><p class="ui-li-aside ui-li-desc">'+json[i].clubName+'</p><h3 class="ui-li-heading">' + json[i].name + '</h3><p class="ui-li-desc"><strong>'+json[i].date+' '+json[i].time+'</strong></p></a></li>');
+            upcominglist.append('<li class="listview"><a href="#" class="ui-link-inherit" data-event-id=\"' + json[i].id + '\" rel="external"><p class="ui-li-aside ui-li-desc">'+json[i].clubName+'</p><h3 class="ui-li-heading">' + json[i].name + '</h3><p class="ui-li-desc"><strong>'+json[i].date+' '+json[i].time+'</strong></p></a></li>');
         }
         if(json.length == 0){
             upcominglist.append('<li>No Upcoming Events!</li>');
@@ -1134,7 +1203,6 @@ document.addEventListener("deviceready", startApp, false);
                             'eventID': curEvent
                         },
                         success: function (data) {
-                           alert(data);
                             var json = jQuery.parseJSON(data);
                             for (var i = 0; i < json.length; i++)
                             {
@@ -1235,6 +1303,8 @@ document.addEventListener("deviceready", startApp, false);
     });
 
     $('#takeattendanceform').submit( function(e) {
+        
+        e.preventDefault();
 
         var attendanceData = [];
 
@@ -1618,8 +1688,8 @@ document.addEventListener("deviceready", startApp, false);
                     {
                         if (leaders[i] == userID && !done) {
                             var htmlStrings = [
-                                '<a href="#edit" data-rel="dialog" data-role="button" data-inline="true" data-iconpos="notext" data-icon="gear" data-theme="f">Edit</a>',
-                                '<a href="#add" data-rel="dialog" data-role="button" data-iconpos="notext" data-inline="true" data-icon="plus" data-theme="f">New Event</a>'
+                                '<a class="hdrbtn" href="#edit" data-rel="dialog" data-role="button" data-inline="true" data-iconpos="notext" data-icon="gear" data-theme="f">Edit</a>',
+                                '<a class="hdrbtn" href="#add" data-rel="dialog" data-role="button" data-iconpos="notext" data-inline="true" data-icon="plus" data-theme="f">New Event</a>'
                             ];
                             $('#addbuttons').append(htmlStrings.join(''));
                             $('#defaultclub').trigger('pagecreate');
@@ -1745,6 +1815,7 @@ document.addEventListener("deviceready", startApp, false);
                                 }
                             });
                             $('#leavelist').listview('refresh');
+                            refreshClubs(1);
                         }
                     },
                     'No': {
@@ -1935,17 +2006,22 @@ function getClubInfo(id, num) {
             success: function (data) {
                 var json = jQuery.parseJSON(data);
                 if(json == null) {
-                    $('#clubimage').append('<img class="holder" src="images/unknown.jpg" align="left">');
+//                    $('#clubimage').append('<img class="holder" src="images/unknown.jpg" align="left">');
+                      $('#clubimage').css('background-image','url(../images/unknown.jpg) !important;');
                 } else {
-                     $('#clubimage').append('<img class="holder" src=\"' + json.logo + '\" align="left">');
+                     $('#clubimage').append('<img class="clubimg" src=\"' + json.logo + '\" align="center">');
+//                     $('#clubimage').css('background-image','url('+json.logo+');');
+                    
                 }
             }
         });
     }
 
+
     function getEventData(id, num) {
         console.log("Event: "+id);
         $.ajax({
+            async: false,
             url: 'http://clubbedinapp.com/web/php/geteventdata.php',
             crossDomain: true,
             type: 'post',
@@ -1956,6 +2032,7 @@ function getClubInfo(id, num) {
 				var econt = $('#econt')
                 $('#econt, #ehdr, #etoggle').empty();
                 var json = jQuery.parseJSON(data);
+                
                 $.mobile.changePage($('#defaultevent'));
                 if(num == 1){
                     $('#ehdr').append('<a href="#upcoming" data-role="button" data-inline="true" data-icon="arrow-l" data-theme="f">Back</a>');
@@ -1968,15 +2045,18 @@ function getClubInfo(id, num) {
                 }  else if (num == 5) {
                     $('#ehdr').append('<a href="#page-tasklist" data-role="button" data-inline="true" data-icon="arrow-l" data-theme="f">Back</a>');
                 }
-                $('#ehdr').append('<h1 id="myTitle2">'+json.eventName+'</h1>');
-                $('#etoggle').append('<span id="mySelect2"><select name="switch" id="goingswitch" data-theme="f" data-role="slider" data-mini="true"><option value="notgoing"></option><option value="going">Going</option></select></span>');
+                econt.empty();
+                $('#ehdr').append('<h1 class="ui-title" role="heading" id="myTitle2">'+json.clubName+'</h1>');
+                $('#eventtitle').empty();
+                $('#eventtitle').append('<h3>'+json.eventName+'</h3>');
+                $('#etoggle').append('<span id="mySelect2" style="margin-bottom:10px;"><select name="switch" id="goingswitch" data-theme="f" data-role="slider" data-mini="true"><option value="notgoing"></option><option value="going">Going</option></select></span><br><br>');
                 $('#defaultevent').trigger('pagecreate');
                 $('#ehdr').append('<div class="ui-btn-right" id="addbuttons2" data-theme="f" data-role="controlgroup" data-type="horizontal"></div>');
-                econt.append('<strong>Club: </strong>' + json.clubName + '<br /><br />');
-                econt.append('<strong>Description: </strong>' + json.description + '<br/><br/>');
-                econt.append('<strong>Date: </strong>' + json.date + '<br/><br/>');
-                econt.append('<strong>Time: </strong>' + json.startTime + " - " + json.endTime + '<br/><br/>');
-                econt.append('<strong>Venue: </strong>' + json.venue +'<br/><br/>');
+                econt.append('<p align="left" style="margin-bottom:0;"><strong>Hosted by: </strong><i style="float:right;">' + json.clubName + '</i></p><hr>');
+                econt.append('<p align="left" style="margin-bottom:0;"><strong>Description: </strong><i style="float:right;">' + json.description + '</i></p><hr>');
+                econt.append('<p align="left" style="margin-bottom:0;"><strong>Date: </strong><i style="float:right;">' + json.date + '</i></p><hr>');
+                econt.append('<p align="left" style="margin-bottom:0;"><strong>Time: </strong><i style="float:right;">' + json.startTime + " - " + json.endTime + '</i></p><hr>');
+                econt.append('<p align="left" style="margin-bottom:0;"><strong>Venue: </strong><i style="float:right;">' + json.venue +'</i></p><br>');
                 curEvent = id;
             }
         });
@@ -1984,6 +2064,7 @@ function getClubInfo(id, num) {
         addWhosGoing(id);
 
         $.ajax({
+            async: false,
             url: 'http://clubbedinapp.com/web/php/getleadersevent.php',
             crossDomain: true,
             type: 'post',
@@ -1997,7 +2078,7 @@ function getClubInfo(id, num) {
                     if(json[i].id == userID)
                     {
                         var htmlStrings = [
-                           '<a href="#edite" data-role="button" data-rel="dialog" data-inline="true" data-iconpos="notext" data-icon="gear" data-theme="f">Edit</a>'
+                           '<a class="hdrbtn" href="#edite" data-role="button" data-rel="dialog" data-inline="true" data-iconpos="notext" data-icon="gear" data-theme="f">Edit</a>'
                         ];
                         $('#addbuttons2').append(htmlStrings.join(''));
                         $('#defaultevent').trigger('pagecreate');
@@ -2117,8 +2198,14 @@ function getClubInfo(id, num) {
     });
 
     $(document).on('pageinit', '#upcoming', function() {
-       $('#upcominglist').listview();
+        $('#upcominglist').listview();
     });
+
+
+    jQuery('#upcoming').on('pagebeforeshow', function() {
+        getUpcomingEvents();
+    });
+                  
 
     $(document).on('pageinit', '#leaveclub', function() {
         $('#leavelist').listview();
@@ -2396,6 +2483,7 @@ function getMembersAfterSearch(all) {
                         buttons: {
                             'OK': {
                                 click: function () {
+                                    refreshUpcoming(1);
                                     getClubInfo(curClub, 1);
                                 }
                             },
@@ -2459,7 +2547,7 @@ function getMembersAfterSearch(all) {
                         $('#alleventshdr').empty();
                         var json2 = jQuery.parseJSON(data);
                         $('#alleventshdr').append(json2.name);
-                        $("#backtoclub .ui-btn-text").text("Back");
+                        $('#backtoclub .ui-btn-text').text('Back');
                     }
                 });
             }

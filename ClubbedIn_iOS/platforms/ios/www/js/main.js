@@ -2052,11 +2052,10 @@ function getClubInfo(id, num) {
             success: function (data) {
                 var json = jQuery.parseJSON(data);
                 if(json == null) {
-//                    $('#clubimage').append('<img class="holder" src="images/unknown.jpg" align="left">');
-                      $('#clubimage').css('background-image','url(../images/unknown.jpg) !important;');
+                      $('#clubimage').append('<img style="top:50%;left:50%;height:inherit;width:inherit" src="images/unknown.jpg" align="left">');
+//                      $('#clubimage').css('background-image','url(../images/unknown.jpg) !important;');
                 } else {
-                     $('#clubimage').append('<img class="clubimg" src=\"' + json.logo + '\" align="center">');
-//                     $('#clubimage').css('background-image','url('+json.logo+');');
+                     $('#clubimage').append('<img style="top:50%;left:50%;height:inherit;width:inherit" src=\"' + json.logo + '\" align="center">');
                     
                 }
             }

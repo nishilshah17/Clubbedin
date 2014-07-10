@@ -12,15 +12,15 @@ document.addEventListener("deviceready", startApp, false);
 				$.mobile.changePage("#page-tasklist", {
 					transition : "flip",
 				});
+                initPush();
+                loadContent();
+                getClubs();
 			}
 			else{
 				$.mobile.changePage("#page-unauthorized", {
 					transition : "flip",
 				});
 			}
-            initPush();
-            loadContent();
-            getClubs();
 
 		}
 
@@ -88,6 +88,7 @@ document.addEventListener("deviceready", startApp, false);
                    (function(i2) {
                     var id = json[i].id;
                     $.ajax({
+                        async: false,
                         url: 'http://clubbedinapp.com/web/php/getclubdata.php',
                         crossDomain: true,
                         type: 'post',
@@ -107,9 +108,9 @@ document.addEventListener("deviceready", startApp, false);
                 }
             });
             $.ajax({
+                async: false,
                 url: 'http://clubbedinapp.com/web/php/newsfeed.php',
                 crossDomain: true,
-                async: false,
                 type: 'post',
                 data: {
                    'userID': userID
@@ -122,9 +123,9 @@ document.addEventListener("deviceready", startApp, false);
                 }
             });
             $.ajax({
+                async: false,
                 url: 'http://clubbedinapp.com/web/php/getupcoming.php',
                 crossDomain: true,
-                async: false,
                 type: 'post',
                 data: {
                     'uID': userID
@@ -257,7 +258,7 @@ document.addEventListener("deviceready", startApp, false);
 	                	if(json.userID > 0) {
 							window.localStorage.setItem('uID',json.userID);
 							startApp();
-	//		   				$.mobile.changePage('#page-tasklist');
+                            refreshClubs(0);
 	                    } else {
 							$('#invalidlogin').append('<p class="error"><b>Login Failed!</b></p>');
 	                    }
@@ -337,8 +338,9 @@ document.addEventListener("deviceready", startApp, false);
 	                click: function () {
                             removeDevice();
                             localStorage.clear();
+                            
                             window.localStorage.setItem('uID',0);
-                            $.mobile.changePage('#page-tasklist');
+                            $.mobile.changePage('#page-unauthorized');
 
 	                }
 	            },
@@ -480,6 +482,7 @@ document.addEventListener("deviceready", startApp, false);
             data: serData,
             success: function (data) {
                $.mobile.changePage($('#page-tasklist'));
+               refreshClubInfo();
                refreshClubs(0);
             },
         });
@@ -599,7 +602,10 @@ document.addEventListener("deviceready", startApp, false);
                 if(json.num == '1') {
                     loadContent();
                     $.mobile.changePage('#page-tasklist');
-                    getClubs();
+                    refreshClubInfo();
+                    refreshClubs(0);
+                    refreshUpcoming(1);
+                    refreshNewsfeed(1)
                 } else if (json.num == '2') {
                     $('#joincluberror').append('<p class="error">You are already in '+json.clubname+'!</p>');
                 } else if (json.num == '3') {
@@ -751,6 +757,46 @@ document.addEventListener("deviceready", startApp, false);
             });
         if(num == 0)
             getClubs();
+    }
+
+    function refreshClubInfo() {
+            $.ajax({
+            url: 'http://clubbedinapp.com/web/php/getclubs.php',
+            crossDomain: true,
+            async: false,
+            type: 'post',
+            data: {
+               'uID': userID
+            },
+            success: function (data) {
+               window.localStorage.setItem("clubs",data);
+               
+               //loadClubData here
+               var json = jQuery.parseJSON(data);
+               for (var i=0; i<json.length; i++)
+               {
+               (function(i2) {
+                var id = json[i].id;
+                $.ajax({
+                    async: false,
+                    url: 'http://clubbedinapp.com/web/php/getclubdata.php',
+                    crossDomain: true,
+                    type: 'post',
+                    data: {
+                        'theid': id
+                    },
+                    success: function (data2) {
+                       window.localStorage['club'+id] = data2;
+                    },
+                });
+                }(i));
+               }
+               
+            },
+            error: function () {
+               alert("Error: could not connect to server");
+            }
+        });
     }
 
     function refreshUpcoming(num) {
@@ -1931,7 +1977,7 @@ document.addEventListener("deviceready", startApp, false);
                 $('#defcont').append('<strong>Description: </strong>' + json.description + '<br/><br/>');
                 getEvents(false);
                 getAnnouncements('#annlist');
-                getMembers();
+                getMembers(false);
 		        getLogo();
                 getThreads();
             },
@@ -1956,7 +2002,7 @@ function getClubInfo(id, num) {
     $('#defcont').append('<strong>Description: </strong>' + json.description + '<br/><br/>');
     getEvents(false);
     getAnnouncements('#annlist');
-    getMembers();
+    getMembers(false);
     getLogo();
     //getThreads();
     
@@ -2188,11 +2234,11 @@ function getClubInfo(id, num) {
 
         $('#eventlist').listview();
         var tempBool = false;
-        getEvents(tempBool);
-        getAnnouncements('#annlist');
+//        getEvents(tempBool);
+//        getAnnouncements('#annlist');
 
         $('#memlist').listview();
-        getMembers(tempBool);
+//        getMembers(tempBool);
         $('#threads').listview();
 
     });
@@ -2616,3 +2662,4 @@ function getMembersAfterSearch(all) {
     'displayFormat': '#left'
     };
     $('#textareapost').textareaCount(options2);
+

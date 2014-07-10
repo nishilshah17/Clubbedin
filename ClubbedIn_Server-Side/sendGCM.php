@@ -30,7 +30,7 @@ $row = $result['deviceID'];
             // Instantiate a new ApnsPHP_Push object
             $push = new ApnsPHP_Push(
                 ApnsPHP_Abstract::ENVIRONMENT_SANDBOX,
-                'server_certificates_bundle_sandbox.pem'
+                'Certificates.pem'
             );
             
             // Set the Provider Certificate passphrase

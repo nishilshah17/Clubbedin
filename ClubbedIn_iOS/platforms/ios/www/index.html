@@ -62,9 +62,8 @@
             }
             
             function win(r) {
-                console.log("Code = " + r.responseCode);
-                console.log("Response = " + r.response);
-                console.log("Sent = " + r.bytesSent);;
+                $.mobile.changePage('#defaultclub');
+                getLogo();
             }
             
             function fail(error) {
@@ -155,8 +154,7 @@
 
         <div class="hdr" data-role="header" data-position="fixed" data-tap-toggle="false">
             <a class="hdrbtn" href="#defaultpanel" data-icon="grid" data-theme="f">More</a>
-            <a class="hdrbtn" href="#" id="head-menu-refresh" data-role="button" data-icon="refresh" data-iconpos="notext"
-                onclick="refreshClubs(0);" style="right:0.55em;color:#fff;">Refresh</a>
+            <a class="hdrbtn" href="#" id="head-menu-refresh" data-role="button" data-icon="refresh" data-iconpos="notext" onclick="refreshClubs(0);" style="right:0.55em;color:#fff;">Refresh</a>
             <h1>Your Clubs</h1>
         </div>
         <div class="content" data-role="content">
@@ -643,19 +641,9 @@
                 <input type="submit" value="Save">
             </form>
             <hr>
-            <a data-role="button" href="#editimage" id="editimagebutton">Edit Logo</a>
+            <a data-role="button" onclick="getImage();" id="editimagebutton">Upload Logo</a>
             <hr>
             <button id="deleteclub">Delete Club</button>
-        </div>
-    </div>
-
-    <div data-role="page" id="editimage">
-        <div class="hdr" data-role="header">
-            <a href="#defaultclub" data-icon="arrow-l" data-theme="f" onclick="getClubInfo(curClub, 1)" id="backtoclub8">Back</a>
-            <h1>Club Logo</h1>
-        </div>
-        <div data-role="content">
-            <div data-role = "button" onClick = "getImage();" >Upload Logo</div>
         </div>
     </div>
 
@@ -676,7 +664,7 @@
 
     <div data-role="page" id="editmembers">
         <div class="hdr" data-role="header" data-position="fixed">
-            <a href="#defaultclub" data-icon="arrow-l" data-theme="f" id="backtoclub10">Back</a>
+            <a href="#defaultclub" data-icon="arrow-l" data-theme="f" onclick="getMembers(false)" id="backtoclub10">Back</a>
             <h1>Members</h1>
         </div>
         <div data-role="content">
@@ -702,7 +690,7 @@
 
     <div data-role="page" id="admins">
         <div class="hdr" data-role="header" data-tap-toggle="false" data-position="fixed">
-            <a href="#defaultclub" data-icon="arrow-l" data-theme="f" onclick="getClubData(curClub, 1)" id="backtoclub2">Back</a>
+            <a href="#defaultclub" data-icon="arrow-l" data-theme="f" id="backtoclub2">Back</a>
             <h1>Admins</h1>
             <a href="#" id="head-menu-refresh2" data-theme="a" data-role="button" data-icon="refresh" data-iconpos="notext"
                class="ui-btn-right refresh-list" style="right:0.55em;" onclick="refreshAdmins();">Refresh</a>

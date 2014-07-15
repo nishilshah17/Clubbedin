@@ -117,7 +117,6 @@ ul.tabs a.current {
             margin-bottom: 10px;
             overflow: hidden !important;
             float:left;
-            border: 1px solid rgba(0, 0, 0, .5);
             position:absolute;     
         }
         

@@ -9,12 +9,15 @@ document.addEventListener("deviceready", startApp, false);
 			userID = window.localStorage.getItem('uID');
 
 			if (userID > 0){
-				$.mobile.changePage("#page-tasklist", {
+				$.mobile.loading('show');
+                $.mobile.changePage("#page-tasklist", {
 					transition : "flip",
 				});
+                
                 initPush();
                 loadContent();
                 getClubs();
+                $.mobile.loading('hide');
 			}
 			else{
 				$.mobile.changePage("#page-unauthorized", {
@@ -2043,6 +2046,7 @@ function getClubInfo(id, num) {
     function getLogo() {
         $('#clubimage').empty();
         $.ajax({
+            async: false,
             url: 'http://clubbedinapp.com/web/php/getlogo.php',
             crossDomain: true,
             type: 'post',

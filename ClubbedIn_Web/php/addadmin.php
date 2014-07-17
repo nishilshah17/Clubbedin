@@ -2,6 +2,7 @@
 header("access-control-allow-origin: *");
 
 include 'mysqlconnect.php';
+include 'pushnotifs.php';
 
 $dbserver = mysql_connect($dbhost, $dbuser, $dbpass)
     or die("Unable to connect to MySQL: " . mysql_error());
@@ -272,6 +273,8 @@ if(!$mail->Send())
 else
 {
 }
+    $message = "You are now admin for ".$club;
+    sendNotification($adminID, $message);
 
 }
 

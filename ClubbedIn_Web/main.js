@@ -1,27 +1,26 @@
-		var inital = -1;
-		localStorage.setItem('inits', -1);
+		/*var inital = -1;
+		localStorage.setItem('inits', -1);*/
 
 		function startApp(){
 			userID = window.localStorage.getItem('uID');
-
-			inital = window.localStorage.getItem('inits');
-			if (inital != 1){
+			//inital = window.localStorage.getItem('inits');
+			//if (inital != 1){
 
 				if (userID > 0){
 					localStorage.setItem('inits', 1);
 					$.mobile.changePage("#page-tasklist", {
-						transition : "flip",
+						transition : "flip"
 					});
 				}
 				else{
 					$.mobile.changePage("#page-unauthorized", {
-						transition : "flip",
+						transition : "flip"
 					});
-				}
-			}
+                }   
+			/*}
 			else if (inital == 1){
 
-			}
+			}*/
 
 		}
 
@@ -805,7 +804,7 @@
                 clubcontent.empty();
                 var json = jQuery.parseJSON(data);
                 for (var i = 0; i < json.length; i++)
-                    clubcontent.append('<li><a href="#" data-club-id=\"' + json[i].id + '\" rel="external">' + json[i].name + '</a></li>');
+                    clubcontent.append('<li class="listview"><a href="#" data-club-id=\"' + json[i].id + '\" rel="external">' + json[i].name + '</a></li>');
                 clubcontent.listview('refresh');
             },
             error: function () {

@@ -2,6 +2,7 @@
 header("access-control-allow-origin: *");
 
 include 'mysqlconnect.php';
+include 'pushnotifs.php';
 
 $dbserver = mysql_connect($dbhost, $dbuser, $dbpass)
     or die("Unable to connect to MySQL: " . mysql_error());
@@ -324,5 +325,7 @@ while ($row = mysql_fetch_assoc($result)) {
 	{
 	  echo "Message sent!";
 	}
+    $message = "New event for ".$clubName;
+    sendNotification($userID, $message);
 }
 ?>

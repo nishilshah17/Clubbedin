@@ -1084,3 +1084,370 @@ Stack trace:
 [17-Mar-2014 08:08:27 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
 [17-Mar-2014 08:08:27 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
 [23-Mar-2014 04:10:27 America/Chicago] PHP Parse error:  syntax error, unexpected ''"'' (T_CONSTANT_ENCAPSED_STRING) in /home4/clubbed/public_html/web/php/deleteevent.php on line 13
+[16-May-2014 06:16:05 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[16-May-2014 06:16:05 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[22-May-2014 14:18:07 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[22-May-2014 14:18:07 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[25-May-2014 15:37:07 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home4/clubbed/public_html/web/php/going.php on line 24
+[18-Jun-2014 02:55:06 America/Chicago] PHP Parse error:  syntax error, unexpected ''"'' (T_CONSTANT_ENCAPSED_STRING) in /home4/clubbed/public_html/web/php/deleteevent.php on line 13
+[23-Jun-2014 12:23:39 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[23-Jun-2014 12:23:39 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[23-Jun-2014 12:23:46 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[23-Jun-2014 12:23:46 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[23-Jun-2014 12:23:53 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[23-Jun-2014 12:23:53 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[23-Jun-2014 16:50:27 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[23-Jun-2014 16:50:27 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[24-Jun-2014 13:40:37 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /home4/clubbed/public_html/web/php/getattendancemembers.php on line 65
+[26-Jun-2014 15:30:22 America/Chicago] PHP Parse error:  syntax error, unexpected ''.$platform.'' (T_CONSTANT_ENCAPSED_STRING) in /home4/clubbed/public_html/web/php/adddevice.php on line 19
+[26-Jun-2014 16:00:08 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 9
+[26-Jun-2014 16:02:35 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 9
+[26-Jun-2014 16:04:25 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 9
+[26-Jun-2014 19:35:36 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 9
+[27-Jun-2014 01:25:37 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home4/clubbed/public_html/web/php/going.php on line 24
+[27-Jun-2014 08:27:03 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[27-Jun-2014 08:27:03 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[27-Jun-2014 16:45:28 America/New_York] PHP Fatal error:  Class 'ApnsPHP_Push' not found in /home4/clubbed/public_html/web/php/sendGCM.php on line 9
+[27-Jun-2014 16:49:05 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.sandbox.push.apple.com:2195': Connection refused (111)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:396
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(334): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(23): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 396
+[27-Jun-2014 16:51:50 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.sandbox.push.apple.com:2195': Connection refused (111)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:396
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(334): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(23): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 396
+[27-Jun-2014 16:53:22 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.sandbox.push.apple.com:2195': Connection refused (111)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(33): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[27-Jun-2014 16:54:31 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.sandbox.push.apple.com:2195': Connection refused (111)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(33): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[27-Jun-2014 16:54:39 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.sandbox.push.apple.com:2195': Connection refused (111)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(33): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[29-Jun-2014 14:46:49 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.sandbox.push.apple.com:2195': Connection refused (111)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(33): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[29-Jun-2014 14:52:02 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.sandbox.push.apple.com:2195': Connection refused (111)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(33): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[29-Jun-2014 14:53:53 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.sandbox.push.apple.com:2195': Connection refused (111)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(33): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[29-Jun-2014 14:54:15 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.sandbox.push.apple.com:2195': Connection refused (111)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(33): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[29-Jun-2014 14:54:32 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.sandbox.push.apple.com:2195': Connection refused (111)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(33): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[29-Jun-2014 16:05:49 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.sandbox.push.apple.com:2195': Connection refused (111)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(33): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[29-Jun-2014 17:15:47 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.sandbox.push.apple.com:2195': Connection refused (111)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(33): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[29-Jun-2014 17:38:27 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.sandbox.push.apple.com:2195': Connection refused (111)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(33): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[29-Jun-2014 19:09:23 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.sandbox.push.apple.com:2195': Connection refused (111)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(33): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[29-Jun-2014 19:09:30 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.sandbox.push.apple.com:2195': Connection refused (111)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(33): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[30-Jun-2014 08:58:56 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'clubbed'@'localhost' (using password: NO) in /home4/clubbed/public_html/web/php/pushnotifs.php on line 7
+[30-Jun-2014 08:58:56 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home4/clubbed/public_html/web/php/pushnotifs.php on line 7
+[30-Jun-2014 08:58:56 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 9
+[30-Jun-2014 16:36:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /home4/clubbed/public_html/web/php/whosgoing.php on line 22
+[01-Jul-2014 07:54:48 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Push_Exception' with message 'No notifications queued to be sent' in /home4/clubbed/public_html/web/php/ApnsPHP/Push.php:129
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/pushnotifs.php(209): ApnsPHP_Push->send()
+#1 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Push.php on line 129
+[01-Jul-2014 07:55:52 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Message_Exception' with message 'Invalid device token ''' in /home4/clubbed/public_html/web/php/ApnsPHP/Message.php:75
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Message.php(61): ApnsPHP_Message->addRecipient('')
+#1 /home4/clubbed/public_html/web/php/pushnotifs.php(181): ApnsPHP_Message->__construct('')
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Message.php on line 75
+[01-Jul-2014 07:57:00 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Message_Exception' with message 'Invalid device token ''' in /home4/clubbed/public_html/web/php/ApnsPHP/Message.php:75
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Message.php(61): ApnsPHP_Message->addRecipient('')
+#1 /home4/clubbed/public_html/web/php/pushnotifs.php(181): ApnsPHP_Message->__construct('')
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Message.php on line 75
+[01-Jul-2014 07:57:02 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Message_Exception' with message 'Invalid device token ''' in /home4/clubbed/public_html/web/php/ApnsPHP/Message.php:75
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Message.php(61): ApnsPHP_Message->addRecipient('')
+#1 /home4/clubbed/public_html/web/php/pushnotifs.php(181): ApnsPHP_Message->__construct('')
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Message.php on line 75
+[01-Jul-2014 07:57:33 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Message_Exception' with message 'Invalid device token ''' in /home4/clubbed/public_html/web/php/ApnsPHP/Message.php:75
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Message.php(61): ApnsPHP_Message->addRecipient('')
+#1 /home4/clubbed/public_html/web/php/pushnotifs.php(181): ApnsPHP_Message->__construct('')
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Message.php on line 75
+[01-Jul-2014 07:59:22 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Push_Exception' with message 'No notifications queued to be sent' in /home4/clubbed/public_html/web/php/ApnsPHP/Push.php:129
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/pushnotifs.php(209): ApnsPHP_Push->send()
+#1 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Push.php on line 129
+[01-Jul-2014 08:00:38 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Message_Exception' with message 'Invalid device token ''''' in /home4/clubbed/public_html/web/php/ApnsPHP/Message.php:75
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Message.php(61): ApnsPHP_Message->addRecipient('''')
+#1 /home4/clubbed/public_html/web/php/pushnotifs.php(181): ApnsPHP_Message->__construct('''')
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Message.php on line 75
+[01-Jul-2014 08:00:44 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Message_Exception' with message 'Invalid device token ''''' in /home4/clubbed/public_html/web/php/ApnsPHP/Message.php:75
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Message.php(61): ApnsPHP_Message->addRecipient('''')
+#1 /home4/clubbed/public_html/web/php/pushnotifs.php(181): ApnsPHP_Message->__construct('''')
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Message.php on line 75
+[01-Jul-2014 08:28:50 America/New_York] PHP Notice:  Undefined index: curID in /home4/clubbed/public_html/web/php/newevent.php on line 33
+[01-Jul-2014 08:28:52 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[01-Jul-2014 08:31:54 America/New_York] PHP Notice:  Undefined index: curID in /home4/clubbed/public_html/web/php/newevent.php on line 33
+[01-Jul-2014 08:31:56 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[01-Jul-2014 07:36:09 America/Chicago] PHP Parse error:  syntax error, unexpected ''"'' (T_CONSTANT_ENCAPSED_STRING) in /home4/clubbed/public_html/web/php/deleteevent.php on line 14
+[01-Jul-2014 07:38:35 America/Chicago] PHP Parse error:  syntax error, unexpected ''"'' (T_CONSTANT_ENCAPSED_STRING) in /home4/clubbed/public_html/web/php/deleteevent.php on line 14
+[01-Jul-2014 07:39:08 America/Chicago] PHP Parse error:  syntax error, unexpected ''"'' (T_CONSTANT_ENCAPSED_STRING) in /home4/clubbed/public_html/web/php/deleteevent.php on line 19
+[01-Jul-2014 08:39:47 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[02-Jul-2014 07:53:29 America/New_York] PHP Notice:  Undefined variable: adminID in /home4/clubbed/public_html/web/php/newannouncement.php on line 16
+[02-Jul-2014 07:53:31 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[02-Jul-2014 07:55:15 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[02-Jul-2014 07:57:15 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[02-Jul-2014 06:57:46 America/Chicago] PHP Parse error:  syntax error, unexpected ''pushnotifs.php'' (T_CONSTANT_ENCAPSED_STRING) in /home4/clubbed/public_html/web/php/addadmin.php on line 5
+[02-Jul-2014 06:58:30 America/Chicago] PHP Parse error:  syntax error, unexpected ''pushnotifs.php'' (T_CONSTANT_ENCAPSED_STRING) in /home4/clubbed/public_html/web/php/addadmin.php on line 5
+[02-Jul-2014 07:00:27 America/Chicago] PHP Parse error:  syntax error, unexpected ''pushnotifs.php'' (T_CONSTANT_ENCAPSED_STRING) in /home4/clubbed/public_html/web/php/addadmin.php on line 5
+[02-Jul-2014 07:00:54 America/Chicago] PHP Parse error:  syntax error, unexpected ''pushnotifs.php'' (T_CONSTANT_ENCAPSED_STRING) in /home4/clubbed/public_html/web/php/addadmin.php on line 5
+[02-Jul-2014 07:03:12 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[02-Jul-2014 07:03:26 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[02-Jul-2014 07:03:39 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[02-Jul-2014 07:06:18 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[03-Jul-2014 08:53:08 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[03-Jul-2014 18:09:01 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[03-Jul-2014 19:09:31 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[06-Jul-2014 15:14:41 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[06-Jul-2014 15:26:48 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[06-Jul-2014 15:26:48 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[06-Jul-2014 16:51:41 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[06-Jul-2014 21:38:25 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[06-Jul-2014 20:40:41 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[06-Jul-2014 21:41:34 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[06-Jul-2014 21:42:01 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[06-Jul-2014 21:42:19 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[07-Jul-2014 00:26:18 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[07-Jul-2014 11:14:47 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[07-Jul-2014 11:14:47 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[07-Jul-2014 11:15:13 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[07-Jul-2014 11:40:21 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[07-Jul-2014 11:47:14 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[07-Jul-2014 14:28:47 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[07-Jul-2014 14:20:00 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[07-Jul-2014 14:20:00 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[07-Jul-2014 14:20:02 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[07-Jul-2014 14:20:02 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[07-Jul-2014 18:38:39 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[07-Jul-2014 20:00:57 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[07-Jul-2014 21:39:42 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[07-Jul-2014 21:39:42 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[07-Jul-2014 21:47:33 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[07-Jul-2014 21:47:33 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[07-Jul-2014 23:07:50 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[07-Jul-2014 22:22:02 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[07-Jul-2014 22:22:02 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[07-Jul-2014 22:24:09 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[07-Jul-2014 22:24:09 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[07-Jul-2014 23:24:28 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[07-Jul-2014 23:24:28 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[07-Jul-2014 23:24:30 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[07-Jul-2014 23:24:30 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[07-Jul-2014 23:24:31 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[07-Jul-2014 23:24:31 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[07-Jul-2014 23:24:33 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[07-Jul-2014 23:24:33 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[07-Jul-2014 23:24:54 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[07-Jul-2014 23:24:54 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[07-Jul-2014 23:25:32 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[07-Jul-2014 23:25:32 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[07-Jul-2014 23:25:36 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[07-Jul-2014 23:25:36 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[08-Jul-2014 00:20:01 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[08-Jul-2014 00:20:01 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[08-Jul-2014 01:24:04 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 01:24:05 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 01:24:05 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 01:24:06 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 01:24:06 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 01:24:07 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 00:29:57 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[08-Jul-2014 00:29:57 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[08-Jul-2014 00:34:53 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[08-Jul-2014 00:34:53 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[08-Jul-2014 01:39:11 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 01:39:11 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 01:39:13 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 01:39:14 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 01:39:14 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 01:39:18 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 01:39:18 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 01:39:19 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 00:44:01 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[08-Jul-2014 00:44:01 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[08-Jul-2014 01:06:11 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[08-Jul-2014 01:06:11 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[08-Jul-2014 08:43:12 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[08-Jul-2014 08:43:12 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[08-Jul-2014 08:44:11 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[08-Jul-2014 08:44:11 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[08-Jul-2014 08:44:37 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[08-Jul-2014 08:44:37 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[08-Jul-2014 08:46:25 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[08-Jul-2014 08:46:25 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[08-Jul-2014 08:48:25 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[08-Jul-2014 08:48:25 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[08-Jul-2014 08:51:46 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[08-Jul-2014 08:51:46 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[08-Jul-2014 08:56:51 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[08-Jul-2014 08:56:51 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[08-Jul-2014 09:16:15 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[08-Jul-2014 09:16:15 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[08-Jul-2014 09:17:21 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[08-Jul-2014 09:17:21 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[08-Jul-2014 09:19:08 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[08-Jul-2014 09:19:08 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[08-Jul-2014 09:20:33 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 38
+[08-Jul-2014 09:20:33 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 70
+[08-Jul-2014 09:29:47 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 39
+[08-Jul-2014 09:29:47 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home4/clubbed/public_html/web/php/getupcoming.php on line 71
+[08-Jul-2014 09:32:27 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/clubbed/public_html/web/php/getupcoming.php on line 30
+[08-Jul-2014 16:49:59 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 17:50:49 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 17:51:11 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 17:57:40 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 17:58:12 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 18:05:36 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 18:07:41 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 20:44:08 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 20:44:08 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 20:44:09 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 20:44:09 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 20:44:10 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 20:44:11 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 20:44:11 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 20:44:12 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 20:44:12 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[08-Jul-2014 23:07:04 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[09-Jul-2014 18:46:03 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[09-Jul-2014 19:47:27 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[09-Jul-2014 19:49:54 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[09-Jul-2014 21:09:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/clubbed/public_html/web/php/takeattendance.php on line 13
+[09-Jul-2014 23:42:12 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[09-Jul-2014 23:42:14 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[09-Jul-2014 23:42:15 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[09-Jul-2014 23:42:15 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[09-Jul-2014 23:42:16 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[09-Jul-2014 23:42:17 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[09-Jul-2014 23:42:18 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[09-Jul-2014 23:42:18 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[09-Jul-2014 23:42:19 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[09-Jul-2014 23:42:19 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[09-Jul-2014 23:42:20 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[09-Jul-2014 23:42:20 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[10-Jul-2014 08:23:50 America/New_York] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[10-Jul-2014 22:13:42 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home4/clubbed/public_html/web/php/pushnotifs.php on line 23
+[16-Jul-2014 08:10:36 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.push.apple.com:2195':  (0)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(86): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[16-Jul-2014 08:32:01 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.push.apple.com:2195':  (0)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(88): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[16-Jul-2014 08:32:10 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.push.apple.com:2195':  (0)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(88): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[16-Jul-2014 08:32:22 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.push.apple.com:2195':  (0)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(88): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[16-Jul-2014 08:33:14 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.push.apple.com:2195':  (0)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(88): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[16-Jul-2014 08:34:03 America/New_York] PHP Fatal error:  Call to undefined method ApnsPHP_Push::setProviderCertificatePassphrase() in /home4/clubbed/public_html/web/php/sendGCM.php on line 82
+[16-Jul-2014 08:34:54 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.push.apple.com:2195':  (0)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(88): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[16-Jul-2014 08:36:14 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.push.apple.com:2195':  (0)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(88): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[16-Jul-2014 08:36:20 America/New_York] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to connect to 'ssl://gateway.push.apple.com:2195':  (0)' in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php:352
+Stack trace:
+#0 /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php(295): ApnsPHP_Abstract->_connect()
+#1 /home4/clubbed/public_html/web/php/sendGCM.php(88): ApnsPHP_Abstract->connect()
+#2 {main}
+  thrown in /home4/clubbed/public_html/web/php/ApnsPHP/Abstract.php on line 352
+[16-Jul-2014 08:37:46 America/New_York] PHP Fatal error:  Call to undefined method ApnsPHP_Push::setProviderCertificatePassphrase() in /home4/clubbed/public_html/web/php/sendGCM.php on line 82
+[16-Jul-2014 13:09:58 America/New_York] PHP Fatal error:  Call to undefined method ApnsPHP_Push::setProviderCertificatePassphrase() in /home4/clubbed/public_html/web/php/sendGCM.php on line 82

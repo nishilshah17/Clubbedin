@@ -9,6 +9,7 @@ mysql_select_db($db)
     or die("Unable to select database: " . mysql_error());
 
 $userID = $_POST['userID'];
+$clubID = $_POST['clubID'];
 
 $attendance = array();
 
@@ -26,8 +27,9 @@ while ($row = mysql_fetch_assoc($result))
 
 	$result3 = mysql_query('SELECT * FROM clubs WHERE clubID = "'.$row2['clubID'].'"');
 	$row3 = mysql_fetch_assoc($result3);
-
-	array_push($attendance, array('eventName' => $row2['eventName'],'date' => $newdate, 'venue' => $row2['venue'], 'clubName' => $row3['clubName']));
+    
+    if($clubID == $row2['clubID'] || $clubID == 0)
+	   array_push($attendance, array('eventName' => $row2['eventName'],'date' => $newdate, 'venue' => $row2['venue'], 'clubName' => $row3['clubName']));
 }
 
 $result = mysql_query('SELECT * FROM attendance2 WHERE userID = "'.$userID.'"');
@@ -44,8 +46,9 @@ while ($row = mysql_fetch_assoc($result))
 
 	$result3 = mysql_query('SELECT * FROM clubs WHERE clubID = "'.$row2['clubID'].'"');
 	$row3 = mysql_fetch_assoc($result3);
-
-	array_push($attendance, array('eventName' => $row2['eventName'],'date' => $newdate, 'venue' => $row2['venue'], 'clubName' => $row3['clubName']));
+    
+    if($clubID == $row2['clubID'] || $clubID == 0)
+	   array_push($attendance, array('eventName' => $row2['eventName'],'date' => $newdate, 'venue' => $row2['venue'], 'clubName' => $row3['clubName']));
 }
 
 $result = mysql_query('SELECT * FROM attendance3 WHERE userID = "'.$userID.'"');
@@ -63,7 +66,8 @@ while ($row = mysql_fetch_assoc($result))
 	$result3 = mysql_query('SELECT * FROM clubs WHERE clubID = "'.$row2['clubID'].'"');
 	$row3 = mysql_fetch_assoc($result3);
 
-	array_push($attendance, array('eventName' => $row2['eventName'],'date' => $newdate, 'venue' => $row2['venue'], 'clubName' => $row3['clubName']));
+    if($clubID == $row2['clubID'] || $clubID == 0)
+	   array_push($attendance, array('eventName' => $row2['eventName'],'date' => $newdate, 'venue' => $row2['venue'], 'clubName' => $row3['clubName']));
 }
 function cmp($a, $b){
     return strtotime($a['date']) - strtotime($b['date']);

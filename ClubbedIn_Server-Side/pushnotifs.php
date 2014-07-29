@@ -57,66 +57,66 @@ function sendNotification($userID, $message){
         }
                 
         if($platform == "ios") {
-                    date_default_timezone_set('America/New_York');
-        
-                    // Report all PHP errors
-                    error_reporting(-1);
-                    
-                    // Instantiate a new ApnsPHP_Push object
-                    $push = new ApnsPHP_Push(
-                        ApnsPHP_Abstract::ENVIRONMENT_PRODUCTION,
-                        'clubbedinpush.pem'
-                    );
-                    
-                    // Set the Provider Certificate passphrase
-                    //$push->setProviderCertificatePassphrase('test');
-                    
-                    // Set the Root Certificate Autority to verify the Apple remote peer
-                    $push->setRootCertificationAuthority('entrust_root_certification_authority.pem');
-                    
-                    // Connect to the Apple Push Notification Service
-                    $push->connect();
-                    
-                    // Instantiate a new Message with a single recipient
-                    $notif = new ApnsPHP_Message($deviceID);
-                    
-                    // Set a custom identifier. To get back this identifier use the getCustomIdentifier() method
-                    // over a ApnsPHP_Message object retrieved with the getErrors() message.
-                    $notif->setCustomIdentifier("Message-Badge-1");
-                    
-                    // Set badge icon to "3"
-                    $notif->setBadge(1);
-                    
-                    // Set a simple welcome text
-                    $notif->setText($message);
-                    
-                    // Play the default sound
-                    $notif->setSound();
-                    
-                    // Set a custom property
-                    $notif->setCustomProperty('acme2', array('bang', 'whiz'));
-                    
-                    // Set another custom property
-                    $notif->setCustomProperty('acme3', array('bing', 'bong'));
-                    
-                    // Set the expiry value to 30 seconds
-                    $notif->setExpiry(30);
-                    
-                    // Add the message to the message queue
-                    $push->add($notif);
-                    
-                    // Send all messages in the message queue
-                    $push->send();
-                    
-                    // Disconnect from the Apple Push Notification Service
-                    $push->disconnect();
-                    
-                    // Examine the error message container
-                    $aErrorQueue = $push->getErrors();
-                    if (!empty($aErrorQueue)) {
-                        var_dump($aErrorQueue);
-                    }
-        }
+            date_default_timezone_set('America/New_York');
+
+            // Report all PHP errors
+            error_reporting(-1);
+            
+            // Instantiate a new ApnsPHP_Push object
+            $push = new ApnsPHP_Push(
+                ApnsPHP_Abstract::ENVIRONMENT_PRODUCTION,
+                'aps.pem'
+            );
+
+            // Set the Provider Certificate passphrase
+            //$push->setProviderCertificatePassphrase('ClubbedIn2013');
+            
+            // Set the Root Certificate Autority to verify the Apple remote peer
+            $push->setRootCertificationAuthority('entrust_root_certification_authority.pem');
+            
+            // Connect to the Apple Push Notification Service
+            $push->connect();
+            
+            // Instantiate a new Message with a single recipient
+            $notif = new ApnsPHP_Message($deviceID);
+            
+            // Set a custom identifier. To get back this identifier use the getCustomIdentifier() method
+            // over a ApnsPHP_Message object retrieved with the getErrors() message.
+            $notif->setCustomIdentifier("Message-Badge-1");
+            
+            // Set badge icon to "3"
+            $notif->setBadge(1);
+            
+            // Set a simple welcome text
+            $notif->setText($message);
+            
+            // Play the default sound
+            $notif->setSound();
+            
+            // Set a custom property
+            $notif->setCustomProperty('acme2', array('bang', 'whiz'));
+            
+            // Set another custom property
+            $notif->setCustomProperty('acme3', array('bing', 'bong'));
+            
+            // Set the expiry value to 30 seconds
+            $notif->setExpiry(30);
+            
+            // Add the message to the message queue
+            $push->add($notif);
+            
+            // Send all messages in the message queue
+            $push->send();
+            
+            // Disconnect from the Apple Push Notification Service
+            $push->disconnect();
+            
+            // Examine the error message container
+            $aErrorQueue = $push->getErrors();
+            if (!empty($aErrorQueue)) {
+                var_dump($aErrorQueue);
+            }
+    }
     }
 }
 ?>

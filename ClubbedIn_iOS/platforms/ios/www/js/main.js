@@ -3,13 +3,14 @@
 document.addEventListener("deviceready", startApp, false);
 
 		var userID = 0;
+
         var deviceID;
 
 		function startApp(){
 			userID = window.localStorage.getItem('uID');
 
 			if (userID > 0){
-				$.mobile.loading('show');
+				//$.mobile.loading('show');
                 $.mobile.changePage("#page-tasklist", {
 					transition : "flip",
 				});
@@ -17,7 +18,7 @@ document.addEventListener("deviceready", startApp, false);
                 initPush();
                 loadContent();
                 getClubs();
-                $.mobile.loading('hide');
+                //$.mobile.loading('hide');
 			}
 			else{
 				$.mobile.changePage("#page-unauthorized", {
@@ -444,7 +445,9 @@ document.addEventListener("deviceready", startApp, false);
     return false;
     });
 
-    $('#newann').submit( function () {
+    $('#newann').submit( function (e) {
+        e.preventDefault();
+        alert("submit");
 
         var t = $('#t').val();
         var m = $('#m').val();
@@ -459,6 +462,7 @@ document.addEventListener("deviceready", startApp, false);
                 'm' : m
             },
             success: function (data) {
+               alert('test');
                 refreshNews();
             }
         });
@@ -487,7 +491,7 @@ document.addEventListener("deviceready", startApp, false);
                $.mobile.changePage($('#page-tasklist'));
                refreshClubInfo();
                refreshClubs(0);
-            },
+            }
         });
 
         } else {
@@ -517,7 +521,7 @@ document.addEventListener("deviceready", startApp, false);
             success: function (data) {
                 $.mobile.changePage($('#defaultclub'));
                getClubInfo(curClub, 2);
-            },
+            }
         });
 
         } else {
@@ -1450,7 +1454,8 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
-                'userID': userID
+                'userID': userID,
+                'clubID': 0
             },
             success: function (data) {
                 var json = jQuery.parseJSON(data);
@@ -1504,7 +1509,7 @@ document.addEventListener("deviceready", startApp, false);
                 var json = jQuery.parseJSON(data);
                 for (var i = 0; i < json.length; i++)
                 {
-                $('#viewattendancelist2').append('<li><a id=\"' + json[i].id + '\">'+json[i].name+'</a></li>').trigger('create');
+                $('#viewattendancelist2').append('<li><a data-club=\"' + clubID + '\" id=\"' + json[i].id + '\">'+json[i].name+'</a></li>').trigger('create');
                 }
                 $('#viewattendancelist2').listview('refresh');
             }
@@ -1524,12 +1529,13 @@ document.addEventListener("deviceready", startApp, false);
         $('#attendancename2').empty();
         $('#viewattendancelist3').empty();
         var userID = $(this).attr('id');
+        var clubID = $(this).data('club');
         $.ajax({
             url: 'http://clubbedinapp.com/web/php/getusername.php',
             crossDomain: true,
             type: 'post',
             data: {
-                'userID': userID
+                'userID': userID,
             },
             success: function (data) {
                 var json = jQuery.parseJSON(data);
@@ -1541,7 +1547,8 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
-                'userID': userID
+                'userID': userID,
+                'clubID': clubID
             },
             success: function (data) {
                 var json = jQuery.parseJSON(data);
@@ -1596,10 +1603,6 @@ document.addEventListener("deviceready", startApp, false);
                 $('#email').val(finalemail);
             }
         });
-
-    });
-
-    $(document).on('click', '#leaveclub', function () {
 
     });
 
@@ -1659,8 +1662,8 @@ document.addEventListener("deviceready", startApp, false);
                                 $.mobile.changePage($('#aftersearch'));
                                 getAfterLogo();
                                 $('#aftersearchheader').append(json.clubName);
-                                asc.append('<strong>School: </strong>' + json.schoolName + '<br/><br/>');
-                                asc.append('<strong>Description: </strong>' + json.description + '<br/><br/>');
+                                asc.append('<strong class="desc-left">School: </strong><i class="desc-right">' + json.schoolName + '</i><br/><br/>');
+                                asc.append('<strong class="desc-left">Description: </strong><i class="desc-right"' + json.description + '</i><br/><br/>');
                             }
                         });
                     }
@@ -1982,7 +1985,7 @@ document.addEventListener("deviceready", startApp, false);
                 getAnnouncements('#annlist');
                 getMembers(false);
 		        getLogo();
-                getThreads();
+                //getThreads();
             },
         });
     };
@@ -2000,9 +2003,9 @@ function getClubInfo(id, num) {
         document.getElementById("clubbutton").onclick="";
     }
     $('#hdr').append(json.clubName);
-    $('#defcont').append('<strong>Club ID: </strong>' + json.clubID + '<br/><br/>');
-    $('#defcont').append('<strong>School: </strong>' + json.schoolName + '<br/><br/>');
-    $('#defcont').append('<strong>Description: </strong>' + json.description + '<br/><br/>');
+    $('#defcont').append('<i class="desc-center">' + json.description + '<i><br/><br/>');
+    $('#defcont').append('<strong class="desc-left">Club ID: </strong><i class="desc-right">' + json.clubID + '</i><br/><br/>');
+    $('#defcont').append('<strong class="desc-left">School: </strong><i class="desc-right">' + json.schoolName + '<br/><br/>');
     getEvents(false);
     getAnnouncements('#annlist');
     getMembers(false);
@@ -2056,12 +2059,12 @@ function getClubInfo(id, num) {
             success: function (data) {
                 var json = jQuery.parseJSON(data);
                 if(json == null) {
-                      $('#clubimage').append('<img style="top:50%;left:50%;height:inherit;width:inherit" src="images/unknown.jpg" align="left">');
-//                      $('#clubimage').css('background-image','url(../images/unknown.jpg) !important;');
+                    $('#clubimage').css("background", "url(images/unknown.jpg) no-repeat");
                 } else {
-                     $('#clubimage').append('<img style="top:50%;left:50%;height:inherit;width:inherit" src=\"' + json.logo + '\" align="center">');
-                    
+                    $('#clubimage').css("background", "url('"+json.logo+"') no-repeat");
                 }
+               $('#clubimage').css("background-size","100%, 100%");
+               $('#clubimage').css("background-position","0px 0px");
             }
         });
     }
@@ -2632,6 +2635,7 @@ function getMembersAfterSearch(all) {
                 'clubID': curClub
             },
             success: function (data) {
+               alert(data);
                var json = jQuery.parseJSON(data);
                auri.listview();
                auri.empty();
@@ -2639,7 +2643,11 @@ function getMembersAfterSearch(all) {
                {
                     for (var i =0; i < json.length; i++)
                         auri.append('<li><h3 class="ui-li-heading">' + json[i].title + '</h3><p class="ui-li-desc">'+json[i].info+'</p></li>');
+                    if(json.length == 0)
+                        auri.append('<li>No News!</li>')
                     auri.listview('refresh');
+               
+               
                }
                else {
                    for (var i=0; i<json.length; i++)

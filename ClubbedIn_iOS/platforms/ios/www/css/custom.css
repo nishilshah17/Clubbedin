@@ -1,5 +1,5 @@
 .hdr {
-    background:rgba(26, 120, 178, 1);
+    background:rgb(26, 120, 178);
 }
 
 .hdrbtn,
@@ -47,4 +47,68 @@
 .whosgoing{
     bottom:0 !important;
     margin-top:10px;
+    border: 0 !important;
+}
+
+.progress-bar {
+    z-index: 100;
+    position:relative;
+    top:0;
+    left:0 !important;
+    background-color: rgba(26, 120, 178,0);
+    height: 10px;
+    width: 100%;
+    margin-top:5%;
+    margin-left: -3% !important;
+    padding-right: 4%;
+    overflow: hidden;
+    
+}
+.ui-collapsible-heading .ui-btn-inner { 
+    padding-left: 12px;
+    padding-right: 12px; 
+    color: rgba(0,0,0,.75);
+    font-weight: 100;
+    background: rgba(255, 255, 255, 1) !important;
+    -moz-box-shadow: -3px 0px 2px #888;
+    -webkit-box-shadow: -3px 0px 2px #888;
+    box-shadow: -3px 0px 2px #888;
+}
+.ui-li-static, .ui-link-inherit-clubPage, .ui-btn-up-c, .ui-btn-hover-c, .ui-btn-down-c {
+    background: white;
+    border: 1px solid rgba(26, 120, 178,1);
+}
+
+.ui-btn-up-c, .ui-btn-hover-c, .ui-btn-down-c {margin-top: 10px;}
+.ui-btn-down-c {background: whitesmoke;border: 1px solid #db2121;}
+
+.ui-slider-switch {background: white;}
+.ui-slider-label-b {background: rgba(0,0,0,0);}
+
+.circimg{
+  background:url(../images/unknown.jpg) no-repeat;
+  background-size: 100%, 100%;
+  background-position:0px 0px;
+  height:150px;
+  width:150px !important;
+  border-radius:50%;
+  overflow:hidden;
+  margin:auto;
+  border: 3px solid rgb(26, 120, 178);
+}
+
+.desc-right{right:10px;position:absolute;}
+.desc-left{float:left;}
+.desc-center{left:25%;position:absolute;};
+
+@-webkit-keyframes myfirst {
+    0% {background: #c45555;}
+    50% {background: #f82b2b;}
+    100% {background: #c45555;}
+}
+
+@keyframes myfirst {
+    0% {background: #c45555;}
+    50% {background: #f82b2b;}
+    100% {background: #c45555;}
 }

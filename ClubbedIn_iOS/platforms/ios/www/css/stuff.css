@@ -53,95 +53,90 @@ ul.tabs a.current {
     padding:15px 20px;
     background-color:#ddd;
 }
-        .error{
-        border-color: #F78181;
-        color:red;
-        display:block;
-        font-weight: bold;
-        }
-        #slider-range,#SlideMax{
-        width:400px;
-        }
-        #slider-range,#time, #SlideMax, table{
-        margin:10px;display:block;
-        }
-        .ui-hide-label { float: left; }
-        #myTitle,#myTitle2{
-        float:left;
-        width:20%;
-        margin: .6em 0 .8em 40%;
-        }
-        #mySelect,#mySelect2{
-        float:right;
-        z-index: 1;
-        }
-        #ehdr  {
-        overflow:  hidden;
-        }
-        .split-button-custom {
-        float: right;
-        margin-right: 10px;
-        margin-top: -32px;
-        border-bottom-left-radius: 1em 1em;
-        border-bottom-right-radius: 1em 1em;
-        border-top-left-radius: 1em 1em;
-        border-top-right-radius: 1em 1em;
-        }
+.error{
+border-color: #F78181;
+color:red;
+display:block;
+font-weight: bold;
+}
+#slider-range,#SlideMax{
+width:400px;
+}
+#slider-range,#time, #SlideMax, table{
+margin:10px;display:block;
+}
+.ui-hide-label { float: left; }
+#myTitle,#myTitle2{
+float:left;
+width:20%;
+margin: .6em 0 .8em 40%;
+}
+#mySelect,#mySelect2{
+float:right;
+z-index: 1;
+}
+#ehdr  {
+overflow:  hidden;
+}
+.split-button-custom {
+float: right;
+margin-right: 10px;
+margin-top: -32px;
+border-bottom-left-radius: 1em 1em;
+border-bottom-right-radius: 1em 1em;
+border-top-left-radius: 1em 1em;
+border-top-right-radius: 1em 1em;
+}
 
-        .split-button-custom span.ui-btn-inner {
-        border-bottom-left-radius: 1em 1em;
-        border-bottom-right-radius: 1em 1em;
-        border-top-left-radius: 1em 1em;
-        border-top-right-radius: 1em 1em;
-        padding-right: 0px;
-        }
+.split-button-custom span.ui-btn-inner {
+border-bottom-left-radius: 1em 1em;
+border-bottom-right-radius: 1em 1em;
+border-top-left-radius: 1em 1em;
+border-top-right-radius: 1em 1em;
+padding-right: 0px;
+}
 
-        .split-button-custom span.ui-icon {
-        margin-top: 0px;
-        right: 0px;
-        top: 0px;
-        position: relative;
-        }
+.split-button-custom span.ui-icon {
+margin-top: 0px;
+right: 0px;
+top: 0px;
+position: relative;
+}
 
-        .panel-content {
-            text-align: center
-        }
+.panel-content {
+    text-align: center
+}
 
-        .holder {
-            height: 100px !important;
-            width: 100px !important;
-            background: rgba(0,0,0,0) !important;
-            margin-right: 5px;
-            margin-top:5px;
-            margin-left: -5px;
-            margin-bottom: 10px;
-            overflow: hidden !important;
-            float:left;
-            position:absolute;     
-        }
-        
-        .clubinfo {
-            height: 25%;
-            width:  75%;
-            float:  right;
-            position:relative;
-        }
+.holder {
+    height: 100px !important;
+    width: 100px !important;
+    background: rgba(0,0,0,0) !important;
+    margin-right: 5px;
+    margin-top:5px;
+    margin-left: -5px;
+    margin-bottom: 10px;
+    overflow: hidden !important;
+    float:left;
+    position:absolute;     
+}
 
-        .clublogo {
-    
-        }
+.clubinfo {
+    height: 25%;
+    width:  75%;
+    float:  right;
+    position:relative;
+}
 
-        .logo {
-            height: 25%;
-            width: auto;
-        }
+.clublogo {
 
-        .ad {
-            width: 100%;
-            height: auto;
-        }
+}
 
+.logo {
+    height: 25%;
+    width: auto;
+}
 
-
-
-
+.ad {
+    width: 100%;
+    height: auto;
+}

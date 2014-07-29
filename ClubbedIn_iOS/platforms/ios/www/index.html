@@ -107,9 +107,8 @@
             <link rel="stylesheet" href="css/custom.css"/>
     </head>
 <body font="arial" align="center">
-        
-    <div data-role="page" data-theme="g" id="page-unauthorized" onLoad='relogornot();'>
 
+    <div data-role="page" data-theme="g" id="page-unauthorized" onLoad='relogornot();'>
         <div align="center" data-role="content">
             <img src="images/logo_main.png" class="logo">
             <form id="loginform">
@@ -118,7 +117,6 @@
                 <input type="submit" id="loginsubmit" value="Login" data-theme="f"/>
             </form>
             <div id="invalidlogin"></div>
-
             <br><br><br>
             <div data-position="bottom" data-theme="g">Don't have an account? <a href="#signup">Sign Up</a></div>
         </div>
@@ -447,7 +445,7 @@
         </div>
         <div data-role="content">
             <div class="ui-grid-a">
-                <div class="holder" id="clubimage"></div>
+                <div class="circimg" id="clubimage" align="center"></div>
                 <div class="clubinfo"><p id="defcont" align="left"></p></div>
             </div>
             <div data-role="collapsible-set" data-type="tabs" data-tabs="4" >
@@ -582,7 +580,7 @@
 
     <div data-role="page" id="moreevents">
         <div class="hdr" data-role="header" data-position="fixed">
-            <a href="#defaultclub" data-icon="arrow-l" data-theme="f" id="backtoclub">Back</a>
+            <a href="#defaultclub" data-icon="arrow-l" data-theme="f" id="backtoclub" onclick="getClubInfo(curClub,1);">Back</a>
             <h1 id="myTitle">All Events</h1>
             <span id="mySelect">
                 <select name="switch" id="alleventsswitch" data-role="slider" data-mini="true">
@@ -786,8 +784,8 @@
         </div>
         <div data-role="content">
             <div class="ui-grid-a">
-                <div class="ui-block-a" id="aftersearchimage"></div>
-                <div class="ui-block-b"><p id="aftersearchcontent"></p></div>
+                <div class="circimg" id="aftersearchimage"></div>
+                <div class="clubinfo"><p id="aftersearchcontent"></p></div>
             </div>
             <hr>
             <div data-role="collapsible" id="memaftersearch">

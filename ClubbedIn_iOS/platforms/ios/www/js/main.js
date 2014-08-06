@@ -3,22 +3,25 @@
 document.addEventListener("deviceready", startApp, false);
 
 		var userID = 0;
+        var firstTime = 0;
+        var token = 0;
 
         var deviceID;
 
 		function startApp(){
 			userID = window.localStorage.getItem('uID');
+            token = window.localStorage.getItem('token');
 
 			if (userID > 0){
-				//$.mobile.loading('show');
+                initPush();
+                validateUser();
+                loadContent();
+                
                 $.mobile.changePage("#page-tasklist", {
 					transition : "flip",
 				});
                 
-                initPush();
-                loadContent();
                 getClubs();
-                //$.mobile.loading('hide');
 			}
 			else{
 				$.mobile.changePage("#page-unauthorized", {
@@ -27,6 +30,25 @@ document.addEventListener("deviceready", startApp, false);
 			}
 
 		}
+
+        function validateUser() {
+            $.ajax({
+                url: 'http://clubbedinapp.com/web/php/validateuser.php',
+                crossDomain: true,
+                type: 'post',
+                data: {
+                    'token': token,
+                    'uID': userID
+                },
+                success: function(data) {
+                   var json = jQuery.parseJSON(data);
+                   if(json.status == 'failed'){
+                        logout();
+                   }
+
+                }
+            });
+        }
 
         function initPush() {
             
@@ -61,6 +83,7 @@ document.addEventListener("deviceready", startApp, false);
                        crossDomain: true,
                        type: 'post',
                        data: {
+                            'token': token,
                             'uID': userID,
                             'platform': 'ios',
                             'deviceID': result
@@ -80,6 +103,7 @@ document.addEventListener("deviceready", startApp, false);
                 async: false,
                 type: 'post',
                 data: {
+                   'token': token,
                    'uID': userID
                 },
                 success: function (data) {
@@ -97,6 +121,7 @@ document.addEventListener("deviceready", startApp, false);
                         crossDomain: true,
                         type: 'post',
                         data: {
+                           'token': token,
                             'theid': id
                         },
                         success: function (data2) {
@@ -117,6 +142,7 @@ document.addEventListener("deviceready", startApp, false);
                 crossDomain: true,
                 type: 'post',
                 data: {
+                   'token': token,
                    'userID': userID
                 },
                 success: function(data) {
@@ -132,6 +158,7 @@ document.addEventListener("deviceready", startApp, false);
                 crossDomain: true,
                 type: 'post',
                 data: {
+                   'token': token,
                     'uID': userID
                 },
                 success: function (data) {
@@ -229,6 +256,7 @@ document.addEventListener("deviceready", startApp, false);
 	                crossDomain: true,
 	                type: 'post',
 	                data: {
+                       'token': token,
 						'clubID': club
 					},
 	                success: function () {
@@ -261,6 +289,7 @@ document.addEventListener("deviceready", startApp, false);
 	                	var json = jQuery.parseJSON(data);
 	                	if(json.userID > 0) {
 							window.localStorage.setItem('uID',json.userID);
+                            window.localStorage.setItem('token',json.token);
 							startApp();
                             refreshClubs(0);
 	                    } else {
@@ -297,7 +326,7 @@ document.addEventListener("deviceready", startApp, false);
             }).form()) {
                 $('#changepassworderror').empty();
                 e.preventDefault();
-                var serData = $('#changepasswordform').serialize() + "&userID=" + userID;
+                var serData = $('#changepasswordform').serialize() + "&userID=" + userID + "&token=" +token;
                 $.ajax({
                     url: 'http://clubbedinapp.com/web/php/getpassword.php',
                     crossDomain: true,
@@ -305,7 +334,7 @@ document.addEventListener("deviceready", startApp, false);
                     data: serData,
                     success: function (data) {
                         if(data == "true") {
-                            var serData2 = $('#changepasswordform').serialize() + "&userID=" + userID;
+                            var serData2 = $('#changepasswordform').serialize() + "&userID=" + userID + "&token="+token;
                             $.ajax({
                             url: 'http://clubbedinapp.com/web/php/changepassword.php',
                             crossDomain: true,
@@ -340,12 +369,7 @@ document.addEventListener("deviceready", startApp, false);
 	        buttons: {
 	            'Yes': {
 	                click: function () {
-                            removeDevice();
-                            localStorage.clear();
-                            
-                            window.localStorage.setItem('uID',0);
-                            $.mobile.changePage('#page-unauthorized');
-
+                         logout();
 	                }
 	            },
 	            'No': {
@@ -358,12 +382,22 @@ document.addEventListener("deviceready", startApp, false);
 	    return false;
 	    });
 
+        function logout(){
+            removeDevice();
+            localStorage.clear();
+            
+            window.localStorage.setItem('uID',0);
+            firstTime = 0;
+            $.mobile.changePage('#page-unauthorized');
+        }
+
         function removeDevice() {
             $.ajax({
                 url: 'http://clubbedinapp.com/web/php/removedevice.php',
                 crossDomain: true,
                 type: 'post',
                 data: {
+                   'token': token,
                    'deviceID' : deviceID
                 },
                 success: function (data) {
@@ -390,6 +424,7 @@ document.addEventListener("deviceready", startApp, false);
                         crossDomain: true,
                         type: 'post',
                         data: {
+                           'token': token,
                             'clubID' : curClub
                         },
                         success: function (data) {
@@ -426,6 +461,7 @@ document.addEventListener("deviceready", startApp, false);
                             crossDomain: true,
                             type: 'post',
                             data: {
+                               'token': token,
                                 'eventID' : curEvent
                             },
                             success: function (data) {
@@ -457,6 +493,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'clubID' : curClub,
                 't' : t,
                 'm' : m
@@ -480,7 +517,7 @@ document.addEventListener("deviceready", startApp, false);
             }
         }).form()) {
 
-        var serData = $('#clubname').serialize() + "&uID=" + userID;
+        var serData = $('#clubname').serialize() + "&uID=" + userID + "&token=" + token;
         e.preventDefault();
         $.ajax({
             url: 'http://clubbedinapp.com/web/php/createclub.php',
@@ -511,7 +548,7 @@ document.addEventListener("deviceready", startApp, false);
             }
         }).form()) {
 
-        var serData = $('#postform').serialize() + "&uID=" + userID + "&clubID=" + curClub;
+        var serData = $('#postform').serialize() + "&uID=" + userID + "&clubID=" + curClub + "&token="+token;
         e.preventDefault();
         $.ajax({
             url: 'http://clubbedinapp.com/web/php/newthread.php',
@@ -547,6 +584,7 @@ document.addEventListener("deviceready", startApp, false);
                 crossDomain: true,
                 type: 'post',
                 data: {
+                   'token': token,
                     'userID': userID,
                     'message': $('#message').val()
                 },
@@ -577,6 +615,7 @@ document.addEventListener("deviceready", startApp, false);
                 type: "post",
                 crossDomain: true,
                 data: {
+                   'token': token,
                     'q': value,
                     'userID': userID
                 },
@@ -596,7 +635,7 @@ document.addEventListener("deviceready", startApp, false);
     });
 
     $("#getclubid").submit(function (e) {
-        var serData = $('#getclubid').serialize() + "&uID=" + userID;
+        var serData = $('#getclubid').serialize() + "&uID=" + userID + "&token=" + token;
         e.preventDefault();
         $.ajax({
             url: 'http://clubbedinapp.com/web/php/joinclub.php',
@@ -628,7 +667,7 @@ document.addEventListener("deviceready", startApp, false);
     });
 
     $("#getclubid2").submit(function (e) {
-        var serData = $('#getclubid2').serialize() + "&uID=" + userID + "&curClub=" + curClub;
+        var serData = $('#getclubid2').serialize() + "&uID=" + userID + "&curClub=" + curClub + "&token=" + token;
         e.preventDefault();
         $.ajax({
             url: 'http://clubbedinapp.com/web/php/joinclubsearch.php',
@@ -669,6 +708,7 @@ document.addEventListener("deviceready", startApp, false);
                 crossDomain: true,
                 type: 'post',
                 data: {
+                   'token': token,
                     'editfname': $('#firstname').val(),
                     'editlname': $('#lastname').val(),
                     'userID': userID
@@ -705,6 +745,7 @@ document.addEventListener("deviceready", startApp, false);
                     crossDomain: true,
                     type: 'post',
                     data: {
+                       'token': token,
                         'email': $('#email').val(),
                         'userID': userID
                     },
@@ -715,6 +756,7 @@ document.addEventListener("deviceready", startApp, false);
                                         crossDomain: true,
                                         type: 'post',
                                         data: {
+                                            'token': token,
                                             'email': $('#email').val(),
                                             'userID': userID
                                         },
@@ -743,7 +785,10 @@ document.addEventListener("deviceready", startApp, false);
     });
 
     $("#page-tasklist").on('pagebeforeshow',function() {
-        getClubs();
+        if(firstTime != 0)
+            getClubs();
+        else
+            firstTime = 1;
     })
 
     function refreshClubs(num) {
@@ -753,6 +798,7 @@ document.addEventListener("deviceready", startApp, false);
                 crossDomain: true,
                 type: 'post',
                 data: {
+                   'token': token,
                    'uID': userID
                 },
                 success: function (data) {
@@ -773,6 +819,7 @@ document.addEventListener("deviceready", startApp, false);
             async: false,
             type: 'post',
             data: {
+                'token': token,
                'uID': userID
             },
             success: function (data) {
@@ -790,6 +837,7 @@ document.addEventListener("deviceready", startApp, false);
                     crossDomain: true,
                     type: 'post',
                     data: {
+                       'token': token,
                         'theid': id
                     },
                     success: function (data2) {
@@ -813,6 +861,7 @@ document.addEventListener("deviceready", startApp, false);
                 crossDomain: true,
                 type: 'post',
                 data: {
+                   'token': token,
                     'uID': userID
                 },
                 success: function (data) {
@@ -838,6 +887,7 @@ document.addEventListener("deviceready", startApp, false);
         crossDomain: true,
         type: 'post',
         data: {
+           'token': token,
             'clubID': curClub
         },
         success: function (data) {
@@ -851,7 +901,8 @@ document.addEventListener("deviceready", startApp, false);
         crossDomain: true,
         type: 'post',
         data: {
-        'clubID': curClub
+           'token': token,
+           'clubID': curClub
         },
         success: function (data) {
             var json = jQuery.parseJSON(data);
@@ -909,6 +960,7 @@ document.addEventListener("deviceready", startApp, false);
                         crossDomain: true,
                         type: 'post',
                         data: {
+                            'token': token,
                             'id': removeID,
                             'clubID':curClub,
                             'type': 1,
@@ -927,6 +979,7 @@ document.addEventListener("deviceready", startApp, false);
                         crossDomain: true,
                         type: 'post',
                         data: {
+                           'token': token,
                             'id': removeID,
                             'clubID':curClub,
                             'type': 1,
@@ -957,6 +1010,7 @@ document.addEventListener("deviceready", startApp, false);
                         crossDomain: true,
                         type: 'post',
                         data: {
+                           'token': token,
                             'id': removeID,
                             'clubID':curClub,
                             'type': 2,
@@ -975,6 +1029,7 @@ document.addEventListener("deviceready", startApp, false);
                         crossDomain: true,
                         type: 'post',
                         data: {
+                           'token': token,
                             'id': removeID,
                             'clubID':curClub,
                             'type': 2,
@@ -1020,6 +1075,7 @@ document.addEventListener("deviceready", startApp, false);
                 crossDomain: true,
                 type: 'post',
                 data: {
+                   'token': token,
                    'userID': userID
                 },
                 success: function(data) {
@@ -1039,6 +1095,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'uID': userID
             },
             success: function (data) {
@@ -1054,6 +1111,7 @@ document.addEventListener("deviceready", startApp, false);
                         crossDomain: true,
                         type: 'post',
                         data: {
+                           'token': token,
                             'clubID': clubID
                         },
                         success: function (data2) {
@@ -1089,6 +1147,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'uID': userID
             },
             success: function (data) {
@@ -1173,6 +1232,7 @@ document.addEventListener("deviceready", startApp, false);
                 crossDomain: true,
                 type: 'post',
                 data: {
+                   'token': token,
                     'userID': userID
                 },
                 success: function (data) {
@@ -1200,6 +1260,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'userID': userID
             },
             success: function (data) {
@@ -1241,6 +1302,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'eventID': curEvent
             },
             success: function (data) {;
@@ -1253,6 +1315,7 @@ document.addEventListener("deviceready", startApp, false);
                         crossDomain: true,
                         type: 'post',
                         data: {
+                           'token': token,
                             'eventID': curEvent
                         },
                         success: function (data) {
@@ -1302,7 +1365,10 @@ document.addEventListener("deviceready", startApp, false);
             url: 'http://clubbedinapp.com/web/php/takeattendance.php',
             crossDomain: true,
             type: 'post',
-            data: {'attendance': attendanceData},
+            data: {
+               'token': token,
+               'attendance': attendanceData
+               },
             success: function(data) {
                 $('<div>').simpledialog2({
                     mode: 'button',
@@ -1337,6 +1403,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'eventID': eventID
             },
             success: function (data) {
@@ -1381,7 +1448,10 @@ document.addEventListener("deviceready", startApp, false);
             url: 'http://clubbedinapp.com/web/php/takeattendance.php',
             crossDomain: true,
             type: 'post',
-            data: {'attendance': attendanceData},
+            data: {
+               'token': token,
+               'attendance': attendanceData
+               },
             success: function(data) {
                 $('<div>').simpledialog2({
                     mode: 'button',
@@ -1411,6 +1481,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'userID': userID
             },
             success: function (data) {
@@ -1433,6 +1504,7 @@ document.addEventListener("deviceready", startApp, false);
 	            crossDomain: true,
 	            type: 'post',
 	            data: {
+                   'token': token,
 	                'userID': userID
 	            },
 	            success: function (data) {
@@ -1454,6 +1526,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'userID': userID,
                 'clubID': 0
             },
@@ -1491,6 +1564,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'clubID': clubID
             },
             success: function (data) {
@@ -1503,6 +1577,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'clubID': clubID
             },
             success: function (data) {
@@ -1535,6 +1610,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'userID': userID,
             },
             success: function (data) {
@@ -1547,6 +1623,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'userID': userID,
                 'clubID': clubID
             },
@@ -1576,6 +1653,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'userID': userID
             },
             success: function (data) {
@@ -1595,6 +1673,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'userID': userID
             },
             success: function (data) {
@@ -1638,6 +1717,7 @@ document.addEventListener("deviceready", startApp, false);
                 crossDomain: true,
                 type: 'post',
                 data: {
+                   'token': token,
                     'clubID': searchid,
                     'userID': userID
                 },
@@ -1652,6 +1732,7 @@ document.addEventListener("deviceready", startApp, false);
                             crossDomain: true,
                             type: 'post',
                             data: {
+                               'token': token,
                                 'theid': searchid
                             },
                             success: function (data2) {
@@ -1679,7 +1760,8 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
-            'clubID': curClub
+               'token': token,
+               'clubID': curClub
             },
             success: function (data) {
                 var json = jQuery.parseJSON(data);
@@ -1699,6 +1781,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'eventID': eventID,
                 'userID': userID
             },
@@ -1725,6 +1808,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'clubID': curClub
             },
             success: function (data) {
@@ -1759,6 +1843,7 @@ document.addEventListener("deviceready", startApp, false);
                             crossDomain: true,
                             type: 'post',
                             data: {
+                               'token': token,
                                 'id': leaders[i]
                             },
                             success: function(data3) {
@@ -1773,6 +1858,7 @@ document.addEventListener("deviceready", startApp, false);
                         crossDomain: true,
                         type: 'post',
                         data: {
+                           'token': token,
                             'clubID': curClub
                         },
                         success: function(data2) {
@@ -1809,6 +1895,7 @@ document.addEventListener("deviceready", startApp, false);
                 crossDomain: true,
                 type: 'post',
                 data: {
+                   'token': token,
                     'id': removeID,
                     'clubID':curClub
                 },
@@ -1862,6 +1949,7 @@ document.addEventListener("deviceready", startApp, false);
                                 crossDomain: true,
                                 type: 'post',
                                 data: {
+                                   'token': token,
                                     'clubID': removeID,
                                     'userID': userID
                                 }
@@ -1885,6 +1973,7 @@ document.addEventListener("deviceready", startApp, false);
                 crossDomain: true,
                 type: 'post',
                 data: {
+                   'token': token,
                     'id': removeID,
                     'clubID':curClub
                 },
@@ -1903,6 +1992,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'clubID': curClub
             },
             success: function (data) {
@@ -1928,6 +2018,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'clubID': curClub,
                 'adminID': addID
             },
@@ -1963,6 +2054,7 @@ document.addEventListener("deviceready", startApp, false);
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'theid': id
             },
             success: function (data2) {
@@ -2054,6 +2146,7 @@ function getClubInfo(id, num) {
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'clubID': curClub
             },
             success: function (data) {
@@ -2078,6 +2171,7 @@ function getClubInfo(id, num) {
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'id': id
             },
             success: function (data) {
@@ -2121,6 +2215,7 @@ function getClubInfo(id, num) {
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'eventID': id
             },
             success: function(data) {
@@ -2147,6 +2242,7 @@ function getClubInfo(id, num) {
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'eventID': eventID
             },
             success: function (data) {
@@ -2170,6 +2266,7 @@ function getClubInfo(id, num) {
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'id': curEvent
             },
             success: function (data2) {
@@ -2214,6 +2311,7 @@ function getClubInfo(id, num) {
                 crossDomain: true,
                 type: 'post',
                 data: {
+                   'token': token,
                     'editename': $('#editename').val(),
                     'editedesc': $('#editedesc').val(),
                     'editedate': $('#editedate').val(),
@@ -2278,6 +2376,7 @@ function getClubInfo(id, num) {
             crossDomain: true,
             type: 'post',
             data: {
+                'token': token,
                 'clubID': curClub
             },
             success: function (data) {
@@ -2325,6 +2424,7 @@ function getMembersAfterSearch(all) {
             crossDomain: true,
             type: 'post',
             data: {
+                'token': token,
                 'clubID': curClub
             },
             success: function (data) {
@@ -2376,6 +2476,7 @@ function getMembersAfterSearch(all) {
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'theid': curClub
             },
             success: function (data2) {
@@ -2399,7 +2500,7 @@ function getMembersAfterSearch(all) {
             }
         }).form()) {
 
-            var serData = $('#editclubname').serialize() + "&clubID=" + curClub;
+            var serData = $('#editclubname').serialize() + "&clubID=" + curClub + "&token=" + token;
             e.preventDefault();
             $.ajax({
                 url: 'http://clubbedinapp.com/web/php/editclubinfo.php',
@@ -2443,6 +2544,7 @@ function getMembersAfterSearch(all) {
             crossDomain: true,
             type: 'post',
             data: {
+               "token": token,
                 "eventID" : curEvent,
                 "userID" : userID,
                 "going" : val
@@ -2461,6 +2563,7 @@ function getMembersAfterSearch(all) {
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'clubID': curClub
             },
             success: function (data) {
@@ -2520,7 +2623,7 @@ function getMembersAfterSearch(all) {
             }
         }).form()) {
             var privacy = $('#switch').slider().val();
-            var serData = $('#newevent1info').serialize() + "&clubID=" + curClub + "&privacy=" + privacy + "&curID"+ userID;
+            var serData = $('#newevent1info').serialize() + "&clubID=" + curClub + "&privacy=" + privacy + "&curID"+ userID + "&token=" + token;
             $.ajax({
                 url: 'http://clubbedinapp.com/web/php/newevent.php',
                 crossDomain: true,
@@ -2555,6 +2658,7 @@ function getMembersAfterSearch(all) {
         crossDomain: true,
         type: 'post',
         data: {
+           'token': token,
             'clubID': curClub
         },
         success: function (data) {
@@ -2593,6 +2697,7 @@ function getMembersAfterSearch(all) {
                     crossDomain: true,
                     type: 'post',
                     data: {
+                       'token': token,
                         'clubID': curClub
                     },
                     success: function(data) {
@@ -2632,6 +2737,7 @@ function getMembersAfterSearch(all) {
             crossDomain: true,
             type: 'post',
             data: {
+               'token': token,
                 'clubID': curClub
             },
             success: function (data) {

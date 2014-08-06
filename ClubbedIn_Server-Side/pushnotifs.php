@@ -69,7 +69,7 @@ function sendNotification($userID, $message){
             );
 
             // Set the Provider Certificate passphrase
-            //$push->setProviderCertificatePassphrase('ClubbedIn2013');
+            //$push->setProviderCertificatePassphrase('');
             
             // Set the Root Certificate Autority to verify the Apple remote peer
             $push->setRootCertificationAuthority('entrust_root_certification_authority.pem');
